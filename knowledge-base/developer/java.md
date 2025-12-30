@@ -2,33 +2,21 @@
 
 > Category: languages
 
-
 ## Source: download.md
 
 Downloading Java - Dev.java
 
+Skip Top Navigation Bar
 
+* Learn
+* Download
+* Contribute
+* News
+* Future
+* Playground
 
-
-[Skip Top Navigation Bar](#main-content)
-
-
-[![Java Home](/assets/images/java-logo-vector.png)](/)
-
-
-
-* [Learn](/learn)
-* [Download](/download)
-* [Community](/community)
-* [Contribute](/contribute)
-* [News](/news)
-* [Future](/future)
-* [Playground](/playground)
-
-* [Download Java](/download/)
-* [Java Release History](/download/releases/)
-
-
+* Download Java
+* Java Release History
 
 # Downloading Java
 
@@ -37,23 +25,19 @@ Downloading Java - Dev.java
 Downloading Java is simple and straightforward. Oracle offers a simple download with a permissive license at its official download
 page. Click the button below to be taken to this page.
 
-[Download Java at Oracle.com](https://www.oracle.com/java/technologies/javase-downloads.html)
-
-  
+Download Java at Oracle.com
 
 Early-Access Builds
 
 For developers that want to try out early-access builds, or builds by projects like Loom, Valhalla, and Panama, then you can find builds of these
-at [jdk.java.net](https://jdk.java.net).
+at jdk.java.net.
 
 ## Install Java via Oracle Java Platform Extension for Visual Studio Code
 
 Already a Visual Studio Code user wanting to start development with Java? Look no further!
 
-The Oracle Java Platform extension helps you develop your Java project, and it is available via [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=Oracle.oracle-java).
+The Oracle Java Platform extension helps you develop your Java project, and it is available via Visual Studio Code Marketplace.
 If no JDK is present in your system then the extension can set it up for you via its built-in JDK Downloader:
-
-[![JDK Downloader](/assets/images/download/jdk-downloader.png)](/assets/images/download/jdk-downloader.png)
 
 You can also access the JDK Downloader through the Visual Studio Code menu: `View > Command Palette > Download, install, and Use JDK` option in the command palette.
 This setup provides options for Oracle JDK, OpenJDK, but also allows you to choose from any locally installed JDKs.
@@ -61,52 +45,42 @@ If you already have JDK binaries downloaded in your system, you can point the JD
 
 Click `Install and start setup` button and enjoy coding with Java!
 
-
-
-
 **About**  
-  
 
-* [About Java](https://www.oracle.com/java/)
-* [About OpenJDK](https://openjdk.org/)
-* [Getting Started](/learn/getting-started)
-* [Oracle Java SE Subscription](https://www.oracle.com/java/java-se-subscription/)
+* About Java
+* About OpenJDK
+* Getting Started
+* Oracle Java SE Subscription
 
 **Downloads**  
-  
 
-* [All Releases](https://www.oracle.com/java/technologies/javase-downloads.html)
-* [Source Code](https://github.com/openjdk/jdk)
+* All Releases
+* Source Code
 
 **Learning Java**  
-  
 
-* [Documentation](https://docs.oracle.com/en/java/)
-* [Java 24 API Docs](https://docs.oracle.com/en/java/javase/24/docs/api/index.html)
-* [Tutorials](/learn/)
-* [FAQ](/learn/faq/)
-* [Java YouTube](https://www.youtube.com/java)
+* Documentation
+* Java 24 API Docs
+* Tutorials
+* FAQ
+* Java YouTube
 
 **Community**  
-  
 
-* [Java User Groups](/community/jugs/)
-* [Java Conferences](/community/events/)
-* [Contributing](/contribute/)
+* Java User Groups
+* Java Conferences
+* Contributing
 
 **Stay Informed**  
-  
 
-* [Inside.java](https://inside.java)
-* [Newscast](https://inside.java/newscast)
-* [Podcast](https://inside.java/podcast/)
-* [Java on YouTube](https://youtube.com/java)
-* [@java on X/Twitter](https://twitter.com/java)
+* Inside.java
+* Newscast
+* Podcast
+* Java on YouTube
+* @java on X/Twitter
 
-[Copyright](https://www.oracle.com/legal/copyright.html) © 2025 Oracle and/or its affiliates. All rights reserved.   
-[Terms of Use](https://www.oracle.com/legal/terms.html) | [Privacy](https://www.oracle.com/legal/privacy/) | [Trademarks](https://www.oracle.com/legal/trademarks.html)
-
-[![Oracle Home](/assets/images/oracle-logo.png)](https://www.oracle.com)
+Copyright © 2025 Oracle and/or its affiliates. All rights reserved.   
+Terms of Use | Privacy | Trademarks
 
 ---
 
@@ -114,28 +88,14 @@ Click `Install and start setup` button and enjoy coding with Java!
 
 Dev.java: The Destination for Java Developers
 
+Skip Top Navigation Bar
 
-
-
-[Skip Top Navigation Bar](#main-content)
-
-
-[![Java Home](/assets/images/java-logo-vector.png)](/)
-
-
-
-* [Learn](/learn)
-* [Download](/download)
-* [Community](/community)
-* [Contribute](/contribute)
-* [News](/news)
-* [Future](/future)
-* [Playground](/playground)
-
-
-
-
-![JavaOne logo](/assets/images/javaone/holiday-duke.png)
+* Learn
+* Download
+* Contribute
+* News
+* Future
+* Playground
 
 # Ho Ho Holiday Giveaway!
 
@@ -143,9 +103,7 @@ JavaOne is back again in California March 17-19.
 
 For a limited time, get a JavaOne 2026 backpack with purchase of early-bird ticket. Offer ends soon!
 
-[Claim Backpack Offer](https://www.oracle.com/javaone/register/)
-
-
+Claim Backpack Offer
 
 ## The Destination for Java Developers
 
@@ -153,26 +111,24 @@ Hundreds of tutorials, news and videos from the experts, all right here.
 
 ### Get Started
 
-* [Getting Started with Java](/learn/getting-started)
-* [Java Language Basics](/learn/language-basics)
-* [Lambda Expressions](/learn/lambdas)
-* [Downloading Java](/download)
+* Getting Started with Java
+* Java Language Basics
+* Lambda Expressions
+* Downloading Java
 
 ### Go Deeper
 
-* [The Collections Framework](/learn/api/collections-framework)
-* [The Stream API](/learn/api/streams)
-* [The Gatherer API](/learn/api/streams/gatherers)
-* [Virtual Threads](/learn/new-features/virtual-threads)
+* The Collections Framework
+* The Stream API
+* The Gatherer API
+* Virtual Threads
 
 ### Resources
 
-* [Java News](/news/)
-* [Official Java Podcast and More](/learn/watchlisten/)
-* [The Official Java YouTube Channel](https://youtube.com/java/)
-* [Announcing JavaOne 2026](https://oracle.com/javaone)
-
-
+* Java News
+* Official Java Podcast and More
+* The Official Java YouTube Channel
+* Announcing JavaOne 2026
 
 ## Latest News & Events
 
@@ -180,81 +136,69 @@ Stay Informed with the latest Java News and Events
 
 ### News
 
-* [Episode 43 “Predictability or Innovation? Both!” with Georges Saab](https://inside.java/2025/12/26/podcast-043/)
+* Episode 43 “Predictability or Innovation? Both!” with Georges Saab
 
   Georges Saab, Nicolai Parlog on December 26, 2025
-* [Virtual Threads in the Real World: Fast, Robust Java Microservices with Helidon](https://inside.java/2025/12/21/virtual-threads-robust-java-microservices/)
+* Virtual Threads in the Real World: Fast, Robust Java Microservices with Helidon
 
   on December 21, 2025
-* [Java’s 2025 in Review - Inside Java Newscast #103](https://inside.java/2025/12/18/newscast-103/)
+* Java’s 2025 in Review - Inside Java Newscast #103
 
   Nicolai Parlog on December 18, 2025
-* [Quality Outreach Heads-up - JDK 26: Jlink Compression Plugin Now Handles -c Option Correctly](https://inside.java/2025/12/16/quality-heads-up/)
+* Quality Outreach Heads-up - JDK 26: Jlink Compression Plugin Now Handles -c Option Correctly
 
   Ana-Maria Mihalceanu on December 16, 2025
 
-[More news on inside.java](https://inside.java)
+More news on inside.java
 
 ### Upcoming Events
 
-* [Jfokus](https://www.jfokus.se/)
+* Jfokus
 
   February 4, 2026
   in
   Stockholm, Sweden
-* [Voxxed Days Ticino](https://ticino.voxxeddays.com/)
+* Voxxed Days Ticino
 
   February 6, 2026
   in
   Lugano, Switzerland
-* [Voxxed Days CERN](https://cern.voxxeddays.com/)
+* Voxxed Days CERN
 
   February 10, 2026
   in
   Geneva, Switzerland
-* [Developer Week San Jose](https://www.developerweek.com/)
+* Developer Week San Jose
 
   February 18, 2026
   in
   San Jose, United States
 
-[More upcoming events](community/events)
-
-
+More upcoming events
 
 ## Recent Java Videos
-
-[![](https://img.youtube.com/vi/2vhq2I5bSG0/maxresdefault.jpg)](https://www.youtube.com/watch?v=2vhq2I5bSG0)
-
-[![](https://img.youtube.com/vi/fihoz8Zbk3w/maxresdefault.jpg)](https://www.youtube.com/watch?v=fihoz8Zbk3w)
-
-[![](https://img.youtube.com/vi/tpnyamnEYbI/maxresdefault.jpg)](https://www.youtube.com/watch?v=tpnyamnEYbI)
-
-
 
 ## Recently Updated Articles
 
 Been here before? Looking for something new to learn? Try these!
 
-### [Launching Simple Source-Code Programs](learn/launch-simple-source-code-programs/)
+### Launching Simple Source-Code Programs
 
 Launching simple source-code Java programs with the Java launcher.
 
 Last update: December 23, 2025
 
-### [Building a Java application in IntelliJ IDEA](learn/intellij-idea/)
+### Building a Java application in IntelliJ IDEA
 
 Learn how to code, run, test, debug and document a Java application in IntelliJ IDEA.
 
 Last update: December 11, 2025
 
-### [Common I/O Tasks in Modern Java](learn/modernio/)
+### Common I/O Tasks in Modern Java
 
 This article focuses on tasks that application programmers are likely to encounter, particularly in web applications, such as reading and writing text files, reading text, images, JSON from the web, and more.
 
 Last update: October 24, 2025
-
-
 
 ## The Future of Java
 
@@ -276,52 +220,42 @@ Many Java features, existing and future, can meet the demands of AI. Existing fe
 
 To assist performance, portability, and security, the Java Platform is progressing toward a state where its abstractions, as well as programmer-defined abstractions, can be made robust and invariants can be locally guaranteed. Libraries may violate some invariants but only if selectively allowed by the application. This session covers the why and how of the vision of "Integrity by Default".
 
-
-
-
 **About**  
-  
 
-* [About Java](https://www.oracle.com/java/)
-* [About OpenJDK](https://openjdk.org/)
-* [Getting Started](/learn/getting-started)
-* [Oracle Java SE Subscription](https://www.oracle.com/java/java-se-subscription/)
+* About Java
+* About OpenJDK
+* Getting Started
+* Oracle Java SE Subscription
 
 **Downloads**  
-  
 
-* [All Releases](https://www.oracle.com/java/technologies/javase-downloads.html)
-* [Source Code](https://github.com/openjdk/jdk)
+* All Releases
+* Source Code
 
 **Learning Java**  
-  
 
-* [Documentation](https://docs.oracle.com/en/java/)
-* [Java 24 API Docs](https://docs.oracle.com/en/java/javase/24/docs/api/index.html)
-* [Tutorials](/learn/)
-* [FAQ](/learn/faq/)
-* [Java YouTube](https://www.youtube.com/java)
+* Documentation
+* Java 24 API Docs
+* Tutorials
+* FAQ
+* Java YouTube
 
 **Community**  
-  
 
-* [Java User Groups](/community/jugs/)
-* [Java Conferences](/community/events/)
-* [Contributing](/contribute/)
+* Java User Groups
+* Java Conferences
+* Contributing
 
 **Stay Informed**  
-  
 
-* [Inside.java](https://inside.java)
-* [Newscast](https://inside.java/newscast)
-* [Podcast](https://inside.java/podcast/)
-* [Java on YouTube](https://youtube.com/java)
-* [@java on X/Twitter](https://twitter.com/java)
+* Inside.java
+* Newscast
+* Podcast
+* Java on YouTube
+* @java on X/Twitter
 
-[Copyright](https://www.oracle.com/legal/copyright.html) © 2025 Oracle and/or its affiliates. All rights reserved.   
-[Terms of Use](https://www.oracle.com/legal/terms.html) | [Privacy](https://www.oracle.com/legal/privacy/) | [Trademarks](https://www.oracle.com/legal/trademarks.html)
-
-[![Oracle Home](/assets/images/oracle-logo.png)](https://www.oracle.com)
+Copyright © 2025 Oracle and/or its affiliates. All rights reserved.   
+Terms of Use | Privacy | Trademarks
 
 ---
 
@@ -329,263 +263,242 @@ To assist performance, portability, and security, the Java Platform is progressi
 
 Learn Java - Dev.java
 
+Skip Top Navigation Bar
 
+* Learn
+* Download
+* Contribute
+* News
+* Future
+* Playground
 
-
-[Skip Top Navigation Bar](#main-content)
-
-
-[![Java Home](/assets/images/java-logo-vector.png)](/)
-
-
-
-* [Learn](/learn)
-* [Download](/download)
-* [Community](/community)
-* [Contribute](/contribute)
-* [News](/news)
-* [Future](/future)
-* [Playground](/playground)
-
-* [Tutorials](/learn/)
-* [Watch & Listen](/learn/watchlisten/)
-* [FAQ](/learn/faq/)
-* [Oracle University](/learn/ou/)
-
-
+* Tutorials
+* Watch & Listen
+* FAQ
+* Oracle University
 
 # Learn Java
 
 ## Running Your First Java Application
 
-* [Getting Started with Java](/learn/getting-started/)  
+* Getting Started with Java  
 
   Downloading and setting up the JDK, writing your first Java class, and creating your first Java application.
-* [Launching Simple Source-Code Programs](/learn/launch-simple-source-code-programs/)  
+* Launching Simple Source-Code Programs  
 
   Launching simple source-code Java programs with the Java launcher.
-* [JShell - The Java Shell Tool](/learn/jshell-tool/)  
+* JShell - The Java Shell Tool  
 
   jshell interactively evaluates declarations, statements, and expressions of the Java programming language in a read-eval-print loop (REPL).
-* [Building a Java application in Visual Studio Code](/learn/vscode-java/)  
+* Building a Java application in Visual Studio Code  
 
   Oracle Java Platform extension enables you to develop your Maven and Gradle Java project in Visual Studio Code.
-* [Building a Java application in IntelliJ IDEA](/learn/intellij-idea/)  
+* Building a Java application in IntelliJ IDEA  
 
   Learn how to code, run, test, debug and document a Java application in IntelliJ IDEA.
-* [Building a Java Application in the Eclipse IDE](/learn/eclipse/)  
+* Building a Java Application in the Eclipse IDE  
 
   Installing and getting started with the Eclipse IDE for developing Java applications
 
 ## Staying Aware of New Features
 
-* [Java Platform Evolution](/evolution/)  
+* Java Platform Evolution  
 
   Java has come a long ways since Java 8. Let's go over some of this evolution.
-* [Using the Preview Features Available in the JDK](/learn/new-features/using-preview/)  
+* Using the Preview Features Available in the JDK  
 
   How to compile and execute the preview features available in the JDK.
 
 ## Getting to Know the Language
 
-* [Objects, Classes, Interfaces, Packages, and Inheritance](/learn/oop/)  
+* Objects, Classes, Interfaces, Packages, and Inheritance  
 
   Introducing the object oriented programming.
-* [Java Language Basics](/learn/language-basics/)  
+* Java Language Basics  
 
   Getting to know the basics of the Java language.
-* [Classes and Objects](/learn/classes-objects/)  
+* Classes and Objects  
 
   Defining your own classes, declaring member variables, methods, and constructors.
-* [Using Records to Model Immutable Data](/learn/records/)  
+* Using Records to Model Immutable Data  
 
   How to model your immutable data with records to make your code simpler and more readable.
-* [Numbers and Strings](/learn/numbers-strings/)  
+* Numbers and Strings  
 
   Understanding numbers, characters and strings of characters.
-* [Inheritance](/learn/inheritance/)  
+* Inheritance  
 
   Leveraging inheritance in Java applications.
-* [Interfaces](/learn/interfaces/)  
+* Interfaces  
 
   Creating and using interfaces.
-* [Generics](/learn/generics/)  
+* Generics  
 
   Working with parameterized types.
-* [Lambda Expressions](/learn/lambdas/)  
+* Lambda Expressions  
 
   Using Lambda Expressions to improve the readability of your code.
-* [Annotations](/learn/annotations/)  
+* Annotations  
 
   Annotations is a form of metadata, provide data about a program that is not part of the program itself. Annotations have no direct effect on the operation of the code they annotate.
-* [Packages](/learn/packages/)  
+* Packages  
 
   How to bundle classes and interfaces into packages, how to use classes that are in packages, and how to arrange your file system so that the compiler can find your source files.
-* [Using Pattern Matching](/learn/pattern-matching/)  
+* Using Pattern Matching  
 
   Pattern matching is the next major evolution of the Java language. It brings new features, one by one, that greatly improve the way you can write your Java code.
-* [Exceptions](/learn/exceptions/)  
+* Exceptions  
 
   Using exceptions to handle errors and other exceptional events.
-* [Refactoring from the Imperative to the Functional Style](/learn/refactoring-to-functional-style/)  
+* Refactoring from the Imperative to the Functional Style  
 
   Learning to change code from the Imperative to the Functional Style.
 
 ## Mastering the API
 
-* [The Collections Framework](/learn/api/collections-framework/)  
+* The Collections Framework  
 
   Getting to know the Collections Framework to store and retrieve data in collections and hashmaps.
-* [The Stream API](/learn/api/streams/)  
+* The Stream API  
 
   Process your in-memory data with Java streams and collectors. Process them faster with parallel streams.
-* [The Java I/O API](/learn/java-io/)  
+* The Java I/O API  
 
   Access external resources with the Java Input / Output API.
-* [Common I/O Tasks in Modern Java](/learn/modernio/)  
+* Common I/O Tasks in Modern Java  
 
   This article focuses on tasks that application programmers are likely to encounter, particularly in web applications, such as reading and writing text files, reading text, images, JSON from the web, and more.
-* [The Date Time API](/learn/date-time/)  
+* The Date Time API  
 
   Covers the Date Time API added to the JDK 8, including the core concepts and classes.
-* [Regular Expressions](/learn/regex/)  
+* Regular Expressions  
 
   Provides a general overview of regular expressions. It also introduces the core classes that comprise this API.
-* [Introduction to Java Reflection](/learn/introduction_to_java_reflection/)  
+* Introduction to Java Reflection  
 
   Java reflection allows an object to look in the mirror and discover what fields, methods, and constructors it has. We can read and write fields, invoke methods, and even create new objects by calling the constructors.
-* [The Reflection API](/learn/reflection/)  
+* The Reflection API  
 
   Let us deep dive in to the Reflection API, and see how you can use it to examine or modify the runtime behavior of applications running in the Java Virtual Machine.
-* [Introduction to Method Handles](/learn/introduction_to_method_handles/)  
+* Introduction to Method Handles  
 
   Method handles, how they are different from the Reflection API, and the tooling they provide.
-* [Fundamentals of Security using JDK Libraries](/learn/security/)  
+* Fundamentals of Security using JDK Libraries  
 
   Provides a general overview of security APIs. It also introduces the core components part of this API.
-* [Virtual Threads](/learn/new-features/virtual-threads/)  
+* Virtual Threads  
 
   Virtual Threads: What, Why, and How?
-* [The Foreign Function and Memory API](/learn/ffm/)   
+* The Foreign Function and Memory API   
 
   The Foreign Function and Memory (FFM) API facilitates Java programs to interoperate with code and data outside the Java runtime without the brittleness and danger of JNI.
 
 ## Organizing your Application
 
-* [Modules](/learn/modules/)  
+* Modules  
 
   Understand how the module system shapes the JDK and how you can use it to make your code base more maintainable.
-* [Creating Runtime and Application Images with JLink](/learn/jlink/)  
+* Creating Runtime and Application Images with JLink  
 
   Learn how to use the command line tool `jlink` to create custom-made runtime images or self-contained application images.
 
 ## Getting to know the JVM
 
-* [The Core JDK Tools](/learn/jvm/tools/core/)  
+* The Core JDK Tools  
 
   Learn about the tools the JDK gives you to compile, run, analyze and monitor your code.
-* [The Monitoring Tools](/learn/jvm/tools/monitoring/)  
+* The Monitoring Tools  
 
   Learn about the tools the JDK gives you to monitor your application.
-* [JPackage](/learn/jvm/tool/jpackage/)  
+* JPackage  
 
   Packaging your application to create a native installer.
-* [The Security Tools](/learn/jvm/tool/security/)  
+* The Security Tools  
 
   Setting security policies with the JDK tools and commands.
-* [The Troubleshooting Tools](/learn/jvm/tool/troubleshooting/)  
+* The Troubleshooting Tools  
 
   Learn about the tools the JDK gives you to troubleshoot Java applications and the Java Virtual Machine (JVM).
-* [Garbage Collection in Java Overview](/learn/jvm/tool/garbage-collection/)  
+* Garbage Collection in Java Overview  
 
   Understanding the key aspects of how garbage collection works in Java and how to tune garbage collection.
-* [CDS and AppCDS in Hotspot](/learn/jvm/cds-appcds/)  
+* CDS and AppCDS in Hotspot  
 
   Understanding how to use CDS in HotSpot to improve JVM startup performance.
-* [JDK Flight Recorder](/learn/jvm/jfr/)  
+* JDK Flight Recorder  
 
   Learn how to use JDK Flight Recorder to monitor, profile, and test your applications.
-* [JWebserver - Launch the Java Simple Web Server](/learn/jvm/tool/jwebserver/)  
+* JWebserver - Launch the Java Simple Web Server  
 
   A tool that provides a minimal HTTP server, designed to be used for prototyping, testing, and debugging.
-* [Complementary JDK Tools](/learn/jvm/complementary/)  
+* Complementary JDK Tools  
 
   Learn how to use complementary JDK tools like jextract.
 
 ## Rich Client Applications
 
-* [Download and Setup JavaFX](/learn/javafx/install/)  
+* Download and Setup JavaFX  
 
   A guide to download and setup a JavaFX runtime on your machine.
-* [JavaFX Fundamentals](/learn/javafx/)  
+* JavaFX Fundamentals  
 
   Learn to create simple JavaFX applications.
-* [Introduction to JavaFX animations](/learn/javafx-animations/)  
+* Introduction to JavaFX animations  
 
   Learn to create advanced JavaFX animations
 
 ## More Resources
 
-* [Getting Started with Java Certification](/learn/java-cert-overview/)  
+* Getting Started with Java Certification  
 
   Overview of the Java Certification and how to study
-* [Debugging in Java](/learn/debugging/)  
+* Debugging in Java  
 
   Learning how to use a debugger
 
 ## References for the latest release
 
-* [Java Documentation](https://docs.oracle.com/en/java/javase/25/)
-* [Java API Docs](https://docs.oracle.com/en/java/javase/25/docs/api/index.html)
-* [Java Release Notes](https://www.oracle.com/java/technologies/javase/25u-relnotes.html)
-* [Java Language and Virtual Machine Specifications](https://docs.oracle.com/javase/specs/index.html)
-* [Secure Coding Guidelines](https://www.oracle.com/java/technologies/javase/seccodeguide.html)
-
-
-
+* Java Documentation
+* Java API Docs
+* Java Release Notes
+* Java Language and Virtual Machine Specifications
+* Secure Coding Guidelines
 
 **About**  
-  
 
-* [About Java](https://www.oracle.com/java/)
-* [About OpenJDK](https://openjdk.org/)
-* [Getting Started](/learn/getting-started)
-* [Oracle Java SE Subscription](https://www.oracle.com/java/java-se-subscription/)
+* About Java
+* About OpenJDK
+* Getting Started
+* Oracle Java SE Subscription
 
 **Downloads**  
-  
 
-* [All Releases](https://www.oracle.com/java/technologies/javase-downloads.html)
-* [Source Code](https://github.com/openjdk/jdk)
+* All Releases
+* Source Code
 
 **Learning Java**  
-  
 
-* [Documentation](https://docs.oracle.com/en/java/)
-* [Java 24 API Docs](https://docs.oracle.com/en/java/javase/24/docs/api/index.html)
-* [Tutorials](/learn/)
-* [FAQ](/learn/faq/)
-* [Java YouTube](https://www.youtube.com/java)
+* Documentation
+* Java 24 API Docs
+* Tutorials
+* FAQ
+* Java YouTube
 
 **Community**  
-  
 
-* [Java User Groups](/community/jugs/)
-* [Java Conferences](/community/events/)
-* [Contributing](/contribute/)
+* Java User Groups
+* Java Conferences
+* Contributing
 
 **Stay Informed**  
-  
 
-* [Inside.java](https://inside.java)
-* [Newscast](https://inside.java/newscast)
-* [Podcast](https://inside.java/podcast/)
-* [Java on YouTube](https://youtube.com/java)
-* [@java on X/Twitter](https://twitter.com/java)
+* Inside.java
+* Newscast
+* Podcast
+* Java on YouTube
+* @java on X/Twitter
 
-[Copyright](https://www.oracle.com/legal/copyright.html) © 2025 Oracle and/or its affiliates. All rights reserved.   
-[Terms of Use](https://www.oracle.com/legal/terms.html) | [Privacy](https://www.oracle.com/legal/privacy/) | [Trademarks](https://www.oracle.com/legal/trademarks.html)
-
-[![Oracle Home](/assets/images/oracle-logo.png)](https://www.oracle.com)
+Copyright © 2025 Oracle and/or its affiliates. All rights reserved.   
+Terms of Use | Privacy | Trademarks
 
 ---

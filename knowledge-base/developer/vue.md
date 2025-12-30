@@ -2,16 +2,13 @@
 
 > Category: frameworks
 
-
 ## Source: guide_introduction.html.md
 
 Introduction | Vue.js
 
+Skip to content
 
-
-[Skip to content](#VPContent)
-
-[Vue.js](/)
+Vue.js
 
 Search
 
@@ -19,71 +16,71 @@ Main Navigation
 
 Docs 
 
-[Guide](/guide/introduction)[Tutorial](/tutorial/)[Examples](/examples/)[Quick Start](/guide/quick-start)[Glossary](/glossary/)[Error Reference](/error-reference/)[Vue 2 Docs](https://v2.vuejs.org)[Migration from Vue 2](https://v3-migration.vuejs.org/)
+GuideTutorialExamplesQuick StartGlossaryError ReferenceVue 2 DocsMigration from Vue 2
 
-[API](/api/)[Playground](https://play.vuejs.org)
+APIPlayground
 
 Ecosystem 
 
 Resources
 
-[Partners](/partners/)[Themes](/ecosystem/themes)[UI Components](https://ui-libs.vercel.app/)[Plugins Collection](https://www.vue-plugins.org/)[Certification](https://certificates.dev/vuejs/?ref=vuejs-nav)[Jobs](https://vuejobs.com/?ref=vuejs)[T-Shirt Shop](https://vue.threadless.com/)
+PartnersThemesUI ComponentsPlugins CollectionCertificationJobsT-Shirt Shop
 
 Official Libraries
 
-[Vue Router](https://router.vuejs.org/)[Pinia](https://pinia.vuejs.org/)[Tooling Guide](/guide/scaling-up/tooling)
+Vue RouterPiniaTooling Guide
 
 Video Courses
 
-[Vue Mastery](https://www.vuemastery.com/courses/)[Vue School](https://vueschool.io/?friend=vuejs&utm_source=Vuejs.org&utm_medium=Link&utm_content=Navbar%20Dropdown)
+Vue MasteryVue School
 
 Help
 
-[Discord Chat](https://discord.com/invite/HBherRA)[GitHub Discussions](https://github.com/vuejs/core/discussions)[DEV Community](https://dev.to/t/vue)
+Discord ChatGitHub DiscussionsDEV Community
 
 News
 
-[Blog](https://blog.vuejs.org/)[Twitter](https://x.com/vuejs)[Events](https://events.vuejs.org/)[Newsletters](/ecosystem/newsletters)
+BlogTwitterEventsNewsletters
 
 About 
 
-[FAQ](/about/faq)[Team](/about/team)[Releases](/about/releases)[Community Guide](/about/community-guide)[Code of Conduct](/about/coc)[Privacy Policy](/about/privacy)[The Documentary](https://www.youtube.com/watch?v=OrxmtDw4pVI)
+FAQTeamReleasesCommunity GuideCode of ConductPrivacy PolicyThe Documentary
 
-[Sponsor](/sponsor/)[Partners](/partners/)
+SponsorPartners
 
-[简体中文](https://cn.vuejs.org/guide/introduction)
+简体中文
 
-[日本語](https://ja.vuejs.org/guide/introduction)
+日本語
 
-[Українська](https://ua.vuejs.org/guide/introduction)
+Українська
 
-[Français](https://fr.vuejs.org/guide/introduction)
+Français
 
-[한국어](https://ko.vuejs.org/guide/introduction)
+한국어
 
-[Português](https://pt.vuejs.org/guide/introduction)
+Português
 
-[বাংলা](https://bn.vuejs.org/guide/introduction)
+বাংলা
 
-[Italiano](https://it.vuejs.org/guide/introduction)
+Italiano
 
-[فارسی](https://fa.vuejs.org/guide/introduction)
+فارسی
 
-[Русский](https://ru.vuejs.org/guide/introduction)
+Русский
 
-[Čeština](https://cs.vuejs.org/guide/introduction)
+Čeština
 
-[繁體中文](https://zh-hk.vuejs.org/guide/introduction)
+繁體中文
 
-[Polski](https://pl.vuejs.org/guide/introduction)
+Polski
 
 Help Us Translate!
 
-[github](https://github.com/vuejs/ "github")[twitter](https://x.com/vuejs "twitter")[discord](https://discord.com/invite/vue "discord")
+githubtwitterdiscord
 
 Appearance
 
-[github](https://github.com/vuejs/ "github")[twitter](https://x.com/vuejs "twitter")[discord](https://discord.com/invite/vue "discord")
+githubtwitterdiscord
 
 Menu
 
@@ -91,77 +88,73 @@ On this page
 
 API Preference
 
-OptionsComposition[?](/guide/introduction#api-styles "About API preference")
+OptionsComposition?
 
 Sidebar Navigation
 
 ## Getting Started
 
-[Introduction](/guide/introduction)[Quick Start](/guide/quick-start)
+IntroductionQuick Start
 
 ## Essentials
 
-[Creating an Application](/guide/essentials/application)[Template Syntax](/guide/essentials/template-syntax)[Reactivity Fundamentals](/guide/essentials/reactivity-fundamentals)[Computed Properties](/guide/essentials/computed)[Class and Style Bindings](/guide/essentials/class-and-style)[Conditional Rendering](/guide/essentials/conditional)[List Rendering](/guide/essentials/list)[Event Handling](/guide/essentials/event-handling)[Form Input Bindings](/guide/essentials/forms)[Watchers](/guide/essentials/watchers)[Template Refs](/guide/essentials/template-refs)[Components Basics](/guide/essentials/component-basics)[Lifecycle Hooks](/guide/essentials/lifecycle)
+Creating an ApplicationTemplate SyntaxReactivity FundamentalsComputed PropertiesClass and Style BindingsConditional RenderingList RenderingEvent HandlingForm Input BindingsWatchersTemplate RefsComponents BasicsLifecycle Hooks
 
 ## Components In-Depth
 
-[Registration](/guide/components/registration)[Props](/guide/components/props)[Events](/guide/components/events)[Component v-model](/guide/components/v-model)[Fallthrough Attributes](/guide/components/attrs)[Slots](/guide/components/slots)[Provide / inject](/guide/components/provide-inject)[Async Components](/guide/components/async)
+RegistrationPropsEventsComponent v-modelFallthrough AttributesSlotsProvide / injectAsync Components
 
 ## Reusability
 
-[Composables](/guide/reusability/composables)[Custom Directives](/guide/reusability/custom-directives)[Plugins](/guide/reusability/plugins)
+ComposablesCustom DirectivesPlugins
 
 ## Built-in Components
 
-[Transition](/guide/built-ins/transition)[TransitionGroup](/guide/built-ins/transition-group)[KeepAlive](/guide/built-ins/keep-alive)[Teleport](/guide/built-ins/teleport)[Suspense](/guide/built-ins/suspense)
+TransitionTransitionGroupKeepAliveTeleportSuspense
 
 ## Scaling Up
 
-[Single-File Components](/guide/scaling-up/sfc)[Tooling](/guide/scaling-up/tooling)[Routing](/guide/scaling-up/routing)[State Management](/guide/scaling-up/state-management)[Testing](/guide/scaling-up/testing)[Server-Side Rendering (SSR)](/guide/scaling-up/ssr)
+Single-File ComponentsToolingRoutingState ManagementTestingServer-Side Rendering (SSR)
 
 ## Best Practices
 
-[Production Deployment](/guide/best-practices/production-deployment)[Performance](/guide/best-practices/performance)[Accessibility](/guide/best-practices/accessibility)[Security](/guide/best-practices/security)
+Production DeploymentPerformanceAccessibilitySecurity
 
 ## TypeScript
 
-[Overview](/guide/typescript/overview)[TS with Composition API](/guide/typescript/composition-api)[TS with Options API](/guide/typescript/options-api)
+OverviewTS with Composition APITS with Options API
 
 ## Extra Topics
 
-[Ways of Using Vue](/guide/extras/ways-of-using-vue)[Composition API FAQ](/guide/extras/composition-api-faq)[Reactivity in Depth](/guide/extras/reactivity-in-depth)[Rendering Mechanism](/guide/extras/rendering-mechanism)[Render Functions & JSX](/guide/extras/render-function)[Vue and Web Components](/guide/extras/web-components)[Animation Techniques](/guide/extras/animation)
+Ways of Using VueComposition API FAQReactivity in DepthRendering MechanismRender Functions & JSXVue and Web ComponentsAnimation Techniques
 
-[Get Security Updates for Vue 2](https://www.herodevs.com/support/nes-vue?utm_source=vuejs_org&utm_medium=sidebar_link&utm_campaign=vue2eol)
+Get Security Updates for Vue 2
 
 On this page
 
 Table of Contents for current page
 
-* [What is Vue?](#what-is-vue)
-* [The Progressive Framework](#the-progressive-framework)
-* [Single-File Components](#single-file-components)
-* [API Styles](#api-styles)
-* [Still Got Questions?](#still-got-questions)
-* [Pick Your Learning Path](#pick-your-learning-path)
+* What is Vue?
+* The Progressive Framework
+* Single-File Components
+* API Styles
+* Still Got Questions?
+* Pick Your Learning Path
 
-[Sponsors](/sponsor/)
+Sponsors
 
-[Become a Sponsor](/sponsor/)
+Become a Sponsor
 
-# Introduction [​](#introduction)
+# Introduction ​
 
 You are reading the documentation for Vue 3!
 
-* Vue 2 support has ended on **Dec 31, 2023**. Learn more about [Vue 2 EOL](https://v2.vuejs.org/eol/).
-* Upgrading from Vue 2? Check out the [Migration Guide](https://v3-migration.vuejs.org/).
-
-[![Vue Mastery banner](https://storage.googleapis.com/vue-mastery.appspot.com/flamelink/media/vuemastery-graphical-link-96x56.png)
+* Vue 2 support has ended on **Dec 31, 2023**. Learn more about Vue 2 EOL.
+* Upgrading from Vue 2? Check out the Migration Guide.
 
 Learn Vue with video tutorials on VueMastery.com
 
-![Vue Mastery Logo](https://storage.googleapis.com/vue-mastery.appspot.com/flamelink/media/vue-mastery-logo.png)](https://www.vuemastery.com/courses/)
-
-## What is Vue? [​](#what-is-vue)
+## What is Vue? ​
 
 Vue (pronounced /vjuː/, like **view**) is a JavaScript framework for building user interfaces. It builds on top of standard HTML, CSS, and JavaScript and provides a declarative, component-based programming model that helps you efficiently develop user interfaces of any complexity.
 
@@ -218,9 +211,9 @@ You may already have questions - don't worry. We will cover every little detail 
 
 Prerequisites
 
-The rest of the documentation assumes basic familiarity with HTML, CSS, and JavaScript. If you are totally new to frontend development, it might not be the best idea to jump right into a framework as your first step - grasp the basics and then come back! You can check your knowledge level with these overviews for [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript), [HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML) and [CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps) if needed. Prior experience with other frameworks helps, but is not required.
+The rest of the documentation assumes basic familiarity with HTML, CSS, and JavaScript. If you are totally new to frontend development, it might not be the best idea to jump right into a framework as your first step - grasp the basics and then come back! You can check your knowledge level with these overviews for JavaScript, HTML and CSS if needed. Prior experience with other frameworks helps, but is not required.
 
-## The Progressive Framework [​](#the-progressive-framework)
+## The Progressive Framework ​
 
 Vue is a framework and ecosystem that covers most of the common features needed in frontend development. But the web is extremely diverse - the things we build on the web may vary drastically in form and scale. With that in mind, Vue is designed to be flexible and incrementally adoptable. Depending on your use case, Vue can be used in different ways:
 
@@ -233,11 +226,11 @@ Vue is a framework and ecosystem that covers most of the common features needed 
 
 If you find these concepts intimidating, don't worry! The tutorial and guide only require basic HTML and JavaScript knowledge, and you should be able to follow along without being an expert in any of these.
 
-If you are an experienced developer interested in how to best integrate Vue into your stack, or you are curious about what these terms mean, we discuss them in more detail in [Ways of Using Vue](/guide/extras/ways-of-using-vue).
+If you are an experienced developer interested in how to best integrate Vue into your stack, or you are curious about what these terms mean, we discuss them in more detail in Ways of Using Vue.
 
 Despite the flexibility, the core knowledge about how Vue works is shared across all these use cases. Even if you are just a beginner now, the knowledge gained along the way will stay useful as you grow to tackle more ambitious goals in the future. If you are a veteran, you can pick the optimal way to leverage Vue based on the problems you are trying to solve, while retaining the same productivity. This is why we call Vue "The Progressive Framework": it's a framework that can grow with you and adapt to your needs.
 
-## Single-File Components [​](#single-file-components)
+## Single-File Components ​
 
 In most build-tool-enabled Vue projects, we author Vue components using an HTML-like file format called **Single-File Component** (also known as `*.vue` files, abbreviated as **SFC**). A Vue SFC, as the name suggests, encapsulates the component's logic (JavaScript), template (HTML), and styles (CSS) in a single file. Here's the previous example, written in SFC format:
 
@@ -284,13 +277,13 @@ button {
 </style>
 ```
 
-SFC is a defining feature of Vue and is the recommended way to author Vue components **if** your use case warrants a build setup. You can learn more about the [how and why of SFC](/guide/scaling-up/sfc) in its dedicated section - but for now, just know that Vue will handle all the build tools setup for you.
+SFC is a defining feature of Vue and is the recommended way to author Vue components **if** your use case warrants a build setup. You can learn more about the how and why of SFC in its dedicated section - but for now, just know that Vue will handle all the build tools setup for you.
 
-## API Styles [​](#api-styles)
+## API Styles ​
 
 Vue components can be authored in two different API styles: **Options API** and **Composition API**.
 
-### Options API [​](#options-api)
+### Options API ​
 
 With Options API, we define a component's logic using an object of options such as `data`, `methods`, and `mounted`. Properties defined by options are exposed on `this` inside functions, which points to the component instance:
 
@@ -329,11 +322,11 @@ export default {
 </template>
 ```
 
-[Try it in the Playground](https://play.vuejs.org/#eNptkMFqxCAQhl9lkB522ZL0HNKlpa/Qo4e1ZpLIGhUdl5bgu9es2eSyIMio833zO7NP56pbRNawNkivHJ25wV9nPUGHvYiaYOYGoK7Bo5CkbgiBBOFy2AkSh2N5APmeojePCkDaaKiBt1KnZUuv3Ky0PppMsyYAjYJgigu0oEGYDsirYUAP0WULhqVrQhptF5qHQhnpcUJD+wyQaSpUd/Xp9NysVY/yT2qE0dprIS/vsds5Mg9mNVbaDofL94jZpUgJXUKBCvAy76ZUXY53CTd5tfX2k7kgnJzOCXIF0P5EImvgQ2olr++cbRE4O3+t6JxvXj0ptXVpye1tvbFY+ge/NJZt)
+Try it in the Playground
 
-### Composition API [​](#composition-api)
+### Composition API ​
 
-With Composition API, we define a component's logic using imported API functions. In SFCs, Composition API is typically used with [`<script setup>`](/api/sfc-script-setup). The `setup` attribute is a hint that makes Vue perform compile-time transforms that allow us to use Composition API with less boilerplate. For example, imports and top-level variables / functions declared in `<script setup>` are directly usable in the template.
+With Composition API, we define a component's logic using imported API functions. In SFCs, Composition API is typically used with `<script setup>`. The `setup` attribute is a hint that makes Vue perform compile-time transforms that allow us to use Composition API with less boilerplate. For example, imports and top-level variables / functions declared in `<script setup>` are directly usable in the template.
 
 Here is the same component, with the exact same template, but using Composition API and `<script setup>` instead:
 
@@ -362,9 +355,9 @@ onMounted(() => {
 </template>
 ```
 
-[Try it in the Playground](https://play.vuejs.org/#eNpNkMFqwzAQRH9lMYU4pNg9Bye09NxbjzrEVda2iLwS0spQjP69a+yYHnRYad7MaOfiw/tqSliciybqYDxDRE7+qsiM3gWGGQJ2r+DoyyVivEOGLrgRDkIdFCmqa1G0ms2EELllVKQdRQa9AHBZ+PLtuEm7RCKVd+ChZRjTQqwctHQHDqbvMUDyd7mKip4AGNIBRyQujzArgtW/mlqb8HRSlLcEazrUv9oiDM49xGGvXgp5uT5his5iZV1f3r4HFHvDprVbaxPhZf4XkKub/CDLaep1T7IhGRhHb6WoTADNT2KWpu/aGv24qGKvrIrr5+Z7hnneQnJu6hURvKl3ryL/ARrVkuI=)
+Try it in the Playground
 
-### Which to Choose? [​](#which-to-choose)
+### Which to Choose? ​
 
 Both API styles are fully capable of covering common use cases. They are different interfaces powered by the exact same underlying system. In fact, the Options API is implemented on top of the Composition API! The fundamental concepts and knowledge about Vue are shared across the two styles.
 
@@ -372,7 +365,7 @@ The Options API is centered around the concept of a "component instance" (`this`
 
 The Composition API is centered around declaring reactive state variables directly in a function scope and composing state from multiple functions together to handle complexity. It is more free-form and requires an understanding of how reactivity works in Vue to be used effectively. In return, its flexibility enables more powerful patterns for organizing and reusing logic.
 
-You can learn more about the comparison between the two styles and the potential benefits of Composition API in the [Composition API FAQ](/guide/extras/composition-api-faq).
+You can learn more about the comparison between the two styles and the potential benefits of Composition API in the Composition API FAQ.
 
 If you are new to Vue, here's our general recommendation:
 
@@ -384,23 +377,23 @@ If you are new to Vue, here's our general recommendation:
 
 You don't have to commit to only one style during the learning phase. The rest of the documentation will provide code samples in both styles where applicable, and you can toggle between them at any time using the **API Preference switches** at the top of the left sidebar.
 
-## Still Got Questions? [​](#still-got-questions)
+## Still Got Questions? ​
 
-Check out our [FAQ](/about/faq).
+Check out our FAQ.
 
-## Pick Your Learning Path [​](#pick-your-learning-path)
+## Pick Your Learning Path ​
 
 Different developers have different learning styles. Feel free to pick a learning path that suits your preference - although we do recommend going over all of the content, if possible!
 
-[Try the Tutorial
+Try the Tutorial
 
-For those who prefer learning things hands-on.](/tutorial/)[Read the Guide
+For those who prefer learning things hands-on.Read the Guide
 
-The guide walks you through every aspect of the framework in full detail.](/guide/quick-start)[Check out the Examples
+The guide walks you through every aspect of the framework in full detail.Check out the Examples
 
-Explore examples of core features and common UI tasks.](/examples/)
+Explore examples of core features and common UI tasks.
 
-[Edit this page on GitHub](https://github.com/vuejs/docs/edit/main/src/guide/introduction.md)
+Edit this page on GitHub
 
 Introduction has loaded
 
@@ -410,11 +403,9 @@ Introduction has loaded
 
 Introduction | Vue.js
 
+Skip to content
 
-
-[Skip to content](#VPContent)
-
-[Vue.js](/)
+Vue.js
 
 Search
 
@@ -422,71 +413,71 @@ Main Navigation
 
 Docs 
 
-[Guide](/guide/introduction)[Tutorial](/tutorial/)[Examples](/examples/)[Quick Start](/guide/quick-start)[Glossary](/glossary/)[Error Reference](/error-reference/)[Vue 2 Docs](https://v2.vuejs.org)[Migration from Vue 2](https://v3-migration.vuejs.org/)
+GuideTutorialExamplesQuick StartGlossaryError ReferenceVue 2 DocsMigration from Vue 2
 
-[API](/api/)[Playground](https://play.vuejs.org)
+APIPlayground
 
 Ecosystem 
 
 Resources
 
-[Partners](/partners/)[Themes](/ecosystem/themes)[UI Components](https://ui-libs.vercel.app/)[Plugins Collection](https://www.vue-plugins.org/)[Certification](https://certificates.dev/vuejs/?ref=vuejs-nav)[Jobs](https://vuejobs.com/?ref=vuejs)[T-Shirt Shop](https://vue.threadless.com/)
+PartnersThemesUI ComponentsPlugins CollectionCertificationJobsT-Shirt Shop
 
 Official Libraries
 
-[Vue Router](https://router.vuejs.org/)[Pinia](https://pinia.vuejs.org/)[Tooling Guide](/guide/scaling-up/tooling)
+Vue RouterPiniaTooling Guide
 
 Video Courses
 
-[Vue Mastery](https://www.vuemastery.com/courses/)[Vue School](https://vueschool.io/?friend=vuejs&utm_source=Vuejs.org&utm_medium=Link&utm_content=Navbar%20Dropdown)
+Vue MasteryVue School
 
 Help
 
-[Discord Chat](https://discord.com/invite/HBherRA)[GitHub Discussions](https://github.com/vuejs/core/discussions)[DEV Community](https://dev.to/t/vue)
+Discord ChatGitHub DiscussionsDEV Community
 
 News
 
-[Blog](https://blog.vuejs.org/)[Twitter](https://x.com/vuejs)[Events](https://events.vuejs.org/)[Newsletters](/ecosystem/newsletters)
+BlogTwitterEventsNewsletters
 
 About 
 
-[FAQ](/about/faq)[Team](/about/team)[Releases](/about/releases)[Community Guide](/about/community-guide)[Code of Conduct](/about/coc)[Privacy Policy](/about/privacy)[The Documentary](https://www.youtube.com/watch?v=OrxmtDw4pVI)
+FAQTeamReleasesCommunity GuideCode of ConductPrivacy PolicyThe Documentary
 
-[Sponsor](/sponsor/)[Partners](/partners/)
+SponsorPartners
 
-[简体中文](https://cn.vuejs.org/guide/introduction)
+简体中文
 
-[日本語](https://ja.vuejs.org/guide/introduction)
+日本語
 
-[Українська](https://ua.vuejs.org/guide/introduction)
+Українська
 
-[Français](https://fr.vuejs.org/guide/introduction)
+Français
 
-[한국어](https://ko.vuejs.org/guide/introduction)
+한국어
 
-[Português](https://pt.vuejs.org/guide/introduction)
+Português
 
-[বাংলা](https://bn.vuejs.org/guide/introduction)
+বাংলা
 
-[Italiano](https://it.vuejs.org/guide/introduction)
+Italiano
 
-[فارسی](https://fa.vuejs.org/guide/introduction)
+فارسی
 
-[Русский](https://ru.vuejs.org/guide/introduction)
+Русский
 
-[Čeština](https://cs.vuejs.org/guide/introduction)
+Čeština
 
-[繁體中文](https://zh-hk.vuejs.org/guide/introduction)
+繁體中文
 
-[Polski](https://pl.vuejs.org/guide/introduction)
+Polski
 
 Help Us Translate!
 
-[github](https://github.com/vuejs/ "github")[twitter](https://x.com/vuejs "twitter")[discord](https://discord.com/invite/vue "discord")
+githubtwitterdiscord
 
 Appearance
 
-[github](https://github.com/vuejs/ "github")[twitter](https://x.com/vuejs "twitter")[discord](https://discord.com/invite/vue "discord")
+githubtwitterdiscord
 
 Menu
 
@@ -494,77 +485,73 @@ On this page
 
 API Preference
 
-OptionsComposition[?](/guide/introduction#api-styles "About API preference")
+OptionsComposition?
 
 Sidebar Navigation
 
 ## Getting Started
 
-[Introduction](/guide/introduction)[Quick Start](/guide/quick-start)
+IntroductionQuick Start
 
 ## Essentials
 
-[Creating an Application](/guide/essentials/application)[Template Syntax](/guide/essentials/template-syntax)[Reactivity Fundamentals](/guide/essentials/reactivity-fundamentals)[Computed Properties](/guide/essentials/computed)[Class and Style Bindings](/guide/essentials/class-and-style)[Conditional Rendering](/guide/essentials/conditional)[List Rendering](/guide/essentials/list)[Event Handling](/guide/essentials/event-handling)[Form Input Bindings](/guide/essentials/forms)[Watchers](/guide/essentials/watchers)[Template Refs](/guide/essentials/template-refs)[Components Basics](/guide/essentials/component-basics)[Lifecycle Hooks](/guide/essentials/lifecycle)
+Creating an ApplicationTemplate SyntaxReactivity FundamentalsComputed PropertiesClass and Style BindingsConditional RenderingList RenderingEvent HandlingForm Input BindingsWatchersTemplate RefsComponents BasicsLifecycle Hooks
 
 ## Components In-Depth
 
-[Registration](/guide/components/registration)[Props](/guide/components/props)[Events](/guide/components/events)[Component v-model](/guide/components/v-model)[Fallthrough Attributes](/guide/components/attrs)[Slots](/guide/components/slots)[Provide / inject](/guide/components/provide-inject)[Async Components](/guide/components/async)
+RegistrationPropsEventsComponent v-modelFallthrough AttributesSlotsProvide / injectAsync Components
 
 ## Reusability
 
-[Composables](/guide/reusability/composables)[Custom Directives](/guide/reusability/custom-directives)[Plugins](/guide/reusability/plugins)
+ComposablesCustom DirectivesPlugins
 
 ## Built-in Components
 
-[Transition](/guide/built-ins/transition)[TransitionGroup](/guide/built-ins/transition-group)[KeepAlive](/guide/built-ins/keep-alive)[Teleport](/guide/built-ins/teleport)[Suspense](/guide/built-ins/suspense)
+TransitionTransitionGroupKeepAliveTeleportSuspense
 
 ## Scaling Up
 
-[Single-File Components](/guide/scaling-up/sfc)[Tooling](/guide/scaling-up/tooling)[Routing](/guide/scaling-up/routing)[State Management](/guide/scaling-up/state-management)[Testing](/guide/scaling-up/testing)[Server-Side Rendering (SSR)](/guide/scaling-up/ssr)
+Single-File ComponentsToolingRoutingState ManagementTestingServer-Side Rendering (SSR)
 
 ## Best Practices
 
-[Production Deployment](/guide/best-practices/production-deployment)[Performance](/guide/best-practices/performance)[Accessibility](/guide/best-practices/accessibility)[Security](/guide/best-practices/security)
+Production DeploymentPerformanceAccessibilitySecurity
 
 ## TypeScript
 
-[Overview](/guide/typescript/overview)[TS with Composition API](/guide/typescript/composition-api)[TS with Options API](/guide/typescript/options-api)
+OverviewTS with Composition APITS with Options API
 
 ## Extra Topics
 
-[Ways of Using Vue](/guide/extras/ways-of-using-vue)[Composition API FAQ](/guide/extras/composition-api-faq)[Reactivity in Depth](/guide/extras/reactivity-in-depth)[Rendering Mechanism](/guide/extras/rendering-mechanism)[Render Functions & JSX](/guide/extras/render-function)[Vue and Web Components](/guide/extras/web-components)[Animation Techniques](/guide/extras/animation)
+Ways of Using VueComposition API FAQReactivity in DepthRendering MechanismRender Functions & JSXVue and Web ComponentsAnimation Techniques
 
-[Get Security Updates for Vue 2](https://www.herodevs.com/support/nes-vue?utm_source=vuejs_org&utm_medium=sidebar_link&utm_campaign=vue2eol)
+Get Security Updates for Vue 2
 
 On this page
 
 Table of Contents for current page
 
-* [What is Vue?](#what-is-vue)
-* [The Progressive Framework](#the-progressive-framework)
-* [Single-File Components](#single-file-components)
-* [API Styles](#api-styles)
-* [Still Got Questions?](#still-got-questions)
-* [Pick Your Learning Path](#pick-your-learning-path)
+* What is Vue?
+* The Progressive Framework
+* Single-File Components
+* API Styles
+* Still Got Questions?
+* Pick Your Learning Path
 
-[Sponsors](/sponsor/)
+Sponsors
 
-[Become a Sponsor](/sponsor/)
+Become a Sponsor
 
-# Introduction [​](#introduction)
+# Introduction ​
 
 You are reading the documentation for Vue 3!
 
-* Vue 2 support has ended on **Dec 31, 2023**. Learn more about [Vue 2 EOL](https://v2.vuejs.org/eol/).
-* Upgrading from Vue 2? Check out the [Migration Guide](https://v3-migration.vuejs.org/).
-
-[![Vue Mastery banner](https://storage.googleapis.com/vue-mastery.appspot.com/flamelink/media/vuemastery-graphical-link-96x56.png)
+* Vue 2 support has ended on **Dec 31, 2023**. Learn more about Vue 2 EOL.
+* Upgrading from Vue 2? Check out the Migration Guide.
 
 Learn Vue with video tutorials on VueMastery.com
 
-![Vue Mastery Logo](https://storage.googleapis.com/vue-mastery.appspot.com/flamelink/media/vue-mastery-logo.png)](https://www.vuemastery.com/courses/)
-
-## What is Vue? [​](#what-is-vue)
+## What is Vue? ​
 
 Vue (pronounced /vjuː/, like **view**) is a JavaScript framework for building user interfaces. It builds on top of standard HTML, CSS, and JavaScript and provides a declarative, component-based programming model that helps you efficiently develop user interfaces of any complexity.
 
@@ -621,9 +608,9 @@ You may already have questions - don't worry. We will cover every little detail 
 
 Prerequisites
 
-The rest of the documentation assumes basic familiarity with HTML, CSS, and JavaScript. If you are totally new to frontend development, it might not be the best idea to jump right into a framework as your first step - grasp the basics and then come back! You can check your knowledge level with these overviews for [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript), [HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML) and [CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps) if needed. Prior experience with other frameworks helps, but is not required.
+The rest of the documentation assumes basic familiarity with HTML, CSS, and JavaScript. If you are totally new to frontend development, it might not be the best idea to jump right into a framework as your first step - grasp the basics and then come back! You can check your knowledge level with these overviews for JavaScript, HTML and CSS if needed. Prior experience with other frameworks helps, but is not required.
 
-## The Progressive Framework [​](#the-progressive-framework)
+## The Progressive Framework ​
 
 Vue is a framework and ecosystem that covers most of the common features needed in frontend development. But the web is extremely diverse - the things we build on the web may vary drastically in form and scale. With that in mind, Vue is designed to be flexible and incrementally adoptable. Depending on your use case, Vue can be used in different ways:
 
@@ -636,11 +623,11 @@ Vue is a framework and ecosystem that covers most of the common features needed 
 
 If you find these concepts intimidating, don't worry! The tutorial and guide only require basic HTML and JavaScript knowledge, and you should be able to follow along without being an expert in any of these.
 
-If you are an experienced developer interested in how to best integrate Vue into your stack, or you are curious about what these terms mean, we discuss them in more detail in [Ways of Using Vue](/guide/extras/ways-of-using-vue).
+If you are an experienced developer interested in how to best integrate Vue into your stack, or you are curious about what these terms mean, we discuss them in more detail in Ways of Using Vue.
 
 Despite the flexibility, the core knowledge about how Vue works is shared across all these use cases. Even if you are just a beginner now, the knowledge gained along the way will stay useful as you grow to tackle more ambitious goals in the future. If you are a veteran, you can pick the optimal way to leverage Vue based on the problems you are trying to solve, while retaining the same productivity. This is why we call Vue "The Progressive Framework": it's a framework that can grow with you and adapt to your needs.
 
-## Single-File Components [​](#single-file-components)
+## Single-File Components ​
 
 In most build-tool-enabled Vue projects, we author Vue components using an HTML-like file format called **Single-File Component** (also known as `*.vue` files, abbreviated as **SFC**). A Vue SFC, as the name suggests, encapsulates the component's logic (JavaScript), template (HTML), and styles (CSS) in a single file. Here's the previous example, written in SFC format:
 
@@ -687,13 +674,13 @@ button {
 </style>
 ```
 
-SFC is a defining feature of Vue and is the recommended way to author Vue components **if** your use case warrants a build setup. You can learn more about the [how and why of SFC](/guide/scaling-up/sfc) in its dedicated section - but for now, just know that Vue will handle all the build tools setup for you.
+SFC is a defining feature of Vue and is the recommended way to author Vue components **if** your use case warrants a build setup. You can learn more about the how and why of SFC in its dedicated section - but for now, just know that Vue will handle all the build tools setup for you.
 
-## API Styles [​](#api-styles)
+## API Styles ​
 
 Vue components can be authored in two different API styles: **Options API** and **Composition API**.
 
-### Options API [​](#options-api)
+### Options API ​
 
 With Options API, we define a component's logic using an object of options such as `data`, `methods`, and `mounted`. Properties defined by options are exposed on `this` inside functions, which points to the component instance:
 
@@ -732,11 +719,11 @@ export default {
 </template>
 ```
 
-[Try it in the Playground](https://play.vuejs.org/#eNptkMFqxCAQhl9lkB522ZL0HNKlpa/Qo4e1ZpLIGhUdl5bgu9es2eSyIMio833zO7NP56pbRNawNkivHJ25wV9nPUGHvYiaYOYGoK7Bo5CkbgiBBOFy2AkSh2N5APmeojePCkDaaKiBt1KnZUuv3Ky0PppMsyYAjYJgigu0oEGYDsirYUAP0WULhqVrQhptF5qHQhnpcUJD+wyQaSpUd/Xp9NysVY/yT2qE0dprIS/vsds5Mg9mNVbaDofL94jZpUgJXUKBCvAy76ZUXY53CTd5tfX2k7kgnJzOCXIF0P5EImvgQ2olr++cbRE4O3+t6JxvXj0ptXVpye1tvbFY+ge/NJZt)
+Try it in the Playground
 
-### Composition API [​](#composition-api)
+### Composition API ​
 
-With Composition API, we define a component's logic using imported API functions. In SFCs, Composition API is typically used with [`<script setup>`](/api/sfc-script-setup). The `setup` attribute is a hint that makes Vue perform compile-time transforms that allow us to use Composition API with less boilerplate. For example, imports and top-level variables / functions declared in `<script setup>` are directly usable in the template.
+With Composition API, we define a component's logic using imported API functions. In SFCs, Composition API is typically used with `<script setup>`. The `setup` attribute is a hint that makes Vue perform compile-time transforms that allow us to use Composition API with less boilerplate. For example, imports and top-level variables / functions declared in `<script setup>` are directly usable in the template.
 
 Here is the same component, with the exact same template, but using Composition API and `<script setup>` instead:
 
@@ -765,9 +752,9 @@ onMounted(() => {
 </template>
 ```
 
-[Try it in the Playground](https://play.vuejs.org/#eNpNkMFqwzAQRH9lMYU4pNg9Bye09NxbjzrEVda2iLwS0spQjP69a+yYHnRYad7MaOfiw/tqSliciybqYDxDRE7+qsiM3gWGGQJ2r+DoyyVivEOGLrgRDkIdFCmqa1G0ms2EELllVKQdRQa9AHBZ+PLtuEm7RCKVd+ChZRjTQqwctHQHDqbvMUDyd7mKip4AGNIBRyQujzArgtW/mlqb8HRSlLcEazrUv9oiDM49xGGvXgp5uT5his5iZV1f3r4HFHvDprVbaxPhZf4XkKub/CDLaep1T7IhGRhHb6WoTADNT2KWpu/aGv24qGKvrIrr5+Z7hnneQnJu6hURvKl3ryL/ARrVkuI=)
+Try it in the Playground
 
-### Which to Choose? [​](#which-to-choose)
+### Which to Choose? ​
 
 Both API styles are fully capable of covering common use cases. They are different interfaces powered by the exact same underlying system. In fact, the Options API is implemented on top of the Composition API! The fundamental concepts and knowledge about Vue are shared across the two styles.
 
@@ -775,7 +762,7 @@ The Options API is centered around the concept of a "component instance" (`this`
 
 The Composition API is centered around declaring reactive state variables directly in a function scope and composing state from multiple functions together to handle complexity. It is more free-form and requires an understanding of how reactivity works in Vue to be used effectively. In return, its flexibility enables more powerful patterns for organizing and reusing logic.
 
-You can learn more about the comparison between the two styles and the potential benefits of Composition API in the [Composition API FAQ](/guide/extras/composition-api-faq).
+You can learn more about the comparison between the two styles and the potential benefits of Composition API in the Composition API FAQ.
 
 If you are new to Vue, here's our general recommendation:
 
@@ -787,23 +774,23 @@ If you are new to Vue, here's our general recommendation:
 
 You don't have to commit to only one style during the learning phase. The rest of the documentation will provide code samples in both styles where applicable, and you can toggle between them at any time using the **API Preference switches** at the top of the left sidebar.
 
-## Still Got Questions? [​](#still-got-questions)
+## Still Got Questions? ​
 
-Check out our [FAQ](/about/faq).
+Check out our FAQ.
 
-## Pick Your Learning Path [​](#pick-your-learning-path)
+## Pick Your Learning Path ​
 
 Different developers have different learning styles. Feel free to pick a learning path that suits your preference - although we do recommend going over all of the content, if possible!
 
-[Try the Tutorial
+Try the Tutorial
 
-For those who prefer learning things hands-on.](/tutorial/)[Read the Guide
+For those who prefer learning things hands-on.Read the Guide
 
-The guide walks you through every aspect of the framework in full detail.](/guide/quick-start)[Check out the Examples
+The guide walks you through every aspect of the framework in full detail.Check out the Examples
 
-Explore examples of core features and common UI tasks.](/examples/)
+Explore examples of core features and common UI tasks.
 
-[Edit this page on GitHub](https://github.com/vuejs/docs/edit/main/src/guide/introduction.md)
+Edit this page on GitHub
 
 Introduction has loaded
 
@@ -813,11 +800,9 @@ Introduction has loaded
 
 Vue.js - The Progressive JavaScript Framework | Vue.js
 
+Skip to content
 
-
-[Skip to content](#VPContent)
-
-[Vue.js](/)
+Vue.js
 
 Search
 
@@ -825,81 +810,79 @@ Main Navigation
 
 Docs 
 
-[Guide](/guide/introduction)[Tutorial](/tutorial/)[Examples](/examples/)[Quick Start](/guide/quick-start)[Glossary](/glossary/)[Error Reference](/error-reference/)[Vue 2 Docs](https://v2.vuejs.org)[Migration from Vue 2](https://v3-migration.vuejs.org/)
+GuideTutorialExamplesQuick StartGlossaryError ReferenceVue 2 DocsMigration from Vue 2
 
-[API](/api/)[Playground](https://play.vuejs.org)
+APIPlayground
 
 Ecosystem 
 
 Resources
 
-[Partners](/partners/)[Themes](/ecosystem/themes)[UI Components](https://ui-libs.vercel.app/)[Plugins Collection](https://www.vue-plugins.org/)[Certification](https://certificates.dev/vuejs/?ref=vuejs-nav)[Jobs](https://vuejobs.com/?ref=vuejs)[T-Shirt Shop](https://vue.threadless.com/)
+PartnersThemesUI ComponentsPlugins CollectionCertificationJobsT-Shirt Shop
 
 Official Libraries
 
-[Vue Router](https://router.vuejs.org/)[Pinia](https://pinia.vuejs.org/)[Tooling Guide](/guide/scaling-up/tooling)
+Vue RouterPiniaTooling Guide
 
 Video Courses
 
-[Vue Mastery](https://www.vuemastery.com/courses/)[Vue School](https://vueschool.io/?friend=vuejs&utm_source=Vuejs.org&utm_medium=Link&utm_content=Navbar%20Dropdown)
+Vue MasteryVue School
 
 Help
 
-[Discord Chat](https://discord.com/invite/HBherRA)[GitHub Discussions](https://github.com/vuejs/core/discussions)[DEV Community](https://dev.to/t/vue)
+Discord ChatGitHub DiscussionsDEV Community
 
 News
 
-[Blog](https://blog.vuejs.org/)[Twitter](https://x.com/vuejs)[Events](https://events.vuejs.org/)[Newsletters](/ecosystem/newsletters)
+BlogTwitterEventsNewsletters
 
 About 
 
-[FAQ](/about/faq)[Team](/about/team)[Releases](/about/releases)[Community Guide](/about/community-guide)[Code of Conduct](/about/coc)[Privacy Policy](/about/privacy)[The Documentary](https://www.youtube.com/watch?v=OrxmtDw4pVI)
+FAQTeamReleasesCommunity GuideCode of ConductPrivacy PolicyThe Documentary
 
-[Sponsor](/sponsor/)[Partners](/partners/)
+SponsorPartners
 
-[简体中文](https://cn.vuejs.org/)
+简体中文
 
-[日本語](https://ja.vuejs.org/)
+日本語
 
-[Українська](https://ua.vuejs.org/)
+Українська
 
-[Français](https://fr.vuejs.org/)
+Français
 
-[한국어](https://ko.vuejs.org/)
+한국어
 
-[Português](https://pt.vuejs.org/)
+Português
 
-[বাংলা](https://bn.vuejs.org/)
+বাংলা
 
-[Italiano](https://it.vuejs.org/)
+Italiano
 
-[فارسی](https://fa.vuejs.org/)
+فارسی
 
-[Русский](https://ru.vuejs.org/)
+Русский
 
-[Čeština](https://cs.vuejs.org/)
+Čeština
 
-[繁體中文](https://zh-hk.vuejs.org/)
+繁體中文
 
-[Polski](https://pl.vuejs.org/)
+Polski
 
 Help Us Translate!
 
-[github](https://github.com/vuejs/ "github")[twitter](https://x.com/vuejs "twitter")[discord](https://discord.com/invite/vue "discord")
+githubtwitterdiscord
 
 Appearance
 
-[github](https://github.com/vuejs/ "github")[twitter](https://x.com/vuejs "twitter")[discord](https://discord.com/invite/vue "discord")
-
-![Vue.js Kawaii Logo by @icarusgkx]()
+githubtwitterdiscord
 
 # The Progressive JavaScript Framework
 
 An approachable, performant and versatile framework for building web user interfaces.
 
-[Play icon Why Vue](javascript:;)  [Get Started](/guide/introduction) [Install](/guide/quick-start) [Get Security Updates for Vue 2](https://v2.vuejs.org/eol/)
+Play icon Why Vue  Get Started Install Get Security Updates for Vue 2
 
-[Special Sponsor slot is now vacant - Inquire now](/sponsor/#tier-benefits)
+Special Sponsor slot is now vacant - Inquire now
 
 ## Approachable
 
@@ -915,68 +898,67 @@ A rich, incrementally adoptable ecosystem that scales between a library and a fu
 
 ## Platinum Sponsors
 
-[Become a Sponsor](/sponsor/)
+Become a Sponsor
 
 ## Gold Sponsors
 
-[Become a Sponsor](/sponsor/)
+Become a Sponsor
 
 #### Docs
 
-* [Guide](/guide/introduction)
-* [Tutorial](/tutorial/)
-* [Examples](/examples/)
-* [Quick Start](/guide/quick-start)
-* [Glossary](/glossary/)
-* [Error Reference](/error-reference/)
-* [Vue 2 Docs](https://v2.vuejs.org)
-* [Migration from Vue 2](https://v3-migration.vuejs.org/)
+* Guide
+* Tutorial
+* Examples
+* Quick Start
+* Glossary
+* Error Reference
+* Vue 2 Docs
+* Migration from Vue 2
 
 #### About
 
-* [FAQ](/about/faq)
-* [Team](/about/team)
-* [Releases](/about/releases)
-* [Community Guide](/about/community-guide)
-* [Code of Conduct](/about/coc)
-* [Privacy Policy](/about/privacy)
-* [The Documentary](https://www.youtube.com/watch?v=OrxmtDw4pVI)
+* FAQ
+* Team
+* Releases
+* Community Guide
+* Code of Conduct
+* Privacy Policy
+* The Documentary
 
 #### Resources
 
-* [Partners](/partners/)
-* [Themes](/ecosystem/themes)
-* [UI Components](https://ui-libs.vercel.app/)
-* [Plugins Collection](https://www.vue-plugins.org/)
-* [Certification](https://certificates.dev/vuejs/?ref=vuejs-nav)
-* [Jobs](https://vuejobs.com/?ref=vuejs)
-* [T-Shirt Shop](https://vue.threadless.com/)
+* Partners
+* Themes
+* UI Components
+* Plugins Collection
+* Certification
+* Jobs
+* T-Shirt Shop
 
 #### Official Libraries
 
-* [Vue Router](https://router.vuejs.org/)
-* [Pinia](https://pinia.vuejs.org/)
-* [Tooling Guide](/guide/scaling-up/tooling)
+* Vue Router
+* Pinia
+* Tooling Guide
 
 #### Video Courses
 
-* [Vue Mastery](https://www.vuemastery.com/courses/)
-* [Vue School](https://vueschool.io/?friend=vuejs&utm_source=Vuejs.org&utm_medium=Link&utm_content=Navbar%20Dropdown)
+* Vue Mastery
+* Vue School
 
 #### Help
 
-* [Discord Chat](https://discord.com/invite/HBherRA)
-* [GitHub Discussions](https://github.com/vuejs/core/discussions)
-* [DEV Community](https://dev.to/t/vue)
+* Discord Chat
+* GitHub Discussions
+* DEV Community
 
 #### News
 
-* [Blog](https://blog.vuejs.org/)
-* [Twitter](https://x.com/vuejs)
-* [Events](https://events.vuejs.org/)
-* [Newsletters](/ecosystem/newsletters)
+* Twitter
+* Events
+* Newsletters
 
-Released under the [MIT License](https://opensource.org/licenses/MIT).
+Released under the MIT License.
 
 Copyright © 2014-2025 Evan You
 
@@ -988,11 +970,9 @@ Vue.js - The Progressive JavaScript Framework has loaded
 
 Tutorial | Vue.js
 
+Skip to content
 
-
-[Skip to content](#VPContent)
-
-[Vue.js](/)
+Vue.js
 
 Search
 
@@ -1000,71 +980,71 @@ Main Navigation
 
 Docs 
 
-[Guide](/guide/introduction)[Tutorial](/tutorial/)[Examples](/examples/)[Quick Start](/guide/quick-start)[Glossary](/glossary/)[Error Reference](/error-reference/)[Vue 2 Docs](https://v2.vuejs.org)[Migration from Vue 2](https://v3-migration.vuejs.org/)
+GuideTutorialExamplesQuick StartGlossaryError ReferenceVue 2 DocsMigration from Vue 2
 
-[API](/api/)[Playground](https://play.vuejs.org)
+APIPlayground
 
 Ecosystem 
 
 Resources
 
-[Partners](/partners/)[Themes](/ecosystem/themes)[UI Components](https://ui-libs.vercel.app/)[Plugins Collection](https://www.vue-plugins.org/)[Certification](https://certificates.dev/vuejs/?ref=vuejs-nav)[Jobs](https://vuejobs.com/?ref=vuejs)[T-Shirt Shop](https://vue.threadless.com/)
+PartnersThemesUI ComponentsPlugins CollectionCertificationJobsT-Shirt Shop
 
 Official Libraries
 
-[Vue Router](https://router.vuejs.org/)[Pinia](https://pinia.vuejs.org/)[Tooling Guide](/guide/scaling-up/tooling)
+Vue RouterPiniaTooling Guide
 
 Video Courses
 
-[Vue Mastery](https://www.vuemastery.com/courses/)[Vue School](https://vueschool.io/?friend=vuejs&utm_source=Vuejs.org&utm_medium=Link&utm_content=Navbar%20Dropdown)
+Vue MasteryVue School
 
 Help
 
-[Discord Chat](https://discord.com/invite/HBherRA)[GitHub Discussions](https://github.com/vuejs/core/discussions)[DEV Community](https://dev.to/t/vue)
+Discord ChatGitHub DiscussionsDEV Community
 
 News
 
-[Blog](https://blog.vuejs.org/)[Twitter](https://x.com/vuejs)[Events](https://events.vuejs.org/)[Newsletters](/ecosystem/newsletters)
+BlogTwitterEventsNewsletters
 
 About 
 
-[FAQ](/about/faq)[Team](/about/team)[Releases](/about/releases)[Community Guide](/about/community-guide)[Code of Conduct](/about/coc)[Privacy Policy](/about/privacy)[The Documentary](https://www.youtube.com/watch?v=OrxmtDw4pVI)
+FAQTeamReleasesCommunity GuideCode of ConductPrivacy PolicyThe Documentary
 
-[Sponsor](/sponsor/)[Partners](/partners/)
+SponsorPartners
 
-[简体中文](https://cn.vuejs.org/tutorial/)
+简体中文
 
-[日本語](https://ja.vuejs.org/tutorial/)
+日本語
 
-[Українська](https://ua.vuejs.org/tutorial/)
+Українська
 
-[Français](https://fr.vuejs.org/tutorial/)
+Français
 
-[한국어](https://ko.vuejs.org/tutorial/)
+한국어
 
-[Português](https://pt.vuejs.org/tutorial/)
+Português
 
-[বাংলা](https://bn.vuejs.org/tutorial/)
+বাংলা
 
-[Italiano](https://it.vuejs.org/tutorial/)
+Italiano
 
-[فارسی](https://fa.vuejs.org/tutorial/)
+فارسی
 
-[Русский](https://ru.vuejs.org/tutorial/)
+Русский
 
-[Čeština](https://cs.vuejs.org/tutorial/)
+Čeština
 
-[繁體中文](https://zh-hk.vuejs.org/tutorial/)
+繁體中文
 
-[Polski](https://pl.vuejs.org/tutorial/)
+Polski
 
 Help Us Translate!
 
-[github](https://github.com/vuejs/ "github")[twitter](https://x.com/vuejs "twitter")[discord](https://discord.com/invite/vue "discord")
+githubtwitterdiscord
 
 Appearance
 
-[github](https://github.com/vuejs/ "github")[twitter](https://x.com/vuejs "twitter")[discord](https://discord.com/invite/vue "discord")
+githubtwitterdiscord
 
 Tutorial has loaded
 

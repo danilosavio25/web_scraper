@@ -2,21 +2,19 @@
 
 > Category: languages
 
-
 ## Source: docs.md
 
 TypeScript: The starting point for learning TypeScript
 
-[Skip to main content](#site-content)
+Skip to main content
 
-[TypeScript](/)
+TypeScript
 
-* [Download](/download/)
-* [Docs](/docs/)
-* [Handbook](/docs/handbook/intro.html)
-* [Community](/community/)
-* [Playground](/play/)
-* [Tools](/tools/)
+* Download
+* Docs
+* Handbook
+* Playground
+* Tools
 
 in En
 
@@ -26,160 +24,160 @@ in En
 
 Quick introductions based on your background or preference.
 
-* [TS for the New Programmer](/docs/handbook/typescript-from-scratch.html)
-* [TypeScript for JS Programmers](/docs/handbook/typescript-in-5-minutes.html)
-* [TS for Java/C# Programmers](/docs/handbook/typescript-in-5-minutes-oop.html)
-* [TS for Functional Programmers](/docs/handbook/typescript-in-5-minutes-func.html)
-* [TypeScript Tooling in 5 minutes](/docs/handbook/typescript-tooling-in-5-minutes.html)
+* TS for the New Programmer
+* TypeScript for JS Programmers
+* TS for Java/C# Programmers
+* TS for Functional Programmers
+* TypeScript Tooling in 5 minutes
 
 #### Handbook
 
 A great first read for your daily TS work.
 
-* [The TypeScript Handbook](/docs/handbook/intro.html)
-* [The Basics](/docs/handbook/2/basic-types.html)
-* [Everyday Types](/docs/handbook/2/everyday-types.html)
-* [Narrowing](/docs/handbook/2/narrowing.html)
-* [More on Functions](/docs/handbook/2/functions.html)
-* [Object Types](/docs/handbook/2/objects.html)
+* The TypeScript Handbook
+* The Basics
+* Everyday Types
+* Narrowing
+* More on Functions
+* Object Types
 * Type Manipulation
-* + [Creating Types from Types](/docs/handbook/2/types-from-types.html)
-  + [Generics](/docs/handbook/2/generics.html)
-  + [Keyof Type Operator](/docs/handbook/2/keyof-types.html)
-  + [Typeof Type Operator](/docs/handbook/2/typeof-types.html)
-  + [Indexed Access Types](/docs/handbook/2/indexed-access-types.html)
-  + [Conditional Types](/docs/handbook/2/conditional-types.html)
-  + [Mapped Types](/docs/handbook/2/mapped-types.html)
-  + [Template Literal Types](/docs/handbook/2/template-literal-types.html)
-* [Classes](/docs/handbook/2/classes.html)
-* [Modules](/docs/handbook/2/modules.html)
+* + Creating Types from Types
+  + Generics
+  + Keyof Type Operator
+  + Typeof Type Operator
+  + Indexed Access Types
+  + Conditional Types
+  + Mapped Types
+  + Template Literal Types
+* Classes
+* Modules
 
 #### Reference
 
 Deep dive reference materials.
 
-* [Utility Types](/docs/handbook/utility-types.html)
-* [Cheat Sheets](/cheatsheets/)
-* [Decorators](/docs/handbook/decorators.html)
-* [Declaration Merging](/docs/handbook/declaration-merging.html)
-* [Enums](/docs/handbook/enums.html)
-* [Iterators and Generators](/docs/handbook/iterators-and-generators.html)
-* [JSX](/docs/handbook/jsx.html)
-* [Mixins](/docs/handbook/mixins.html)
-* [Namespaces](/docs/handbook/namespaces.html)
-* [Namespaces and Modules](/docs/handbook/namespaces-and-modules.html)
-* [Symbols](/docs/handbook/symbols.html)
-* [Triple-Slash Directives](/docs/handbook/triple-slash-directives.html)
-* [Type Compatibility](/docs/handbook/type-compatibility.html)
-* [Type Inference](/docs/handbook/type-inference.html)
-* [Variable Declaration](/docs/handbook/variable-declarations.html)
+* Utility Types
+* Cheat Sheets
+* Decorators
+* Declaration Merging
+* Enums
+* Iterators and Generators
+* JSX
+* Mixins
+* Namespaces
+* Namespaces and Modules
+* Symbols
+* Triple-Slash Directives
+* Type Compatibility
+* Type Inference
+* Variable Declaration
 
 #### Modules Reference
 
 How TypeScript models JavaScript modules.
 
-* [Introduction](/docs/handbook/modules/introduction.html)
-* [Theory](/docs/handbook/modules/theory.html)
+* Introduction
+* Theory
 * Guides
-* + [Choosing Compiler Options](/docs/handbook/modules/guides/choosing-compiler-options.html)
-* [Reference](/docs/handbook/modules/reference.html)
+* + Choosing Compiler Options
+* Reference
 * Appendices
-* + [ESM/CJS Interoperability](/docs/handbook/modules/appendices/esm-cjs-interop.html)
+* + ESM/CJS Interoperability
 
 #### Tutorials
 
 Using TypeScript in several environments.
 
-* [ASP.NET Core](/docs/handbook/asp-net-core.html)
-* [Gulp](/docs/handbook/gulp.html)
-* [DOM Manipulation](/docs/handbook/dom-manipulation.html)
-* [Migrating from JavaScript](/docs/handbook/migrating-from-javascript.html)
-* [Using Babel with TypeScript](/docs/handbook/babel-with-typescript.html)
+* ASP.NET Core
+* Gulp
+* DOM Manipulation
+* Migrating from JavaScript
+* Using Babel with TypeScript
 
 #### Declaration Files
 
 Learn how to write declaration files to describe existing JavaScript. Important for DefinitelyTyped contributions.
 
-* [Introduction](/docs/handbook/declaration-files/introduction.html)
-* [Declaration Reference](/docs/handbook/declaration-files/by-example.html)
-* [Library Structures](/docs/handbook/declaration-files/library-structures.html)
+* Introduction
+* Declaration Reference
+* Library Structures
 * .d.ts Templates
-* + [Modules .d.ts](/docs/handbook/declaration-files/templates/module-d-ts.html)
-  + [Module: Plugin](/docs/handbook/declaration-files/templates/module-plugin-d-ts.html)
-  + [Module: Class](/docs/handbook/declaration-files/templates/module-class-d-ts.html)
-  + [Module: Function](/docs/handbook/declaration-files/templates/module-function-d-ts.html)
-  + [Global .d.ts](/docs/handbook/declaration-files/templates/global-d-ts.html)
-  + [Global: Modifying Module](/docs/handbook/declaration-files/templates/global-modifying-module-d-ts.html)
-* [Do's and Don'ts](/docs/handbook/declaration-files/do-s-and-don-ts.html)
-* [Deep Dive](/docs/handbook/declaration-files/deep-dive.html)
-* [Publishing](/docs/handbook/declaration-files/publishing.html)
-* [Consumption](/docs/handbook/declaration-files/consumption.html)
+* + Modules .d.ts
+  + Module: Plugin
+  + Module: Class
+  + Module: Function
+  + Global .d.ts
+  + Global: Modifying Module
+* Do's and Don'ts
+* Deep Dive
+* Publishing
+* Consumption
 
 #### JavaScript
 
 How to use TypeScript-powered JavaScript tooling.
 
-* [JS Projects Utilizing TypeScript](/docs/handbook/intro-to-js-ts.html)
-* [Type Checking JavaScript Files](/docs/handbook/type-checking-javascript-files.html)
-* [JSDoc Reference](/docs/handbook/jsdoc-supported-types.html)
-* [Creating .d.ts Files from .js files](/docs/handbook/declaration-files/dts-from-js.html)
+* JS Projects Utilizing TypeScript
+* Type Checking JavaScript Files
+* JSDoc Reference
+* Creating .d.ts Files from .js files
 
 #### Project Configuration
 
 Compiler configuration reference.
 
-* [What is a tsconfig.json](/docs/handbook/tsconfig-json.html)
-* [Compiler Options in MSBuild](/docs/handbook/compiler-options-in-msbuild.html)
-* [TSConfig Reference](/tsconfig/)
-* [tsc CLI Options](/docs/handbook/compiler-options.html)
-* [Project References](/docs/handbook/project-references.html)
-* [Integrating with Build Tools](/docs/handbook/integrating-with-build-tools.html)
-* [Configuring Watch](/docs/handbook/configuring-watch.html)
-* [Nightly Builds](/docs/handbook/nightly-builds.html)
+* What is a tsconfig.json
+* Compiler Options in MSBuild
+* TSConfig Reference
+* tsc CLI Options
+* Project References
+* Integrating with Build Tools
+* Configuring Watch
+* Nightly Builds
 
 #### Cheat Sheets
 
 Downloadable syntax reference pages for different parts of everyday TypeScript code.
 
-* [Control Flow Analysis](/static/TypeScript Control Flow Analysis-8a549253ad8470850b77c4c5c351d457.png)
-* [Classes](/static/TypeScript Classes-83cc6f8e42ba2002d5e2c04221fa78f9.png)
-* [Interfaces](/static/TypeScript Interfaces-34f1ad12132fb463bd1dfe5b85c5b2e6.png)
-* [Types](/static/TypeScript Types-ae199d69aeecf7d4a2704a528d0fd3f9.png)
-* [Download PDFs and PNGs](/assets/typescript-cheat-sheets.zip)
+* Control Flow Analysis
+* Classes
+* Interfaces
+* Types
+* Download PDFs and PNGs
 
 ## Learning Resources
 
 #### Get Started
 
-* [JS to TS](/docs/handbook/typescript-in-5-minutes.html)
-* [New to Programming](/docs/handbook/typescript-from-scratch.html)
-* [OOP to JS](/docs/handbook/typescript-in-5-minutes-oop.html)
-* [Functional to JS](/docs/handbook/typescript-in-5-minutes-func.html)
-* [Installation](/download/)
+* JS to TS
+* New to Programming
+* OOP to JS
+* Functional to JS
+* Installation
 
 #### Handbook
 
-* [Everyday Types](/docs/handbook/2/everyday-types.html)
-* [Creating Types from Types](/docs/handbook/2/types-from-types.html)
-* [Object Types](/docs/handbook/2/objects.html)
-* [Variable Declarations](/docs/handbook/variable-declarations.html)
-* [More on Functions](/docs/handbook/2/functions.html)
+* Everyday Types
+* Creating Types from Types
+* Object Types
+* Variable Declarations
+* More on Functions
 
 #### Tools
 
-* [Playground](/play/)
-* [TSConfig Reference](/tsconfig/)
+* Playground
+* TSConfig Reference
 
 #### Release Notes
 
-* [What's new in 5.9](/docs/handbook/release-notes/typescript-5-9.html)
+* What's new in 5.9
 
 #### Tutorials
 
-* [ASP.NET](/docs/handbook/asp-net-core.html)
-* [Migrating from JS](/docs/handbook/migrating-from-javascript.html)
-* [Working with the DOM](/docs/handbook/dom-manipulation.html)
-* [React & Webpack](/docs/handbook/react-&-webpack.html)
+* ASP.NET
+* Migrating from JS
+* Working with the DOM
+* React & Webpack
 
 ### Customize
 
@@ -193,62 +191,58 @@ CascadiaCascadia (ligatures)ConsolasDank MonoFira CodeJetBrains MonoOpenDyslexic
 
 ### Popular Documentation Pages
 
-* [Everyday Types](/docs/handbook/2/everyday-types.html)
+* Everyday Types
 
   All of the common types in TypeScript
-* [Creating Types from Types](/docs/handbook/2/types-from-types.html)
+* Creating Types from Types
 
   Techniques to make more elegant types
-* [More on Functions](/docs/handbook/2/functions.html)
+* More on Functions
 
   How to provide types to functions in JavaScript
-* [More on Objects](/docs/handbook/2/objects.html)
+* More on Objects
 
   How to provide a type shape to JavaScript objects
-* [Narrowing](/docs/handbook/2/narrowing.html)
+* Narrowing
 
   How TypeScript infers types based on runtime behavior
-* [Variable Declarations](/docs/handbook/variable-declarations.html)
+* Variable Declarations
 
   How to create and type JavaScript variables
-* [TypeScript in 5 minutes](/docs/handbook/typescript-in-5-minutes.html)
+* TypeScript in 5 minutes
 
   An overview of building a TypeScript web app
-* [TSConfig Options](/tsconfig/)
+* TSConfig Options
 
   All the configuration options for a project
-* [Classes](/docs/handbook/2/classes.html)
+* Classes
 
   How to provide types to JavaScript ES6 classes
 
 Made with ♥ in Redmond, Boston, SF & Dublin
 
-![Microsoft Logo](data:image/png;base64,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)
-
 © 2012-2025 Microsoft  
-[Privacy](https://go.microsoft.com/fwlink/?LinkId=521839 "Microsoft Privacy Policy")[Terms of Use](https://go.microsoft.com/fwlink/?LinkID=206977)
+PrivacyTerms of Use
 
 ### Using TypeScript
 
-* [Get Started](/docs/)
-* [Download](/download/)
-* [Community](/community/)
-* [Playground](/play/)
-* [TSConfig Ref](/tsconfig/)
-* [Code Samples](/play/#show-examples)
-* [Why TypeScript](/why-create-typescript/)
-* [Design](/branding/)
+* Get Started
+* Download
+* Playground
+* TSConfig Ref
+* Code Samples
+* Why TypeScript
+* Design
 
 ### Community
 
-* [Get Help](/community)
-* [Blog](https://devblogs.microsoft.com/typescript/)
-* [GitHub Repo](https://github.com/microsoft/TypeScript/#readme)
-* [Community Chat](https://discord.gg/typescript)
-* [@TypeScript](https://twitter.com/TypeScript)
-* [Mastodon](https://fosstodon.org/@TypeScript)
-* [Stack Overflow](https://stackoverflow.com/questions/tagged/typescript)
-* [Web Repo](https://github.com/microsoft/TypeScript-Website)
+* Get Help
+* GitHub Repo
+* Community Chat
+* @TypeScript
+* Mastodon
+* Stack Overflow
+* Web Repo
 
 MSG
 
@@ -258,152 +252,151 @@ MSG
 
 TypeScript: Handbook - The TypeScript Handbook
 
-[Skip to main content](#handbook-content)
+Skip to main content
 
-[TypeScript](/)
+TypeScript
 
-* [Download](/download/)
-* [Docs](/docs/)
-* [Handbook](/docs/handbook/intro.html)
-* [Community](/community/)
-* [Playground](/play/)
-* [Tools](/tools/)
+* Download
+* Docs
+* Handbook
+* Playground
+* Tools
 
 in En
 
 Was this page helpful?
 
 * Get Started
-  + [TS for the New Programmer](/docs/handbook/typescript-from-scratch.html)
-  + [TypeScript for JS Programmers](/docs/handbook/typescript-in-5-minutes.html)
-  + [TS for Java/C# Programmers](/docs/handbook/typescript-in-5-minutes-oop.html)
-  + [TS for Functional Programmers](/docs/handbook/typescript-in-5-minutes-func.html)
-  + [TypeScript Tooling in 5 minutes](/docs/handbook/typescript-tooling-in-5-minutes.html)
+  + TS for the New Programmer
+  + TypeScript for JS Programmers
+  + TS for Java/C# Programmers
+  + TS for Functional Programmers
+  + TypeScript Tooling in 5 minutes
 * Handbook
-  + [The TypeScript Handbook](/docs/handbook/intro.html)
-  + [The Basics](/docs/handbook/2/basic-types.html)
-  + [Everyday Types](/docs/handbook/2/everyday-types.html)
-  + [Narrowing](/docs/handbook/2/narrowing.html)
-  + [More on Functions](/docs/handbook/2/functions.html)
-  + [Object Types](/docs/handbook/2/objects.html)
+  + The TypeScript Handbook
+  + The Basics
+  + Everyday Types
+  + Narrowing
+  + More on Functions
+  + Object Types
   + Type Manipulation
-    - [Creating Types from Types](/docs/handbook/2/types-from-types.html)
-    - [Generics](/docs/handbook/2/generics.html)
-    - [Keyof Type Operator](/docs/handbook/2/keyof-types.html)
-    - [Typeof Type Operator](/docs/handbook/2/typeof-types.html)
-    - [Indexed Access Types](/docs/handbook/2/indexed-access-types.html)
-    - [Conditional Types](/docs/handbook/2/conditional-types.html)
-    - [Mapped Types](/docs/handbook/2/mapped-types.html)
-    - [Template Literal Types](/docs/handbook/2/template-literal-types.html)
-  + [Classes](/docs/handbook/2/classes.html)
-  + [Modules](/docs/handbook/2/modules.html)
+    - Creating Types from Types
+    - Generics
+    - Keyof Type Operator
+    - Typeof Type Operator
+    - Indexed Access Types
+    - Conditional Types
+    - Mapped Types
+    - Template Literal Types
+  + Classes
+  + Modules
 * Reference
-  + [Utility Types](/docs/handbook/utility-types.html)
-  + [Cheat Sheets](/cheatsheets/)
-  + [Decorators](/docs/handbook/decorators.html)
-  + [Declaration Merging](/docs/handbook/declaration-merging.html)
-  + [Enums](/docs/handbook/enums.html)
-  + [Iterators and Generators](/docs/handbook/iterators-and-generators.html)
-  + [JSX](/docs/handbook/jsx.html)
-  + [Mixins](/docs/handbook/mixins.html)
-  + [Namespaces](/docs/handbook/namespaces.html)
-  + [Namespaces and Modules](/docs/handbook/namespaces-and-modules.html)
-  + [Symbols](/docs/handbook/symbols.html)
-  + [Triple-Slash Directives](/docs/handbook/triple-slash-directives.html)
-  + [Type Compatibility](/docs/handbook/type-compatibility.html)
-  + [Type Inference](/docs/handbook/type-inference.html)
-  + [Variable Declaration](/docs/handbook/variable-declarations.html)
+  + Utility Types
+  + Cheat Sheets
+  + Decorators
+  + Declaration Merging
+  + Enums
+  + Iterators and Generators
+  + JSX
+  + Mixins
+  + Namespaces
+  + Namespaces and Modules
+  + Symbols
+  + Triple-Slash Directives
+  + Type Compatibility
+  + Type Inference
+  + Variable Declaration
 * Modules Reference
-  + [Introduction](/docs/handbook/modules/introduction.html)
-  + [Theory](/docs/handbook/modules/theory.html)
+  + Introduction
+  + Theory
   + Guides
-    - [Choosing Compiler Options](/docs/handbook/modules/guides/choosing-compiler-options.html)
-  + [Reference](/docs/handbook/modules/reference.html)
+    - Choosing Compiler Options
+  + Reference
   + Appendices
-    - [ESM/CJS Interoperability](/docs/handbook/modules/appendices/esm-cjs-interop.html)
+    - ESM/CJS Interoperability
 * Tutorials
-  + [ASP.NET Core](/docs/handbook/asp-net-core.html)
-  + [Gulp](/docs/handbook/gulp.html)
-  + [DOM Manipulation](/docs/handbook/dom-manipulation.html)
-  + [Migrating from JavaScript](/docs/handbook/migrating-from-javascript.html)
-  + [Using Babel with TypeScript](/docs/handbook/babel-with-typescript.html)
+  + ASP.NET Core
+  + Gulp
+  + DOM Manipulation
+  + Migrating from JavaScript
+  + Using Babel with TypeScript
 * What's New
-  + [TypeScript 5.9](/docs/handbook/release-notes/typescript-5-9.html)
-  + [TypeScript 5.8](/docs/handbook/release-notes/typescript-5-8.html)
-  + [TypeScript 5.7](/docs/handbook/release-notes/typescript-5-7.html)
-  + [TypeScript 5.6](/docs/handbook/release-notes/typescript-5-6.html)
-  + [TypeScript 5.5](/docs/handbook/release-notes/typescript-5-5.html)
-  + [TypeScript 5.4](/docs/handbook/release-notes/typescript-5-4.html)
-  + [TypeScript 5.3](/docs/handbook/release-notes/typescript-5-3.html)
-  + [TypeScript 5.2](/docs/handbook/release-notes/typescript-5-2.html)
-  + [TypeScript 5.1](/docs/handbook/release-notes/typescript-5-1.html)
-  + [TypeScript 5.0](/docs/handbook/release-notes/typescript-5-0.html)
-  + [TypeScript 4.9](/docs/handbook/release-notes/typescript-4-9.html)
-  + [TypeScript 4.8](/docs/handbook/release-notes/typescript-4-8.html)
-  + [TypeScript 4.7](/docs/handbook/release-notes/typescript-4-7.html)
-  + [TypeScript 4.6](/docs/handbook/release-notes/typescript-4-6.html)
-  + [TypeScript 4.5](/docs/handbook/release-notes/typescript-4-5.html)
-  + [TypeScript 4.4](/docs/handbook/release-notes/typescript-4-4.html)
-  + [TypeScript 4.3](/docs/handbook/release-notes/typescript-4-3.html)
-  + [TypeScript 4.2](/docs/handbook/release-notes/typescript-4-2.html)
-  + [TypeScript 4.1](/docs/handbook/release-notes/typescript-4-1.html)
-  + [TypeScript 4.0](/docs/handbook/release-notes/typescript-4-0.html)
-  + [TypeScript 3.9](/docs/handbook/release-notes/typescript-3-9.html)
-  + [TypeScript 3.8](/docs/handbook/release-notes/typescript-3-8.html)
-  + [TypeScript 3.7](/docs/handbook/release-notes/typescript-3-7.html)
-  + [TypeScript 3.6](/docs/handbook/release-notes/typescript-3-6.html)
-  + [TypeScript 3.5](/docs/handbook/release-notes/typescript-3-5.html)
-  + [TypeScript 3.4](/docs/handbook/release-notes/typescript-3-4.html)
-  + [TypeScript 3.3](/docs/handbook/release-notes/typescript-3-3.html)
-  + [TypeScript 3.2](/docs/handbook/release-notes/typescript-3-2.html)
-  + [TypeScript 3.1](/docs/handbook/release-notes/typescript-3-1.html)
-  + [TypeScript 3.0](/docs/handbook/release-notes/typescript-3-0.html)
-  + [TypeScript 2.9](/docs/handbook/release-notes/typescript-2-9.html)
-  + [TypeScript 2.8](/docs/handbook/release-notes/typescript-2-8.html)
-  + [TypeScript 2.7](/docs/handbook/release-notes/typescript-2-7.html)
-  + [TypeScript 2.6](/docs/handbook/release-notes/typescript-2-6.html)
-  + [TypeScript 2.5](/docs/handbook/release-notes/typescript-2-5.html)
-  + [TypeScript 2.4](/docs/handbook/release-notes/typescript-2-4.html)
-  + [TypeScript 2.3](/docs/handbook/release-notes/typescript-2-3.html)
-  + [TypeScript 2.2](/docs/handbook/release-notes/typescript-2-2.html)
-  + [TypeScript 2.1](/docs/handbook/release-notes/typescript-2-1.html)
-  + [TypeScript 2.0](/docs/handbook/release-notes/typescript-2-0.html)
-  + [TypeScript 1.8](/docs/handbook/release-notes/typescript-1-8.html)
-  + [TypeScript 1.7](/docs/handbook/release-notes/typescript-1-7.html)
-  + [TypeScript 1.6](/docs/handbook/release-notes/typescript-1-6.html)
-  + [TypeScript 1.5](/docs/handbook/release-notes/typescript-1-5.html)
-  + [TypeScript 1.4](/docs/handbook/release-notes/typescript-1-4.html)
-  + [TypeScript 1.3](/docs/handbook/release-notes/typescript-1-3.html)
-  + [TypeScript 1.1](/docs/handbook/release-notes/typescript-1-1.html)
+  + TypeScript 5.9
+  + TypeScript 5.8
+  + TypeScript 5.7
+  + TypeScript 5.6
+  + TypeScript 5.5
+  + TypeScript 5.4
+  + TypeScript 5.3
+  + TypeScript 5.2
+  + TypeScript 5.1
+  + TypeScript 5.0
+  + TypeScript 4.9
+  + TypeScript 4.8
+  + TypeScript 4.7
+  + TypeScript 4.6
+  + TypeScript 4.5
+  + TypeScript 4.4
+  + TypeScript 4.3
+  + TypeScript 4.2
+  + TypeScript 4.1
+  + TypeScript 4.0
+  + TypeScript 3.9
+  + TypeScript 3.8
+  + TypeScript 3.7
+  + TypeScript 3.6
+  + TypeScript 3.5
+  + TypeScript 3.4
+  + TypeScript 3.3
+  + TypeScript 3.2
+  + TypeScript 3.1
+  + TypeScript 3.0
+  + TypeScript 2.9
+  + TypeScript 2.8
+  + TypeScript 2.7
+  + TypeScript 2.6
+  + TypeScript 2.5
+  + TypeScript 2.4
+  + TypeScript 2.3
+  + TypeScript 2.2
+  + TypeScript 2.1
+  + TypeScript 2.0
+  + TypeScript 1.8
+  + TypeScript 1.7
+  + TypeScript 1.6
+  + TypeScript 1.5
+  + TypeScript 1.4
+  + TypeScript 1.3
+  + TypeScript 1.1
 * Declaration Files
-  + [Introduction](/docs/handbook/declaration-files/introduction.html)
-  + [Declaration Reference](/docs/handbook/declaration-files/by-example.html)
-  + [Library Structures](/docs/handbook/declaration-files/library-structures.html)
+  + Introduction
+  + Declaration Reference
+  + Library Structures
   + .d.ts Templates
-    - [Modules .d.ts](/docs/handbook/declaration-files/templates/module-d-ts.html)
-    - [Module: Plugin](/docs/handbook/declaration-files/templates/module-plugin-d-ts.html)
-    - [Module: Class](/docs/handbook/declaration-files/templates/module-class-d-ts.html)
-    - [Module: Function](/docs/handbook/declaration-files/templates/module-function-d-ts.html)
-    - [Global .d.ts](/docs/handbook/declaration-files/templates/global-d-ts.html)
-    - [Global: Modifying Module](/docs/handbook/declaration-files/templates/global-modifying-module-d-ts.html)
-  + [Do's and Don'ts](/docs/handbook/declaration-files/do-s-and-don-ts.html)
-  + [Deep Dive](/docs/handbook/declaration-files/deep-dive.html)
-  + [Publishing](/docs/handbook/declaration-files/publishing.html)
-  + [Consumption](/docs/handbook/declaration-files/consumption.html)
+    - Modules .d.ts
+    - Module: Plugin
+    - Module: Class
+    - Module: Function
+    - Global .d.ts
+    - Global: Modifying Module
+  + Do's and Don'ts
+  + Deep Dive
+  + Publishing
+  + Consumption
 * JavaScript
-  + [JS Projects Utilizing TypeScript](/docs/handbook/intro-to-js-ts.html)
-  + [Type Checking JavaScript Files](/docs/handbook/type-checking-javascript-files.html)
-  + [JSDoc Reference](/docs/handbook/jsdoc-supported-types.html)
-  + [Creating .d.ts Files from .js files](/docs/handbook/declaration-files/dts-from-js.html)
+  + JS Projects Utilizing TypeScript
+  + Type Checking JavaScript Files
+  + JSDoc Reference
+  + Creating .d.ts Files from .js files
 * Project Configuration
-  + [What is a tsconfig.json](/docs/handbook/tsconfig-json.html)
-  + [Compiler Options in MSBuild](/docs/handbook/compiler-options-in-msbuild.html)
-  + [TSConfig Reference](/tsconfig/)
-  + [tsc CLI Options](/docs/handbook/compiler-options.html)
-  + [Project References](/docs/handbook/project-references.html)
-  + [Integrating with Build Tools](/docs/handbook/integrating-with-build-tools.html)
-  + [Configuring Watch](/docs/handbook/configuring-watch.html)
-  + [Nightly Builds](/docs/handbook/nightly-builds.html)
+  + What is a tsconfig.json
+  + Compiler Options in MSBuild
+  + TSConfig Reference
+  + tsc CLI Options
+  + Project References
+  + Integrating with Build Tools
+  + Configuring Watch
+  + Nightly Builds
 
 # The TypeScript Handbook
 
@@ -413,7 +406,7 @@ Over 20 years after its introduction to the programming community, JavaScript is
 
 The most common kinds of errors that programmers write can be described as type errors: a certain kind of value was used where a different kind of value was expected. This could be due to simple typos, a failure to understand the API surface of a library, incorrect assumptions about runtime behavior, or other errors. The goal of TypeScript is to be a static typechecker for JavaScript programs - in other words, a tool that runs before your code runs (static) and ensures that the types of the program are correct (typechecked).
 
-If you are coming to TypeScript without a JavaScript background, with the intention of TypeScript being your first language, we recommend you first start reading the documentation on either the [Microsoft Learn JavaScript tutorial](https://developer.microsoft.com/javascript/) or read [JavaScript at the Mozilla Web Docs](https://developer.mozilla.org/docs/Web/JavaScript/Guide).
+If you are coming to TypeScript without a JavaScript background, with the intention of TypeScript being your first language, we recommend you first start reading the documentation on either the Microsoft Learn JavaScript tutorial or read JavaScript at the Mozilla Web Docs.
 If you have experience in other languages, you should be able to pick up JavaScript syntax quite quickly by reading the handbook.
 
 ## How is this Handbook Structured
@@ -449,45 +442,45 @@ Finally, the Handbook won’t cover how TypeScript interacts with other tools, e
 
 ## Get Started
 
-Before getting started with [The Basics](/docs/handbook/2/basic-types.html), we recommend reading one of the following introductory pages. These introductions are intended to highlight key similarities and differences between TypeScript and your favored programming language, and clear up common misconceptions specific to those languages.
+Before getting started with The Basics, we recommend reading one of the following introductory pages. These introductions are intended to highlight key similarities and differences between TypeScript and your favored programming language, and clear up common misconceptions specific to those languages.
 
-* [TypeScript for the New Programmer](/docs/handbook/typescript-from-scratch.html)
-* [TypeScript for JavaScript Programmers](/docs/handbook/typescript-in-5-minutes.html)
-* [TypeScript for Java/C# Programmers](/docs/handbook/typescript-in-5-minutes-oop.html)
-* [TypeScript for Functional Programmers](/docs/handbook/typescript-in-5-minutes-func.html)
+* TypeScript for the New Programmer
+* TypeScript for JavaScript Programmers
+* TypeScript for Java/C# Programmers
+* TypeScript for Functional Programmers
 
-Otherwise, jump to [The Basics](/docs/handbook/2/basic-types.html).
+Otherwise, jump to The Basics.
 
 ##### On this page
 
-* [About this Handbook](#about-this-handbook)
-* [How is this Handbook Structured](#how-is-this-handbook-structured)
-  + [Non-Goals](#non-goals)
-* [Get Started](#get-started)
+* About this Handbook
+* How is this Handbook Structured
+  + Non-Goals
+* Get Started
 
 ##### Is this page helpful?
 
 Yes No
 
-[Next
+Next
 
 ### The Basics
 
-Step one in learning TypeScript: The basic types.](/docs/handbook/2/basic-types.html)
+Step one in learning TypeScript: The basic types.
 
-The TypeScript docs are an open source project. Help us improve these pages [by sending a Pull Request](https://github.com/microsoft/TypeScript-Website/blob/v2/packages/documentation/copy/en/handbook-v2/The Handbook.md) ❤
+The TypeScript docs are an open source project. Help us improve these pages by sending a Pull Request ❤
 
 Contributors to this page:  
 
-OT![Orta Therox  (22)](https://avatars.githubusercontent.com/u/49038?s=100&u=0b9ac5bf42a8ea2543a05191e150e0213456744e&v=4)
+OT!Orta Therox  (22)
 
-MW![Maira Wenzel  (1)](https://gravatar.com/avatar/17d8cbeddac419bedf98a1092ca1d4b90c1beac40c312cdcabd97ae37e51a21d?s=32&&d=blank)
+MW!Maira Wenzel  (1)
 
-M![MingYuan  (1)](https://gravatar.com/avatar/1ea0a4769c93bea4d0bad10ec45ae58dc6407eb397de38aa47abb2893f715d62?s=32&&d=blank)
+M!MingYuan  (1)
 
-N![navya9singh  (1)](https://gravatar.com/avatar/e896fd3c90d7bd8d3c276d3ea2dd552ae62d81d4a497cdd589f551c5eb5ccb93?s=32&&d=blank)
+N!navya9singh  (1)
 
-谭![谭九鼎  (1)](https://gravatar.com/avatar/34ce2fd19a49f19667974c636f94764b0d9c727087e723af4b08802b10bdbcf9?s=32&&d=blank)
+谭!谭九鼎  (1)
 
 5+
 
@@ -505,62 +498,58 @@ CascadiaCascadia (ligatures)ConsolasDank MonoFira CodeJetBrains MonoOpenDyslexic
 
 ### Popular Documentation Pages
 
-* [Everyday Types](/docs/handbook/2/everyday-types.html)
+* Everyday Types
 
   All of the common types in TypeScript
-* [Creating Types from Types](/docs/handbook/2/types-from-types.html)
+* Creating Types from Types
 
   Techniques to make more elegant types
-* [More on Functions](/docs/handbook/2/functions.html)
+* More on Functions
 
   How to provide types to functions in JavaScript
-* [More on Objects](/docs/handbook/2/objects.html)
+* More on Objects
 
   How to provide a type shape to JavaScript objects
-* [Narrowing](/docs/handbook/2/narrowing.html)
+* Narrowing
 
   How TypeScript infers types based on runtime behavior
-* [Variable Declarations](/docs/handbook/variable-declarations.html)
+* Variable Declarations
 
   How to create and type JavaScript variables
-* [TypeScript in 5 minutes](/docs/handbook/typescript-in-5-minutes.html)
+* TypeScript in 5 minutes
 
   An overview of building a TypeScript web app
-* [TSConfig Options](/tsconfig/)
+* TSConfig Options
 
   All the configuration options for a project
-* [Classes](/docs/handbook/2/classes.html)
+* Classes
 
   How to provide types to JavaScript ES6 classes
 
 Made with ♥ in Redmond, Boston, SF & Dublin
 
-![Microsoft Logo](data:image/png;base64,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)
-
 © 2012-2025 Microsoft  
-[Privacy](https://go.microsoft.com/fwlink/?LinkId=521839 "Microsoft Privacy Policy")[Terms of Use](https://go.microsoft.com/fwlink/?LinkID=206977)
+PrivacyTerms of Use
 
 ### Using TypeScript
 
-* [Get Started](/docs/)
-* [Download](/download/)
-* [Community](/community/)
-* [Playground](/play/)
-* [TSConfig Ref](/tsconfig/)
-* [Code Samples](/play/#show-examples)
-* [Why TypeScript](/why-create-typescript/)
-* [Design](/branding/)
+* Get Started
+* Download
+* Playground
+* TSConfig Ref
+* Code Samples
+* Why TypeScript
+* Design
 
 ### Community
 
-* [Get Help](/community)
-* [Blog](https://devblogs.microsoft.com/typescript/)
-* [GitHub Repo](https://github.com/microsoft/TypeScript/#readme)
-* [Community Chat](https://discord.gg/typescript)
-* [@TypeScript](https://twitter.com/TypeScript)
-* [Mastodon](https://fosstodon.org/@TypeScript)
-* [Stack Overflow](https://stackoverflow.com/questions/tagged/typescript)
-* [Web Repo](https://github.com/microsoft/TypeScript-Website)
+* Get Help
+* GitHub Repo
+* Community Chat
+* @TypeScript
+* Mastodon
+* Stack Overflow
+* Web Repo
 
 MSG
 
@@ -570,16 +559,15 @@ MSG
 
 TypeScript: How to set up TypeScript
 
-[Skip to main content](#site-content)
+Skip to main content
 
-[TypeScript](/)
+TypeScript
 
-* [Download](/download/)
-* [Docs](/docs/)
-* [Handbook](/docs/handbook/intro.html)
-* [Community](/community/)
-* [Playground](/play/)
-* [Tools](/tools/)
+* Download
+* Docs
+* Handbook
+* Playground
+* Tools
 
 in En
 
@@ -595,9 +583,9 @@ Having TypeScript set up on a per-project basis lets you have many projects with
 
 ### via npm
 
-TypeScript is available as a [package on the npm registry](https://www.npmjs.com/package/typescript) available as `"typescript"`.
+TypeScript is available as a package on the npm registry available as `"typescript"`.
 
-You will need a copy of [Node.js](https://nodejs.org/en/ "Link to the node.js project") as an environment to run the package. Then you use a dependency manager like [npm](https://www.npmjs.com/ "Link to the npm package manager"), [yarn](https://yarnpkg.com/ "Link to the yarn package manager") or [pnpm](https://pnpm.js.org/ "Link to the pnpm package manager") to download TypeScript into your project.
+You will need a copy of Node.js as an environment to run the package. Then you use a dependency manager like npm, yarn or pnpm to download TypeScript into your project.
 
 `npm install typescript --save-dev`  
   
@@ -613,13 +601,13 @@ npm yarn pnpm
 
 For most project types, you can get TypeScript as a package in Nuget for your MSBuild projects, for example an ASP.NET Core app.
 
-When using Nuget, you can [install TypeScript through Visual Studio](https://learn.microsoft.com/visualstudio/javascript/tutorial-aspnet-with-typescript) using:
+When using Nuget, you can install TypeScript through Visual Studio using:
 
 * The Manage NuGet Packages window (which you can get to by right-clicking on a project node)
 * The Nuget Package Manager Console (found in Tools > NuGet Package Manager > Package Manager Console) and then running:  
   `Install-Package Microsoft.TypeScript.MSBuild`
 
-For project types which don't support Nuget, you can use the  [TypeScript Visual Studio extension](https://marketplace.visualstudio.com/items?itemName=TypeScriptTeam.typescript-593). You can [install the extension](https://learn.microsoft.com/visualstudio/ide/finding-and-using-visual-studio-extensions) using `Extensions > Manage Extensions` in Visual Studio.
+For project types which don't support Nuget, you can use the  TypeScript Visual Studio extension. You can install the extension using `Extensions > Manage Extensions` in Visual Studio.
 
 The examples below are for more advanced use cases.
 
@@ -637,59 +625,59 @@ To do this, run `npm install -g typescript`. This will install the latest versio
 
 You can install TypeScript as a Visual Studio extension, which will allow you to use TypeScript across many MSBuild projects in Visual Studio.
 
-The latest version is available [in the Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=TypeScriptTeam.typescript-593 "Link to the Visual Studio Marketplace for the TypeScript MSBuild extension").
+The latest version is available in the Visual Studio Marketplace.
 
 ## Working with TypeScript-compatible transpilers
 
 There are other tools which convert TypeScript files to JavaScript files. You might use these tools for speed or consistency with your existing build tooling.
 
-Each of these projects handle the file conversion, but do not handle the type-checking aspects of the TypeScript compiler. So it's likely that you will still need to keep the above TypeScript dependency around, and you will want to enable [`isolatedModules`](/tsconfig/#isolatedModules).
+Each of these projects handle the file conversion, but do not handle the type-checking aspects of the TypeScript compiler. So it's likely that you will still need to keep the above TypeScript dependency around, and you will want to enable `isolatedModules`.
 
 ### Babel
 
-[Babel](https://babeljs.io/) is a very popular JavaScript transpiler which supports TypeScript files via the plugin [@babel/plugin-transform-typescript](https://babeljs.io/docs/en/babel-preset-typescript#docsNav).
+Babel is a very popular JavaScript transpiler which supports TypeScript files via the plugin @babel/plugin-transform-typescript.
 
 ### swc
 
-[swc](https://swc-project.github.io/docs/installation/) is a fast transpiler created in Rust which supports many of Babel's features including TypeScript.
+swc is a fast transpiler created in Rust which supports many of Babel's features including TypeScript.
 
 ### Sucrase
 
-[Sucrase](https://github.com/alangpierce/sucrase#sucrase/) is a Babel fork focused on speed for using in development mode. Sucrase supports TypeScript natively.
+Sucrase is a Babel fork focused on speed for using in development mode. Sucrase supports TypeScript natively.
 
 ## Next Steps
 
 #### Get Started
 
-* [JS to TS](/docs/handbook/typescript-in-5-minutes.html)
-* [New to Programming](/docs/handbook/typescript-from-scratch.html)
-* [OOP to JS](/docs/handbook/typescript-in-5-minutes-oop.html)
-* [Functional to JS](/docs/handbook/typescript-in-5-minutes-func.html)
-* [Installation](/download/)
+* JS to TS
+* New to Programming
+* OOP to JS
+* Functional to JS
+* Installation
 
 #### Handbook
 
-* [Everyday Types](/docs/handbook/2/everyday-types.html)
-* [Creating Types from Types](/docs/handbook/2/types-from-types.html)
-* [Object Types](/docs/handbook/2/objects.html)
-* [Variable Declarations](/docs/handbook/variable-declarations.html)
-* [More on Functions](/docs/handbook/2/functions.html)
+* Everyday Types
+* Creating Types from Types
+* Object Types
+* Variable Declarations
+* More on Functions
 
 #### Tools
 
-* [Playground](/play/)
-* [TSConfig Reference](/tsconfig/)
+* Playground
+* TSConfig Reference
 
 #### Release Notes
 
-* [What's new in 5.9](/docs/handbook/release-notes/typescript-5-9.html)
+* What's new in 5.9
 
 #### Tutorials
 
-* [ASP.NET](/docs/handbook/asp-net-core.html)
-* [Migrating from JS](/docs/handbook/migrating-from-javascript.html)
-* [Working with the DOM](/docs/handbook/dom-manipulation.html)
-* [React & Webpack](/docs/handbook/react-&-webpack.html)
+* ASP.NET
+* Migrating from JS
+* Working with the DOM
+* React & Webpack
 
 ### Customize
 
@@ -703,62 +691,58 @@ CascadiaCascadia (ligatures)ConsolasDank MonoFira CodeJetBrains MonoOpenDyslexic
 
 ### Popular Documentation Pages
 
-* [Everyday Types](/docs/handbook/2/everyday-types.html)
+* Everyday Types
 
   All of the common types in TypeScript
-* [Creating Types from Types](/docs/handbook/2/types-from-types.html)
+* Creating Types from Types
 
   Techniques to make more elegant types
-* [More on Functions](/docs/handbook/2/functions.html)
+* More on Functions
 
   How to provide types to functions in JavaScript
-* [More on Objects](/docs/handbook/2/objects.html)
+* More on Objects
 
   How to provide a type shape to JavaScript objects
-* [Narrowing](/docs/handbook/2/narrowing.html)
+* Narrowing
 
   How TypeScript infers types based on runtime behavior
-* [Variable Declarations](/docs/handbook/variable-declarations.html)
+* Variable Declarations
 
   How to create and type JavaScript variables
-* [TypeScript in 5 minutes](/docs/handbook/typescript-in-5-minutes.html)
+* TypeScript in 5 minutes
 
   An overview of building a TypeScript web app
-* [TSConfig Options](/tsconfig/)
+* TSConfig Options
 
   All the configuration options for a project
-* [Classes](/docs/handbook/2/classes.html)
+* Classes
 
   How to provide types to JavaScript ES6 classes
 
 Made with ♥ in Redmond, Boston, SF & Dublin
 
-![Microsoft Logo](data:image/png;base64,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)
-
 © 2012-2025 Microsoft  
-[Privacy](https://go.microsoft.com/fwlink/?LinkId=521839 "Microsoft Privacy Policy")[Terms of Use](https://go.microsoft.com/fwlink/?LinkID=206977)
+PrivacyTerms of Use
 
 ### Using TypeScript
 
-* [Get Started](/docs/)
-* [Download](/download/)
-* [Community](/community/)
-* [Playground](/play/)
-* [TSConfig Ref](/tsconfig/)
-* [Code Samples](/play/#show-examples)
-* [Why TypeScript](/why-create-typescript/)
-* [Design](/branding/)
+* Get Started
+* Download
+* Playground
+* TSConfig Ref
+* Code Samples
+* Why TypeScript
+* Design
 
 ### Community
 
-* [Get Help](/community)
-* [Blog](https://devblogs.microsoft.com/typescript/)
-* [GitHub Repo](https://github.com/microsoft/TypeScript/#readme)
-* [Community Chat](https://discord.gg/typescript)
-* [@TypeScript](https://twitter.com/TypeScript)
-* [Mastodon](https://fosstodon.org/@TypeScript)
-* [Stack Overflow](https://stackoverflow.com/questions/tagged/typescript)
-* [Web Repo](https://github.com/microsoft/TypeScript-Website)
+* Get Help
+* GitHub Repo
+* Community Chat
+* @TypeScript
+* Mastodon
+* Stack Overflow
+* Web Repo
 
 MSG
 
@@ -768,16 +752,15 @@ MSG
 
 TypeScript: JavaScript With Syntax For Types.
 
-[Skip to main content](#site-content)
+Skip to main content
 
-[TypeScript](/)
+TypeScript
 
-* [Download](/download/)
-* [Docs](/docs/)
-* [Handbook](/docs/handbook/intro.html)
-* [Community](/community/)
-* [Playground](/play/)
-* [Tools](/tools/)
+* Download
+* Docs
+* Handbook
+* Playground
+* Tools
 
 in En
 
@@ -785,39 +768,27 @@ in En
 
 TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.
 
-[Try TypeScript Now
+Try TypeScript Now
 
-Online or via npm](/download)
+Online or via npm
 
-* [Editor Checks](#)
-* [Auto-complete](#)
-* [Interfaces](#)
-* [JSX](#)
+* Editor Checks
+* Auto-complete
+* Interfaces
+* JSX
 
 ```
 ts
 
-
-
 const user = {
-
-
 
 firstName: "Angela",
 
-
-
 lastName: "Davis",
-
-
 
 role: "Professor",
 
-
-
 }
-
-
 
 console.log(user.name)
 
@@ -827,34 +798,22 @@ Property 'name' does not exist on type '{ firstName: string; lastName: string; r
 ```
 ts
 
-
-
 const user = {
-
-
 
 firstName: "Angela",
 
-
-
 lastName: "Davis",
-
-
 
 role: "Professor",
 
-
-
 }
-
-
 
 console.log(user.name)
 
 Property 'name' does not exist on type '{ firstName: string; lastName: string; role: string; }'.2339Property 'name' does not exist on type '{ firstName: string; lastName: string; role: string; }'.
 ```
 
-[TypeScript 5.9](/docs/handbook/release-notes/typescript-5-9.html) is now available
+TypeScript 5.9 is now available
 
 ## What is TypeScript?
 
@@ -872,17 +831,17 @@ TypeScript understands JavaScript and uses **type inference to give you great to
 
 ## Get Started
 
-[Handbook
+Handbook
 
-Learn the language](/docs/handbook/intro.html)
+Learn the language
 
-[Playground
+Playground
 
-Try in your browser](/play)
+Try in your browser
 
-[Download
+Download
 
-Install TypeScript](/download/)
+Install TypeScript
 
 ## Adopt TypeScript Gradually
 
@@ -893,23 +852,13 @@ Let's take this incorrect JavaScript code, and see how **TypeScript can catch mi
 ```
 js
 
-
-
 function compact(arr) {
-
-
 
 if (orr.length > 10)
 
-
-
 return arr.trim(0, 10)
 
-
-
 return arr
-
-
 
 }
 ```
@@ -923,15 +872,9 @@ JavaScript file
 ```
 js
 
-
-
 // @ts-check
 
-
-
 function compact(arr) {
-
-
 
 if (orr.length > 10)
 
@@ -939,11 +882,7 @@ Cannot find name 'orr'.2304Cannot find name 'orr'.
 
 return arr.trim(0, 10)
 
-
-
 return arr
-
-
 
 }
 ```
@@ -957,31 +896,19 @@ JavaScript with TS Check
 ```
 js
 
-
-
 // @ts-check
-
-
 
 /** @param {any[]} arr */
 
-
-
 function compact(arr) {
 
-
-
 if (arr.length > 10)
-
-
 
 return arr.trim(0, 10)
 
 Property 'trim' does not exist on type 'any[]'.2339Property 'trim' does not exist on type 'any[]'.
 
 return arr
-
-
 
 }
 ```
@@ -995,23 +922,13 @@ JavaScript with JSDoc
 ```
 ts
 
-
-
 function compact(arr: string[]) {
-
-
 
 if (arr.length > 10)
 
-
-
 return arr.slice(0, 10)
 
-
-
 return arr
-
-
 
 }
 ```
@@ -1029,35 +946,19 @@ Making it possible to see **documentation and issues in your editor**.
 ```
 ts
 
-
-
 interface Account {
-
-
 
 id: number
 
-
-
 displayName: string
-
-
 
 version: 1
 
-
-
 }
-
-
 
 function welcome(user: Account) {
 
-
-
 console.log(user.id)
-
-
 
 }
 ```
@@ -1065,35 +966,19 @@ console.log(user.id)
 ```
 ts
 
-
-
 type Result = "pass" | "fail"
-
-
 
 function verify(result: Result) {
 
-
-
 if (result === "pass") {
-
-
 
 console.log("Passed")
 
-
-
 } else {
-
-
 
 console.log("Failed")
 
-
-
 }
-
-
 
 }
 ```
@@ -1103,35 +988,19 @@ console.log("Failed")
 ```
 ts
 
-
-
 type Result = "pass" | "fail"
-
-
 
 function verify(result: Result) {
 
-
-
 if (result === "pass") {
-
-
 
 console.log("Passed")
 
-
-
 } else {
-
-
 
 console.log("Failed")
 
-
-
 }
-
-
 
 }
 ```
@@ -1141,35 +1010,19 @@ console.log("Failed")
 ```
 ts
 
-
-
 type Result = "pass" | "fail"
-
-
 
 function verify(result: Result) {
 
-
-
 if (result === "pass") {
-
-
 
 console.log("Passed")
 
-
-
 } else {
-
-
 
 console.log("Failed")
 
-
-
 }
-
-
 
 }
 ```
@@ -1179,31 +1032,17 @@ console.log("Failed")
 ```
 js
 
-
-
 function verify(result) {
-
-
 
 if (result === "pass") {
 
-
-
 console.log("Passed")
-
-
 
 } else {
 
-
-
 console.log("Failed")
 
-
-
 }
-
-
 
 }
 ```
@@ -1220,67 +1059,61 @@ TypeScript was such a boon to our stability and sanity that we started using it 
 
 Felix Rieseberg at Slack covered the transition of their desktop app from JavaScript to TypeScript in their blog
 
-[Read](https://slack.engineering/typescript-at-slack-a81307fa288d)
+Read
 
 ### Open Source with TypeScript
 
-[Angular](https://angular.io/)[Vue](https://vuejs.org/)[Jest](https://jestjs.io/)[Redux](https://redux.js.org/)[Ionic](https://ionicframework.com/)[Probot](https://probot.github.io/)[Deno](https://deno.land/)[Vercel](https://github.com/vercel/vercel)[Yarn](https://yarnpkg.com/)[GitHub  
-Desktop](https://github.com/desktop/desktop/)
+AngularVueJestReduxIonicProbotDenoVercelYarnGitHub  
+Desktop
 
 ## Loved by Developers
 
-![Image of the stack overflow logo, and a graph showing TypeScript as the 2nd most popular language](/images/index/stack-overflow.svg)
+!Image of the stack overflow logo, and a graph showing TypeScript as the 2nd most popular language
 
-Voted **2nd most loved programming language** in the [Stack Overflow 2020 Developer survey](https://insights.stackoverflow.com/survey/2020#most-loved-dreaded-and-wanted)
+Voted **2nd most loved programming language** in the Stack Overflow 2020 Developer survey
 
-![Logo of the State of JS survey](/images/index/state-of-js.svg)
-
-TypeScript was **used by 78%** of the [2020 State of JS](https://2020.stateofjs.com/en-US/technologies/javascript-flavors/) respondents, with **93% saying they would use it again**.
+TypeScript was **used by 78%** of the 2020 State of JS respondents, with **93% saying they would use it again**.
 
 TypeScript was given the award for **“Most Adopted Technology”** based on year-on-year growth.
 
 ## Get Started
 
-[Handbook
+Handbook
 
-Learn the language](/docs/handbook/intro.html)
+Learn the language
 
-[Playground
+Playground
 
-Try in your browser](/play)
+Try in your browser
 
-[Download
+Download
 
-Install TypeScript](/download/)
+Install TypeScript
 
 Made with ♥ in Redmond, Boston, SF & Dublin
 
-![Microsoft Logo](data:image/png;base64,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)
-
 © 2012-2025 Microsoft  
-[Privacy](https://go.microsoft.com/fwlink/?LinkId=521839 "Microsoft Privacy Policy")[Terms of Use](https://go.microsoft.com/fwlink/?LinkID=206977)
+PrivacyTerms of Use
 
 ### Using TypeScript
 
-* [Get Started](/docs/)
-* [Download](/download/)
-* [Community](/community/)
-* [Playground](/play/)
-* [TSConfig Ref](/tsconfig/)
-* [Code Samples](/play/#show-examples)
-* [Why TypeScript](/why-create-typescript/)
-* [Design](/branding/)
+* Get Started
+* Download
+* Playground
+* TSConfig Ref
+* Code Samples
+* Why TypeScript
+* Design
 
 ### Community
 
-* [Get Help](/community)
-* [Blog](https://devblogs.microsoft.com/typescript/)
-* [GitHub Repo](https://github.com/microsoft/TypeScript/#readme)
-* [Community Chat](https://discord.gg/typescript)
-* [@TypeScript](https://twitter.com/TypeScript)
-* [Mastodon](https://fosstodon.org/@TypeScript)
-* [Stack Overflow](https://stackoverflow.com/questions/tagged/typescript)
-* [Web Repo](https://github.com/microsoft/TypeScript-Website)
+* Get Help
+* GitHub Repo
+* Community Chat
+* @TypeScript
+* Mastodon
+* Stack Overflow
+* Web Repo
 
 MSG
 

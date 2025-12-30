@@ -2,24 +2,21 @@
 
 > Category: patterns_architecture
 
-
 ## Source: atom.xml.md
 
 xml version="1.0" encoding="utf-8"?
 
 The Clean Code Blog
 
-
 2023-01-19T20:57:45+00:00
-http://blog.cleancoder.com/
 
 Uncle Bob Martin
 
 Functional Classes in Clojure
 
 2023-01-19T00:00:00+00:00
-http://blog.cleancoder.com/uncle-bob/2023/01/19/functional-classes-clojure
-<p>My previous <a href="http://blog.cleancoder.com/uncle-bob/2023/01/18/functional-classes.html">blog</a> seemed only to continue the confusion regarding classes in Functional Programming. Indeed, many people got quite irate. So perhaps a bit of code will help.</p>
+
+<p>My previous <a href=" seemed only to continue the confusion regarding classes in Functional Programming. Indeed, many people got quite irate. So perhaps a bit of code will help.</p>
 <p><strong>Trigger Warning</strong>:</p>
 <ul>
 <li>Object Oriented Terminology.</li>
@@ -30,7 +27,7 @@ http://blog.cleancoder.com/uncle-bob/2023/01/19/functional-classes-clojure
 <blockquote>
 <p>To all the adherents of the <em>Statically Typed</em> Functional Programming religion: I know that you believe that <em>Static Typing</em> is an essential aspect of Functional Programming and that no mere dynamically typed language could ever begin to approach the heights and glory of <em>The One True and Holy TYPED Functional Apotheotic Paradigm</em>. But we lowly programmers quivering down here at the base of <em>Orthanc</em> can only hope to meekly subsist on the dregs that fall from on high.</p>
 </blockquote>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/1KRqeDEQcYk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+<iframe width="560" height="315" src=" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
 <p>(R.I.P. Kirstie Alley</p>
 <p>OK, so, once again…</p>
 <blockquote>
@@ -39,7 +36,7 @@ http://blog.cleancoder.com/uncle-bob/2023/01/19/functional-classes-clojure
 <p>We do not need the <code class="language-plaintext highlighter-rouge">class</code> keyword. Nor do we need polymorphic dispatch. Nor do we need inheritance. A class is just a description, whether in full or in part, of an object.</p>
 <p>For example – it’s time we talked about clouds (which I have looked at from both sides now; and do, in fact, understand pretty well).</p>
 <p>So… Here come your father’s parentheses!</p>
-<p><img src="https://i.pinimg.com/originals/4f/1e/26/4f1e261d1afa9d58fd1125db5a5a4a12.jpg" /></p>
+<p><img src=" /></p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(ns spacewar.game-logic.clouds
 (:require [clojure.spec.alpha :as s]
 [spacewar.geometry :as geo]
@@ -92,43 +89,43 @@ clouds (doall clouds)]
 (update-clouds-age ms)
 (update-dilithium-harvest ms)))
 </code></pre></div></div>
-<p>Some years back I wrote a nice little <a href="http://blog.cleancoder.com/uncle-bob/2021/11/28/Spacewar.html">spacewar game</a> in Clojure. You can play it <a href="http://spacewar.fikesfarm.com/spacewar.html">here</a>. While playing, if you manage to blow up a Klingon, a sparkling cloud of <em>Dilithium Crystals</em> will remain behind, quickly dissipating. If you can guide your ship into the midst of that cloud, you will harvest some of that <em>Dilithium</em> and replenish your stores.</p>
+<p>Some years back I wrote a nice little <a href=" game</a> in Clojure. You can play it <a href=" While playing, if you manage to blow up a Klingon, a sparkling cloud of <em>Dilithium Crystals</em> will remain behind, quickly dissipating. If you can guide your ship into the midst of that cloud, you will harvest some of that <em>Dilithium</em> and replenish your stores.</p>
 <p>The code you see above is the <em>class</em> that represents the <em>Dilithium Cloud</em>.</p>
 <p>The first thing to notice is that I defined the <em>TYPE</em> of the <code class="language-plaintext highlighter-rouge">cloud</code> <em>class</em> – <em>dynamically</em>.<br />
-<img src="https://yt3.ggpht.com/a/AATXAJxJ07NzOxzlMLuiV6SGv808JXSCrALLJMXJ1w=s900-c-k-c0xffffffff-no-rj-mo" width="150" /></p>
+<img src=" width="150" /></p>
 <p>A <code class="language-plaintext highlighter-rouge">cloud</code> is an object with an <code class="language-plaintext highlighter-rouge">x</code> and <code class="language-plaintext highlighter-rouge">y</code> coordinate, and a <code class="language-plaintext highlighter-rouge">concentration</code>; all of which must be numbers. I also created a little type checking function named <code class="language-plaintext highlighter-rouge">valid-cloud?</code> that is used by my unit tests (not shown) to make sure the <em>TYPE</em> is not violated by any of the <em>methods</em>.</p>
 <p>Next comes <code class="language-plaintext highlighter-rouge">make-cloud</code> the <em>constructor</em> of the <code class="language-plaintext highlighter-rouge">cloud</code> <em>class</em>.</p>
-<iframe src="https://giphy.com/embed/vyTnNTrs3wqQ0UIvwE" width="480" height="400" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe>
-<p><a href="https://giphy.com/gifs/theoffice-the-office-tv-frame-toby-vyTnNTrs3wqQ0UIvwE">via GIPHY</a></p>
+<iframe src=" width="480" height="400" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe>
+<p><a href=" GIPHY</a></p>
 <p>There are two overloads of the <em>constructor</em>. The first takes no arguments and simply creates a <code class="language-plaintext highlighter-rouge">cloud</code> at (0,0) with no <em>Dilithium</em> in it. The second takes three arguments and loads the <em>instance variables</em> of the <em>class</em>.</p>
-<iframe src="https://giphy.com/embed/2yP1jNgjNAkvu" width="480" height="480" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe>
-<p><a href="https://giphy.com/gifs/monty-python-2yP1jNgjNAkvu">via GIPHY</a></p>
+<iframe src=" width="480" height="480" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe>
+<p><a href=" GIPHY</a></p>
 <p>There are two primary <em>methods</em> of the <code class="language-plaintext highlighter-rouge">cloud</code> <em>class</em>: <code class="language-plaintext highlighter-rouge">update-clouds-age</code> and <code class="language-plaintext highlighter-rouge">update-dilithium-harvest</code>. The <code class="language-plaintext highlighter-rouge">update-clouds-age</code> <em>method</em> finds all the <code class="language-plaintext highlighter-rouge">cloud</code> <em>instances</em> in the <code class="language-plaintext highlighter-rouge">world</code> <em>object</em> and decreases their concentration by the <code class="language-plaintext highlighter-rouge">decay</code> factor – which is a function of the number of milliseconds (<code class="language-plaintext highlighter-rouge">ms</code>) since the last time they were updated. The <code class="language-plaintext highlighter-rouge">update-dilithium-harvest</code> <em>method</em> finds all the <code class="language-plaintext highlighter-rouge">cloud</code> <em>objects</em> that are within the <code class="language-plaintext highlighter-rouge">ship</code> <em>object</em>’s harvesting range and transfers <em>Dilithium</em> from those <code class="language-plaintext highlighter-rouge">cloud</code> <em>objects</em> to the <code class="language-plaintext highlighter-rouge">ship</code> <em>object</em>.</p>
 <p>Now, you might notice that these <em>methods</em> are not the traditional style of method you would find in a Java program. For one thing, they deal with a list of <code class="language-plaintext highlighter-rouge">cloud</code> <em>objects</em> rather than an individual <code class="language-plaintext highlighter-rouge">cloud</code> <em>object</em>. Secondly, there’s nothing polymorphic about them. Third, they are <em>functional</em>, because they return a new <code class="language-plaintext highlighter-rouge">world</code> <em>object</em> with new <code class="language-plaintext highlighter-rouge">cloud</code> <em>objects</em> and, in the case of <code class="language-plaintext highlighter-rouge">update-dilithium-harvest</code>, a new <code class="language-plaintext highlighter-rouge">ship</code> <em>object</em>.</p>
 <p>So are these really <em>methods</em> of the <code class="language-plaintext highlighter-rouge">cloud</code> <em>class</em>? Sure! Why not? They are a set of narrowly cohesive functions that manipulate an internal data structure within an intentionally named abstraction.</p>
 <p>For all intents and purposes <code class="language-plaintext highlighter-rouge">cloud</code> is a °°°°°° °°°°°°° <em>class</em>.</p>
-<iframe src="https://giphy.com/embed/TcdpZwYDPlWXC" width="480" height="240" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe>
-<p><a href="https://giphy.com/gifs/reaction-laughing-lotr-TcdpZwYDPlWXC">via GIPHY</a></p>
+<iframe src=" width="480" height="240" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe>
+<p><a href=" GIPHY</a></p>
 <p>So there.</p>
 
 Functional Classes
 
 2023-01-18T00:00:00+00:00
-http://blog.cleancoder.com/uncle-bob/2023/01/18/functional-classes
+
 <p>I recently tweeted the following:</p>
-<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="en" dir="ltr">Should you subdivide a functional program into classes the way you would an object oriented program?<br /><br />Yes. You should. Because the rules don’t change just because you’ve chosen to use immutable data structures.</p>&mdash; Uncle Bob Martin (@unclebobmartin) <a href="https://twitter.com/unclebobmartin/status/1615436628385824769?ref\_src=twsrc%5Etfw">January 17, 2023</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="en" dir="ltr">Should you subdivide a functional program into classes the way you would an object oriented program?<br /><br />Yes. You should. Because the rules don’t change just because you’ve chosen to use immutable data structures.</p>&mdash; Uncle Bob Martin (@unclebobmartin) <a href=" 17, 2023</a></blockquote>
+<script async="" src=" charset="utf-8"></script>
 <p>This led to a bevy of interesting responses about the difference between classes and modules. In answer to those responses I tweeted this:</p>
-<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="en" dir="ltr">A class is a group of cohesive and narrowly defined functions that operate on an encapsulated data structure. The functions may, or may not, be polymorphically deployed.</p>&mdash; Uncle Bob Martin (@unclebobmartin) <a href="https://twitter.com/unclebobmartin/status/1615438162746134528?ref\_src=twsrc%5Etfw">January 17, 2023</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="en" dir="ltr">A class is a group of cohesive and narrowly defined functions that operate on an encapsulated data structure. The functions may, or may not, be polymorphically deployed.</p>&mdash; Uncle Bob Martin (@unclebobmartin) <a href=" 17, 2023</a></blockquote>
+<script async="" src=" charset="utf-8"></script>
 <p>Of course that only led to an increased number of interesting responses. And so I thought that it might be wise to blog about my reasoning rather than to continue trying to cram that reasoning into tweets.</p>
-<p>If you are in doubt about what FP is, and about what OO is, and about whether the two are compatible, then I recommend <a href="http://blog.cleancoder.com/uncle-bob/2018/04/13/FPvsOO.html">this</a> old blog of mine.</p>
+<p>If you are in doubt about what FP is, and about what OO is, and about whether the two are compatible, then I recommend <a href=" old blog of mine.</p>
 <p>What is a class? According to the dictionary a class is:</p>
 <blockquote>
 <p><em>A set, collection, group, or configuration containing members regarded as having certain attributes or traits in common; a kind or category.</em></p>
 </blockquote>
 <p>Now consider that definition when reading the next paragraph.</p>
-<p>In OO languages we organize our programs into classes of objects that share similar traits. We describe those objects in terms of the attributes and behaviors that they have in common. We strive to create hierarchies of classification that those objects can fit within. We consider the higher level classifications to be abstractions that allow the expression of general truths that are independent of irrelevant details. (Indeed, I once defined abstraction as: <em>The Amplification of the essential, and the elimination of the irrelevant.</em><a href="https://www.amazon.com/Designing-Object-Oriented-Applications-Method/dp/0132038374">[1]</a>)</p>
+<p>In OO languages we organize our programs into classes of objects that share similar traits. We describe those objects in terms of the attributes and behaviors that they have in common. We strive to create hierarchies of classification that those objects can fit within. We consider the higher level classifications to be abstractions that allow the expression of general truths that are independent of irrelevant details. (Indeed, I once defined abstraction as: <em>The Amplification of the essential, and the elimination of the irrelevant.</em><a href=")</p>
 <p>In 1966 the power of abstraction by classification led the authors of Simula to create the keyword <code class="language-plaintext highlighter-rouge">class</code>. In 1980, Bjarne Stroustrup continued that convention and used the <code class="language-plaintext highlighter-rouge">class</code> keyword in C++. This was actually somewhat strange because C already had the keyword <code class="language-plaintext highlighter-rouge">struct</code> which had a virtually identical meaning. But the power of the word <code class="language-plaintext highlighter-rouge">class</code> held sway.</p>
 <p>In the mid 90s the power of that word led the authors of Java (and then C#) to declare <em>and enforce</em> that <em>everything</em> in a program must be part of a class. This was a dramatic overreach. It seems to me that some of the things that Java forces into classes ought not to be in classes at all. For example, the class <code class="language-plaintext highlighter-rouge">java.lang.Math</code> is really just a namespace for a batch of functions and is not, in any sense, a classification of objects.</p>
 <p>This conflation of object classification and namespaces is confusing and unnecessary; and is probably part of the reason my initial tweet generated the responses that it did.</p>
@@ -139,7 +136,7 @@ http://blog.cleancoder.com/uncle-bob/2023/01/18/functional-classes
 <p>What are those elements? It seems obvious that the classification structures of objects ought to be high on the list. Namespaced function libraries like <code class="language-plaintext highlighter-rouge">java.lang.Math</code> are another obvious choice. In the one case we have a batch of functions that manipulate an internal data structure. In the other case we have a batch of functions that manipulate an external data structure.</p>
 <p>The essential charachteristic of these elements, these batches of functions, is that they are internally cohesive. That means that all the functions in the batch are strongly related to each other because they manipulate the same data structures, whether internal or external. It is that cohesion that drives the partitioning of a software design.</p>
 <p>###Example</p>
-<p>Recently I have been writing an application called <a href="http://github.com/unclebob/more-speech"><code class="language-plaintext highlighter-rouge">more-speech</code></a> which is a client that browses messages on the <a href="https://nostr.com"><code class="language-plaintext highlighter-rouge">nostr</code></a> network. This nework is composed of relays that use a simple websocket protocol to transmit messages to clients. The <code class="language-plaintext highlighter-rouge">more-speech</code> client is written in Clojure, which is a Functional Programming language.</p>
+<p>Recently I have been writing an application called <a href=" class="language-plaintext highlighter-rouge">more-speech</code></a> which is a client that browses messages on the <a href=" class="language-plaintext highlighter-rouge">nostr</code></a> network. This nework is composed of relays that use a simple websocket protocol to transmit messages to clients. The <code class="language-plaintext highlighter-rouge">more-speech</code> client is written in Clojure, which is a Functional Programming language.</p>
 <p>Early on I created a module named <code class="language-plaintext highlighter-rouge">protocol</code> to house the code that implemented the <code class="language-plaintext highlighter-rouge">nostr</code> protocol. I began this module by managing the websockets over which the messages travelled, and then decoding those messages and manipulating them according to the rules of the protocol.</p>
 <p>Clojure is not a traditional OOPL, there is no <code class="language-plaintext highlighter-rouge">class</code> keyword that is used to declare and define objects and the methods that manipulate them. Rather, a module in Clojure is just a batch of functions that are not syntactically bound to any particular data. Thus my <code class="language-plaintext highlighter-rouge">protocol</code> module had functions that dealt with <code class="language-plaintext highlighter-rouge">WebSocket</code>s and functions that dealth with messages and functions that dealth with protocol elements. They were cohesive in the sense that they were all related to the <code class="language-plaintext highlighter-rouge">nostr</code> protocol; but there was no central data structure that unified them.</p>
 <p>The other day I realized that I was missing an abstraction. The <code class="language-plaintext highlighter-rouge">nostr</code> protocol may be transmitted over websockets but the protocol rules have nothing to do with websockets. Those rules deal with the data that comes through the websockets, but not the websockets themselves. Yet my <code class="language-plaintext highlighter-rouge">protocol</code> module was littered with websocket code.</p>
@@ -154,14 +151,14 @@ http://blog.cleancoder.com/uncle-bob/2023/01/18/functional-classes
 Space War
 
 2021-11-28T00:00:00+00:00
-http://blog.cleancoder.com/uncle-bob/2021/11/28/Spacewar
-<p>For the last month I've been spending a lot of time working on <a href="https://github.com/unclebob/spacewar">Space War</a>. I know, I know, I should have been working on <a href="https://cleancoders.com"><em>Clean Code Episode 67: Legacy Code</em></a>, and <a href="https://www.youtube.com/playlist?list=PLmsuNLXeDr6Y1-a9ASu4mfxqDIgr-oaU6"><em>Euler 5</em></a>, and <a href="https://www.youtube.com/channel/UCThitpd5RCB2J5b\_HlcseMw"><em>Countest and Curmugeon 3</em></a>. I should have been working on a blog, or a new book, or... But I couldn't let go of Space War. It kept calling me.</p>
-<p>The first time I wrote Space War was in 1978. I wrote it in <em>Alcom</em>, which was a simple derivative of <a href="https://en.wikipedia.org/wiki/FOCAL\_(programming\_language)"><em>Focal</em></a>, which was an analog of <em>Basic</em> for the <a href="https://en.wikipedia.org/wiki/PDP-8">PDP-8</a>. The computer was an <em>M365</em> which was an augmented version of a PDP-8 and was proprietery to Teradyne, my employer at the time.</p>
+
+<p>For the last month I've been spending a lot of time working on <a href=" War</a>. I know, I know, I should have been working on <a href=" Code Episode 67: Legacy Code</em></a>, and <a href=" 5</em></a>, and <a href=" and Curmugeon 3</em></a>. I should have been working on a blog, or a new book, or... But I couldn't let go of Space War. It kept calling me.</p>
+<p>The first time I wrote Space War was in 1978. I wrote it in <em>Alcom</em>, which was a simple derivative of <a href=")"><em>Focal</em></a>, which was an analog of <em>Basic</em> for the <a href=" The computer was an <em>M365</em> which was an augmented version of a PDP-8 and was proprietery to Teradyne, my employer at the time.</p>
 <p>The UI was screen based, using character graphics, similar to <em>curses</em>. Screen updates took on the order of a second. All input was through the keyboard.</p>
 <p>We used to play it on one machine while waiting for a compile on another.</p>
-<p>Forty years later, in September of 2018, I started working on <em>this</em> version of Space War. It's an animated GUI driven system with a frame rate of 30fps. It is written entirely in Clojure and uses the <a href="http://www.quil.info">Quil</a> shim for the <a href="https://processing.org">Processing</a> GUI framework.</p>
+<p>Forty years later, in September of 2018, I started working on <em>this</em> version of Space War. It's an animated GUI driven system with a frame rate of 30fps. It is written entirely in Clojure and uses the <a href=" shim for the <a href=" GUI framework.</p>
 <p>My justification for writing it was so that I could use it as the case study for my cleancoders.com videos on <em>Functional Programming</em>. Once that series of videos was complete, I set Space War aside and started working on other things.</p>
-<p>Then, a month ago, the program called to me. I don't know why. Perhaps it was because I'd left it in a partially completed state. Perhaps it was because I had just finished <a href="https://www.amazon.com/Clean-Craftsmanship-Disciplines-Standards-Ethics/dp/013691571X"><em>Clean Craftsmanship</em></a> and I needed a way to decompress. Or, perhaps it was just because I felt like it. Whatever the reason, I loaded up the project and started goofing around with it.</p>
+<p>Then, a month ago, the program called to me. I don't know why. Perhaps it was because I'd left it in a partially completed state. Perhaps it was because I had just finished <a href=" Craftsmanship</em></a> and I needed a way to decompress. Or, perhaps it was just because I felt like it. Whatever the reason, I loaded up the project and started goofing around with it.</p>
 <p>Now I'm sure you've had that feeling of trepidation when you pick up a code base that you haven't seen in three years. I certainly felt it. I mean, what was I going to find in there? Would I be able to get my bearings and understand the code? Or would I flail around aimlessly for weeks?</p>
 <p>I needn't have worried. The code base was nicely organized. There was a very nice suite of tests that covered the vast majority of the game logic. The GUI code, though not tested, was simple enough to understand at a glance.</p>
 <p>But, perhaps most importantly, this code was written to be 100% functional. No variables were mutated, anywhere in the code. This meant that every function did exactly what it said it did; and left no detritus around to confound other functions. No function could be impacted by the state of the system because the system did not have "a state".</p>
@@ -193,13 +190,13 @@ http://blog.cleancoder.com/uncle-bob/2021/11/28/Spacewar
 <p>All of this means that I was able to make progress in this code base quickly, and with a high degree of confidence. <em>I never had that feeling of wading through bogs of legacy code.</em></p>
 <p>Anyway, I'm done now, for the time being. I've given the player a mission to complete, and made it challenging, but possible, to complete that mission. A game requires 2-3 hours of intense play, is tactially and strategically challenging, and is often punctuated by moments of sheer panic.</p>
 <p>I hope you enjoy downloading it, firing up Clojure, and playing it. Consider it my Christmas present to you.</p>
-<p>One last thing. Three years ago <a href="https://github.com/mfikes">Mike Fikes</a> saw my Space War program and converted it from Clojure to <a href="https://clojurescript.org">ClojureScript</a>. The change was so miniscule that the two are now a single code base with a tiny smattering of conditional compilation for the very few differences. So if you want to play the game on-line you can just click on <a href="http://spacewar.fikesfarm.com/spacewar.html">http://spacewar.fikesfarm.com/spacewar.html</a>. Mike has kindly kept this version up to date so -- have at it!</p>
+<p>One last thing. Three years ago <a href=" Fikes</a> saw my Space War program and converted it from Clojure to <a href=" The change was so miniscule that the two are now a single code base with a tiny smattering of conditional compilation for the very few differences. So if you want to play the game on-line you can just click on <a href=" Mike has kindly kept this version up to date so -- have at it!</p>
 
 Functional Duplications
 
 2021-10-28T00:00:00+00:00
-http://blog.cleancoder.com/uncle-bob/2021/10/28/functional-duplication
-<p>I broke out my old <a href="https://github.com/unclebob/spacewar">Space War</a> game a few days ago and decided to make a few changes to speed the game up and make it more fun to play. In so doing I discovered a very interesting bug.</p>
+
+<p>I broke out my old <a href=" War</a> game a few days ago and decided to make a few changes to speed the game up and make it more fun to play. In so doing I discovered a very interesting bug.</p>
 <p>One of the changes I made was to populate the initial space with a few random bases scattered here and there. This would allow the player some extra resources with which to battle the Klingons while building up a network of more bases.</p>
 <p>While I was playing the modified game, it crashed. Hard.</p>
 <p>Now I wrote this with TDD, and I was very disciplined about the cleanliness of the code, and the test coverage. So this was unexpected. So I dug up all my old debugging skills from the pit in which I had buried them, and started to work out what was going on.</p>
@@ -231,24 +228,24 @@ http://blog.cleancoder.com/uncle-bob/2021/10/28/functional-duplication
 Roots
 
 2021-09-25T00:00:00+00:00
-http://blog.cleancoder.com/uncle-bob/2021/09/25/roots
+
 <p>When I was 15 or so, my father would drive me, and my best friend, Tim Conrad, to the Digital Equipment Corporation (DEC) sales office each Saturday. This was a 30 min drive. My father would drop us off in the morning and pick us up in the late afternoon. He spend two hours in his car each Saturday hauling us around.</p>
 <blockquote>
 <p><em>Thanks Dad!</em></p>
 </blockquote>
 <p>Tim and I would spend our day "playing" with the floor model of the PDP-8 they had at the office. The office staff were very accommodating and accepting of our presence, and they helped us out if we needed any fresh rolls of teleprinter paper, or paper tape.</p>
 <p>Several years later, at the age of 20, I found myself working at Teradyne Applied Systems in Chicago. The computer we used there was called an M365; but it was really just an upgraded PDP-8. We used it to control lasers in order to trim electronic components to very precise values.</p>
-<p>Forty four years later, in May of 2015, I started playing with a cute little Lua environment on my iPad called <a href="https://codea.io/">Codea</a>. I wrote several fun little programs, like lunar lander, etc. But then I thought: "Wouldn't it be fun to write a PDP-8 Emulator?"</p>
+<p>Forty four years later, in May of 2015, I started playing with a cute little Lua environment on my iPad called <a href=" I wrote several fun little programs, like lunar lander, etc. But then I thought: "Wouldn't it be fun to write a PDP-8 Emulator?"</p>
 <p>A few days/weeks later I had a nice little PDP-8 emulator running on my iPad. I found some archived binary images of ancient paper tapes and managed to load them into my emulator. This allowed me to run the suite of development tools that I had used back in those early days.</p>
 <p>Then Apple decided it didn't want people writing code on the Ipad that was not distributed through the App store, so they blocked the means by which Codea users could share source code. Indeed, I couldn't even move Lua source code to my new iPads. So the emulator was lost.</p>
 <p>Fortunately I had put the last working version up on GitHub.</p>
 <p>At some point, Apple reopened the channel, perhaps due to a court case. I discovered this a few weeks back, and loaded that old source code back into my iPad. It worked like a champ.</p>
 <p>I made a few changes to deal with the bigger screen, and the faster processor, and then announced it on twitter. I think many people have played with it since.</p>
 <blockquote>
-<p><strong>You can get the emulator <a href="https://github.com/unclebob/PDP8EmulatorIpad">here</a>.</strong> You'll find a lot of good tutorial information, and several demonstration videos in that repository.</p>
+<p><strong>You can get the emulator <a href=" You'll find a lot of good tutorial information, and several demonstration videos in that repository.</p>
 </blockquote>
 <h3 id="euler-4">Euler 4</h3>
-<p>As you may know I have a <a href="https://www.youtube.com/playlist?list=PLmsuNLXeDr6Y1-a9ASu4mfxqDIgr-oaU6">youtube series</a> on the <a href="https://www.youtube.com/c/Cleancoders/playlists">cleancoders.com channel</a>, in which I walk through the problems in the <a href="https://projecteuler.net/">Euler project</a> solving them in Clojure and then taking them to the max, Myth-buster style.</p>
+<p>As you may know I have a <a href=" series</a> on the <a href=" channel</a>, in which I walk through the problems in the <a href=" project</a> solving them in Clojure and then taking them to the max, Myth-buster style.</p>
 <p>Euler 4 is a simple little problem of finding the factors of palindromic numbers. I quickly solved it in Clojure, and then I thought it would be fun to write a PDP-8 program to solve it.</p>
 <blockquote>
 <p><em>Down the rathole I went.</em></p>
@@ -810,7 +807,7 @@ $
 More On Types
 
 2021-06-29T00:00:00+00:00
-http://blog.cleancoder.com/uncle-bob/2021/06/29/MoreOnTypes
+
 <p>Recently I wrote a cute little program for doing <em>Turtle Graphics</em>. For those of you who don't know, turtle graphics were originally added to the LOGO language by Seymour Papert in the late 1960s. He built a robot that he called a "turtle" that could hold a pen. The robot had wheels and could move forwards and backwards, and could rotate left and right. It could also raise and lower the pen. When placed on a sheet of paper, the turtle could be commanded to draw interesting designs.</p>
 <p>Papert's goal was to teach children about programming. As the years went by the robot got replaced with screens, and the turtle became an icon that could draw lines. Children from the 70s until now have been enthralled by the simple commands for directing the turtle, and the elegant drawings they can make.</p>
 <p>For example, this is how you might draw a square:</p>
@@ -823,8 +820,8 @@ right 90
 forward 100
 right 90.
 </code></pre></div></div>
-<p>Recently I had a need to explore some interesting geometrical designs. Turtle graphics would be perfect for my purposes. So I wrote a turtle graphics processor in Clojure. <a href="https://github.com/unclebob/Euler/tree/main/e2\_Fibonacci/Turtle">[code]</a></p>
-<p>I used the <a href="http://quil.info/"><code class="language-plaintext highlighter-rouge">quil</code></a> framework which is based on the <a href="http://processing.org"><code class="language-plaintext highlighter-rouge">Processing</code></a> framework in Java. This framework makes it very easy to create simple GUIs in Clojure.</p>
+<p>Recently I had a need to explore some interesting geometrical designs. Turtle graphics would be perfect for my purposes. So I wrote a turtle graphics processor in Clojure. <a href="
+<p>I used the <a href=" class="language-plaintext highlighter-rouge">quil</code></a> framework which is based on the <a href=" class="language-plaintext highlighter-rouge">Processing</code></a> framework in Java. This framework makes it very easy to create simple GUIs in Clojure.</p>
 <p>Now consider the problem of the Turtle. What is the type model for this object? What fields does it have, and what constraints must be placed on those fields?</p>
 <p>Here was my solution to that problem, written in <code class="language-plaintext highlighter-rouge">clojure/spec</code>. As usual, in Clojure, you start at the bottom and read towards the top.</p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(s/def ::position (s/tuple number? number?))
@@ -964,7 +961,7 @@ new-turtle (t/update-turtle turtle)]
 On Types
 
 2021-06-25T00:00:00+00:00
-http://blog.cleancoder.com/uncle-bob/2021/06/25/OnTypes
+
 <p>I wrote my first program in 1964. The name of the program was: <em>Mr Patternson's Computerized Gate</em>, and it was implemented on a little plastic computer named DIGICOMP-I, which was a cute little three bit finite state machine with 6 AND gates.</p>
 <p>The first electronic computer I ever wrote a program for was an ECP-18 in 1966. This was a 15 bit wide machine with 1024 words of <em>drum</em> memory. The programs I wrote were all in binary machine language and were entered through the front-panel switches.</p>
 <p>In the years between 1967 and 1969 my father would drive my friend, Tim Conrad, and I 25 miles to the Digital Equipment Corp sales office, where we would spend our Saturdays entering programs into the PDP-8 that they had on the floor. They were very gracious to allow us such access and freedom. The code we wrote was in PAL-D assembler (which was written by Ed Yourdon when he was 21 years old).</p>
@@ -988,7 +985,7 @@ http://blog.cleancoder.com/uncle-bob/2021/06/25/OnTypes
 <p>In 1999 I realized that C++ was a waning technolgy, and that the action was really happening in Java. Java was similar enough to C++ for me to make the transition with relative ease. The type system of Java was a bit weaker than C++, and I refused to use the stronger features (like <code class="language-plaintext highlighter-rouge">final</code> though I had been an avid consumer of <code class="language-plaintext highlighter-rouge">const</code> in C++).</p>
 <p>By 2003 I had grown tired of Java's static type system and started playing around with Python. I found the language to be primitive and somewhat haphazard; so after a few excursions with the language I switched to Ruby.</p>
 <p>In Ruby I found a home for several years. The dynamic type system was robust. The object-oriented facilities were well thought through and very easy to use. It was an elegant language with very few warts.</p>
-<p>Then, in 2010 or so, I bumped into Clojure. I had just recently read <a href="https://mitpress.mit.edu/sites/default/files/sicp/index.html"><em>The Structure and Interpretation of Computer Programs</em></a> and so was interested in playing around with a LISP derivative.</p>
+<p>Then, in 2010 or so, I bumped into Clojure. I had just recently read <a href=" Structure and Interpretation of Computer Programs</em></a> and so was interested in playing around with a LISP derivative.</p>
 <p>It has been 11 years now, and I feel no urge to change languages. I reckon that Clojure may be my last programming language. Oh, not that I haven't looked around. I've had some daliances with Golang, Elixr, and Kotlin, and have looked with trepidation at Haskel. I've even played with Scala and F#. I keep looking as new languages arise; but have found nothing that calls me to switch away from Clojure.</p>
 <p>Notice the pathway of my career. I went from untyped languages like assembler and C, to statically typed languages like C++ and Java, to dynamically typed languages like Python and Ruby, and now to Clojure.</p>
 <p>The type system in Clojure is as dynamic as Python or Ruby, but there is a library in Clojure called <code class="language-plaintext highlighter-rouge">clojure/spec</code> that provides all the strong typing anyone would ever need. However, instead of that typing being controlled by the compiler, it is controlled by <em>me</em>. I can enforce simple types, or very complex data relationships. You might think of it as a kind of pre-condition/post-condition language. Eifel programmers would feel very much at home with it. It's an almost perfect way to engage in Design by Contract.</p>
@@ -997,7 +994,7 @@ http://blog.cleancoder.com/uncle-bob/2021/06/25/OnTypes
 if-else-switch
 
 2021-03-06T00:00:00+00:00
-http://blog.cleancoder.com/uncle-bob/2021/03/06/ifElseSwitch
+
 <p>A few days ago someone tweeted a question asking which of the following PHP snippets was better than the others, or whether there might be an even better approach.</p>
 <p><img src="/assets/ifElseSwitch.jpg" /></p>
 <p>I tweeted my answer in the following cryptic paragraph.</p>
@@ -1035,7 +1032,7 @@ otherwise -&gt; 'unknown'
 Pairing Guidelines
 
 2021-01-17T00:00:00+00:00
-http://blog.cleancoder.com/uncle-bob/2021/01/17/Pairing
+
 <p>Everybody pairs from time to time. It is a rare programmer who has not sat down with another programmer to look something over or help find a bug.</p>
 <p>Deep problems, that require much heavy thinking, do not often lend themselves to pairing. The interaction between the programmers tends to disrupt the necessary concentration.</p>
 <p>On the other hand, it is not uncommon for programmers to get caught in a problem that they think is deep, but for which there is a much simpler solution that another programmer could quickly see. So it is wise to start deep problems with a pair, or even a mob, but then break it up when it becomes clear that the problem is irreducible.</p>
@@ -1043,18 +1040,18 @@ http://blog.cleancoder.com/uncle-bob/2021/01/17/Pairing
 <p>Then there is the vast middle. This is where pairing/mobbing are most valuable. These are problems that are non-trivial, but also not particularly deep. This is 90% of all programming. Pairing on this type of code keeps that code well tested, well structured, and as simple as possible.</p>
 <p>Pairing should always be voluntary, never be forced, never be scheduled by a manager, and never tracked. It is an informal process that is entirely under the control of the individual programmers.</p>
 <p>Some people can’t, or won’t do it. That’s ok; but it may require that their participation in certain projects be curtailed.</p>
-<p>Pairing sessions should be short-ish. 20-40 minutes at a time. (<a href="https://en.wikipedia.org/wiki/Pomodoro\_Technique">Tomato</a> sized) With no more than three or four consecutive sessions of that length. This is not a rule, just an informal guideline.</p>
+<p>Pairing sessions should be short-ish. 20-40 minutes at a time. (<a href=" sized) With no more than three or four consecutive sessions of that length. This is not a rule, just an informal guideline.</p>
 <p>Not all code that would benefit from pairing, should be written by pairs. A mature team might pair 50% of the time, or even less. During the pairing sessions, a large amount of code will be reviewed; far more than the pair is actively writing; and thus the benefits of pairing will be seen in very large swathes of non-paired code.</p>
 <p>Bottom line: Don’t be a jerk. Pair sometimes, don’t pair other times. Pair enough so that you have a good grasp of the overall system, and know enough of what your teammates are doing that you could step into their roles if the need arose. Don’t pair so much that you hate your job, and your teammates.</p>
 
 Solid Relevance
 
 2020-10-18T00:00:00+00:00
-http://blog.cleancoder.com/uncle-bob/2020/10/18/Solid-Relevance
+
 <p>Recently I received a letter from someone with a concern. It went like this:</p>
 <hr />
 <blockquote>
-<p><em>For years the knowledge of the SOLID principle has been a standard part of our recruiting procedure. Candidates were expected to have a good working knowledge of these principles. Lately, however, one of our managers, who doesn’t code much anymore, has questioned whether that is wise. His points were that the Open-Closed principle isn’t very important anymore because most of the code we write isn’t contained in large monoliths and making changes to small microservices is safe and easy. The Liskov Substitution Principle is long out of date because we don’t focus on inheritance nearly as much as we did 20 years ago. I think we should consider <a href="https://speakerdeck.com/tastapod/why-every-element-of-solid-is-wrong">Dan North’s position on SOLID</a> – “Just write simple code.”</em></p>
+<p><em>For years the knowledge of the SOLID principle has been a standard part of our recruiting procedure. Candidates were expected to have a good working knowledge of these principles. Lately, however, one of our managers, who doesn’t code much anymore, has questioned whether that is wise. His points were that the Open-Closed principle isn’t very important anymore because most of the code we write isn’t contained in large monoliths and making changes to small microservices is safe and easy. The Liskov Substitution Principle is long out of date because we don’t focus on inheritance nearly as much as we did 20 years ago. I think we should consider <a href=" North’s position on SOLID</a> – “Just write simple code.”</em></p>
 </blockquote>
 <hr />
 <p>I wrote the following letter in response:</p>
@@ -1100,9 +1097,9 @@ http://blog.cleancoder.com/uncle-bob/2020/10/18/Solid-Relevance
 Loopy
 
 2020-09-30T00:00:00+00:00
-http://blog.cleancoder.com/uncle-bob/2020/09/30/loopy
+
 <p>The following is a segment of a journey. It has no obvious beginning point, nor does it actually end up anywhere. The value, if any, is in the journey itself.</p>
-<p>The code below is the standard solution to the <a href="http://butunclebob.com/ArticleS.UncleBob.ThePrimeFactorsKata">Prime Factors Kata</a>.</p>
+<p>The code below is the standard solution to the <a href=" Factors Kata</a>.</p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>public List&lt;Integer&gt; factorsOf(int n) {
 ArrayList&lt;Integer&gt; factors = new ArrayList&lt;&gt;();
 for (int d = 2; n &gt; 1; d++)
@@ -1157,7 +1154,7 @@ return factors;
 <p>In other words: given a program with a nested loop, is there a way to write the same program with a single loop?</p>
 <p>The answer to that is: <em>Yes.</em></p>
 <p>The fact that a bit of code executes within an inner loop could be encoded into a state variable. The outer loop could then dispatch to that bit of code depending upon how that state variable is set.</p>
-<p>We see that in the code above. The state condition for the inner loop is <code class="language-plaintext highlighter-rouge">n%d==0</code>. Indeed, I can extract that out as a <a href="https://moderatemisbehaviour.github.io/clean-code-smells-and-heuristics/general/g19-use-explanatory-variables.html">explanatory variable</a> to make my point clearer. I can also extract <code class="language-plaintext highlighter-rouge">n&gt;1</code>.</p>
+<p>We see that in the code above. The state condition for the inner loop is <code class="language-plaintext highlighter-rouge">n%d==0</code>. Indeed, I can extract that out as a <a href=" variable</a> to make my point clearer. I can also extract <code class="language-plaintext highlighter-rouge">n&gt;1</code>.</p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> private List&lt;Integer&gt; factorsOf(int n, int d, List&lt;Integer&gt; factors) {
 while (true) {
 boolean factorsRemain = n &gt; 1;
@@ -1300,10 +1297,10 @@ state = State.Searching;
 }
 }
 </code></pre></div></div>
-<p>OK, So now the whole thing has been changed into a <a href="https://en.wikipedia.org/wiki/Moore\_machine">Moore</a> model finite state machine. The state transition diagram looks like this.</p>
+<p>OK, So now the whole thing has been changed into a <a href=" model finite state machine. The state transition diagram looks like this.</p>
 <p><img src="/assets/loopy/fsm.jpg" width="300" /></p>
 <p>If you look closely you can see the nested loops in that diagram. They are the two transitions on the <code class="language-plaintext highlighter-rouge">Searching</code> and <code class="language-plaintext highlighter-rouge">Factoring</code> states that stay in the same state. You can also see the how the two loops interconnect through the transitions between the <code class="language-plaintext highlighter-rouge">Searching</code> and <code class="language-plaintext highlighter-rouge">Factoring</code> states. The <code class="language-plaintext highlighter-rouge">Starting</code> state simply accepts <code class="language-plaintext highlighter-rouge">n</code> from the outside world and initializes <code class="language-plaintext highlighter-rouge">d</code> and <code class="language-plaintext highlighter-rouge">factors</code>, and then dispatches to one of the other three states as appropriate. The <code class="language-plaintext highlighter-rouge">Done</code> state simply returns the <code class="language-plaintext highlighter-rouge">factors</code> list.</p>
-<p>This is how Alan Turing envisioned computation in his <a href="https://www.cs.virginia.edu/~robins/Turing\_Paper\_1936.pdf">1936 paper</a>, which you can read about in Charles Petzold’s wonderful book: <a href="https://www.amazon.com/Annotated-Turing-Through-Historic-Computability/dp/0470229055">The Annotated Turing</a>.</p>
+<p>This is how Alan Turing envisioned computation in his <a href=" paper</a>, which you can read about in Charles Petzold’s wonderful book: <a href=" Annotated Turing</a>.</p>
 <p>So, we’ve gone from a nice doubly nested loop in Java to a Turing style finite state machine simply through a sequence of refactorings, each of which kept all the tests passing. This transformation from a standard procedure to a Turing style finite state machine could be done on any program at all.</p>
 <p>Now let’s go back to the two bits of code that started all this. The Java version:</p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>public List&lt;Integer&gt; factorsOf(int n) {
@@ -1341,12 +1338,12 @@ factors)))
 Conference Conduct
 
 2020-09-23T00:00:00+00:00
-http://blog.cleancoder.com/uncle-bob/2020/09/23/ConferenceConduct
-<p>It was just a few years ago, at the height of the <em>Me Too</em> revelations, that codes of conduct began to prominently appear in Software Conferences. At the time I felt this was appropriate given the horror stories that had been circulating about sexual harassment and misbehavior at some of those conferences. I wrote a <a href="http://blog.cleancoder.com/uncle-bob/2016/01/15/Manhandled.html">blog</a> about it at the time.</p>
-<p>Since then I have seen the other side of the coin. Codes of conduct have been used as weapons to exclude people on the basis of their political opinions, or on the basis of their associations, or just because someone didn’t like them. I have written blogs about this as well. <a href="http://blog.cleancoder.com/uncle-bob/2019/11/08/OpenLetterLinuxFoundation.html">(1)</a>, <a href="http://blog.cleancoder.com/uncle-bob/2017/09/26/SierraJulietFoxtrot.html">(2)</a></p>
+
+<p>It was just a few years ago, at the height of the <em>Me Too</em> revelations, that codes of conduct began to prominently appear in Software Conferences. At the time I felt this was appropriate given the horror stories that had been circulating about sexual harassment and misbehavior at some of those conferences. I wrote a <a href=" about it at the time.</p>
+<p>Since then I have seen the other side of the coin. Codes of conduct have been used as weapons to exclude people on the basis of their political opinions, or on the basis of their associations, or just because someone didn’t like them. I have written blogs about this as well. <a href=")</a>, <a href=")</a></p>
 <p>As much as I think that codes of conduct are a good idea, we must not allow them to be weaponized. If we are going to set up rules with consequences, then we also need to set up the the due processes by which those rules and consequences are adjudicated. Otherwise the people who police the codes of conduct will be free of the due checks and balances that protect conference attendees and speakers from unfair and malicious actions. As we have seen, such malicious and unfair actions have become all too common.</p>
 <p>It seems to me that if a conference is going to publish a code of conduct, like the one below, they must also publish the process by which alleged violations will be adjudicated. That process must include provisions for the accused to be able to defend themselves against the allegation, and must also allow the accused to know the identity of the accuser(s). Otherwise all conference attendees and speakers will be exposed to malicious and falsified complaints with no recourse to defend themselves.</p>
-<p>The conference I was <a href="http://blog.cleancoder.com/uncle-bob/2020/09/12/TheDisinvitation.html">disinvited</a> from is over. I was ejected because code of conduct complaints were registered against me by three relatively minor speakers in quick succession. I do not know if those speakers acted in concert. Nor am I certain of the identities of those speakers (though I have a good idea). What I <em>do</em> know is that three or four weeks before the conference was to begin those speakers threatened to withdraw from the conference if I were allowed to speak.</p>
+<p>The conference I was <a href=" from is over. I was ejected because code of conduct complaints were registered against me by three relatively minor speakers in quick succession. I do not know if those speakers acted in concert. Nor am I certain of the identities of those speakers (though I have a good idea). What I <em>do</em> know is that three or four weeks before the conference was to begin those speakers threatened to withdraw from the conference if I were allowed to speak.</p>
 <p>From what I have been able to discern, the conference organizers conducted an investigation. I was not a party to this investigation, indeed I was unaware that it was taking place. I was not notified about the complaints, nor was I given the opportunity to speak in my own defense. The conference organizers simply judged me based upon the complaints and whatever they could discover for themselves. I am quite certain that due diligence was not a requirement of the investigation.</p>
 <p>Given that they were volunteers, and that losing three speakers one month before the conference is a considerable blow, it’s not hard to imagine that the conference organizers were under a fair bit of pressure to resolve the issue quickly and salvage as many speakers as possible. What’s more, the conference had already extracted as much value as it could from my image being emblazoned on their website and on the mailers they sent out two days before the start of the conference. So the decision to eject me must have been pretty easy.</p>
 <p>What was the code of conduct violation? Apparently it related to something on twitter. I have read the code of conduct and the only potential violation I can see falls under the following rule.</p>
@@ -1419,7 +1416,7 @@ When?</p>
 The Disinvitation
 
 2020-09-12T00:00:00+00:00
-http://blog.cleancoder.com/uncle-bob/2020/09/12/TheDisinvitation
+
 <p>I have a friend, in the Chicago area, who calls me up two or three times a year to ask me to give a talk at a User Group, or a conference he’s involved with, or something like that. If my schedule is free I always say yes. I don’t charge anything because I enjoy supporting the Chicago software community, and it’s never a bad thing to get my face out in front of new people. I am a consultant, after all, and giving pro-bono talks is one of the ways I promote myself.</p>
 <p>Anyway, he wrote to me last October (That’s right, a full year ago!) and asked me to give a presentation at a Chicago conference this September 21st. I agreed, and he thanked me, and that was that. Then, in June, he wrote to tell me that the conference was going to be virtual due to Covid. I acknowledged and, once again, that was that.</p>
 <p>Last Wednesday, September 9th, twelve days before the conference, he called me on the phone and said:</p>
@@ -1443,7 +1440,7 @@ http://blog.cleancoder.com/uncle-bob/2020/09/12/TheDisinvitation
 <p>Those speakers would not have been harmed by speaking in a virtual conference that I also spoke in. Their intent was to damage me by forcing the conference organizers to breach their contract with me. That is the definition of tortious interference.</p>
 <p>Could I sue them? Certainly. I won’t, for the same reason that I’m not going to sue the conference organizers. And, frankly, suing people for such small potatoes just isn’t worth the trouble. But, like I said, next time I do a pro-bono talk I’ll have the conference organizers agree to the value that I’m deriving in return for using my name and likeness on their website. Then I can sue them, and any tortious interferers, for that sum and punitive damages too.</p>
 <p>Do I know who those tortiously interfering speakers are? I’ve got a pretty good idea. Myfear of course is that I do not wish to harm my friend. Nor do I wish to harm the conference organizers, nor the Chicago Software community. It seems to me that they are all victims of those revolting speakers.</p>
-<p>So, this time, I’ll let the legal options rest. Instead, I’m offering a virtual <a href="https://us02web.zoom.us/webinar/register/WN\_Q5Fi-nWkRM6sdhNVY3r6VQ">free talk</a> at 10:00 AM CDT, on September 21st, the first day of the conference. Those who wanted to hear me speak, still can.</p>
+<p>So, this time, I’ll let the legal options rest. Instead, I’m offering a virtual <a href=" talk</a> at 10:00 AM CDT, on September 21st, the first day of the conference. Those who wanted to hear me speak, still can.</p>
 <p>The last point I’d like to make is this:</p>
 <blockquote>
 <p><em>Disinviting someone from a virtual conference who can draw a potentially large audience away from that virtual conference is not a particularly intelligent tactic.</em></p>
@@ -1452,8 +1449,8 @@ http://blog.cleancoder.com/uncle-bob/2020/09/12/TheDisinvitation
 REPL Driven Design
 
 2020-05-27T00:00:00+00:00
-http://blog.cleancoder.com/uncle-bob/2020/05/27/ReplDrivenDesign
-<p>If you follow me on facebook you know that I’ve been publishing daily CoronaVirus statistics. I generate these statistics using the daily updates in the Johns Hopkins github <a href="https://github.com/CSSEGISandData/COVID-19">repository</a>.</p>
+
+<p>If you follow me on facebook you know that I’ve been publishing daily CoronaVirus statistics. I generate these statistics using the daily updates in the Johns Hopkins github <a href="
 <p>At first I just hand copied the data into a spreadsheet. But that became tedious quite rapidly.</p>
 <p>Then, in late March, I wrote a little Clojure program to extract and process the data. Every morning I pull the repo, and then run my little program. It reads the files, does the math, and prints the results.</p>
 <p>Of course I used TDD to write this little program.</p>
@@ -1470,7 +1467,7 @@ http://blog.cleancoder.com/uncle-bob/2020/05/27/ReplDrivenDesign
 A Little More Clojure
 
 2020-04-09T00:00:00+00:00
-http://blog.cleancoder.com/uncle-bob/2020/04/09/ALittleMoreClojure
+
 <p>So let’s learn just a little bit more of Clojure.</p>
 <p>Here are a few common utility functions:</p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>user=&gt; (inc 1) ; increments argument
@@ -1587,7 +1584,7 @@ user=&gt; (primes 100)
 A Little Clojure
 
 2020-04-06T00:00:00+00:00
-http://blog.cleancoder.com/uncle-bob/2020/04/06/ALittleClojure
+
 <p>So let’s learn just a little bit of clojure.</p>
 <p>This expression: <code class="language-plaintext highlighter-rouge">(1 2)</code> represents the list containing the integers 1 and 2 in that order. If you want an empty list, that’s just <code class="language-plaintext highlighter-rouge">()</code>. And the list of the first five letters of the alphabet is just <code class="language-plaintext highlighter-rouge">(\a \b \c \d \e)</code>.</p>
 <p>Now you know a lot about the syntax of clojure. Perhaps you think there’s a lot missing. Well, there are a <em>few</em> things missing; but far fewer than you’d think.</p>
@@ -1651,7 +1648,7 @@ ArithmeticException integer overflow clojure.lang.Numbers.throwIntOverflow (Numb
 A New Hope
 
 2020-04-05T00:00:00+00:00
-http://blog.cleancoder.com/uncle-bob/2020/04/05/ANewHope
+
 <p><strong>…The Year is 2045…</strong></p>
 <p>Dad, can you help me with my school report?</p>
 <blockquote>
@@ -1742,7 +1739,7 @@ http://blog.cleancoder.com/uncle-bob/2020/04/05/ANewHope
 Open Letter to the Linux Foundation
 
 2019-11-08T00:00:00+00:00
-http://blog.cleancoder.com/uncle-bob/2019/11/08/OpenLetterLinuxFoundation
+
 <p>To: The Linux Foundation<br />
 Jim Zemlin: Executive Director<br />
 Angela Brown: VP of Events<br />
@@ -1795,7 +1792,7 @@ Andy Updegrove: Legal Council<br /></p>
 What They Thought of Programmers.
 
 2019-11-03T00:00:00+00:00
-http://blog.cleancoder.com/uncle-bob/2019/11/03/WhatTheyThoughtOfUs
+
 <p>It is interesting and educational to go back in time and look at how programmers were represented in popular culture. What did they think of us? Did they know who were?</p>
 <p>It’s important to remember that prior to 1946 there were no programmers, that computers themselves were virtually unknown until the late ’50s. That virtually nobody lived next door to a programmer back then.</p>
 <p>Nowadays virtually everyone in the western world, and even in much of the developing world, is surrounded by computers. And while programming remains a mystery to many, programmers are common neighbors.</p>
@@ -1854,14 +1851,14 @@ http://blog.cleancoder.com/uncle-bob/2019/11/03/WhatTheyThoughtOfUs
 Circulatory
 
 2019-10-31T00:00:00+00:00
-http://blog.cleancoder.com/uncle-bob/2019/10/31/Circulatory
-<p>My wife and I both got genetic analyses from <a href="https://www.23andme.com/">23andMe</a> recently. I discovered that my ancestry comes from Britain and Northern Europe. My wife is Mexican, and she found that her ancestry is very diverse.</p>
+
+<p>My wife and I both got genetic analyses from <a href=" recently. I discovered that my ancestry comes from Britain and Northern Europe. My wife is Mexican, and she found that her ancestry is very diverse.</p>
 <p>One of the services of 23andMe is that they offer to connect you to relatives who have also used 23andMe. Using this service my wife found a second cousin whom she had never met, but whose extended family had overlapped with hers. By email they were able to compare the names of aunts and uncles, and the towns where they lived. The more they talked, the more they realized that the overlap with the extended families was large.</p>
 <p>Some years back I went through the effort of scanning all the old photo albums that we had created or inherited over the years. From that trove of digitized pictures my wive was able to find a 50 year old photograph of that extended family, taken in a little town in Mexico. She shared that photo with her relative who happened to be visiting that town at the moment.</p>
 <p>The relative showed the picture to her aunts, uncles, cousins, and they all started pointing to people that they recognized. Many tears flowed as warm recollections were conveyed. This is apparently the only surviving photograph of that extended family; and now they all have, and cherish, it.</p>
 <p>Now I want you to consider what made this possible.</p>
 <ul>
-<li>I scanned those pictures on a whim, using <a href="https://photomyne.com">Photomyne</a> an iPhone app that makes scanning and cataloging old photos very easy.</li>
+<li>I scanned those pictures on a whim, using <a href=" an iPhone app that makes scanning and cataloging old photos very easy.</li>
 <li>My wife was able to find that picture using the Photos app on the Mac.</li>
 <li>The software at 23andMe was able to find her distant relative.</li>
 <li>Email and FaceTime allowed the two to communicate.</li>
@@ -1879,525 +1876,519 @@ http://blog.cleancoder.com/uncle-bob/2019/10/31/Circulatory
 
 Clean Coder Blog
 
-
-[![](/assets/clean_code_72_color.png)](/)
-
 # The Clean Code Blog
 
 by Robert C. Martin (Uncle Bob)
 
-
-
 ## Welcome!
 
-[atom/rss feed](/atom.xml)
-
+atom/rss feed
 
 ---
 
-* [Functional Classes in Clojure](/uncle-bob/2023/01/19/functional-classes-clojure.html)
+* Functional Classes in Clojure
 
   01-19-2023
-* [Functional Classes](/uncle-bob/2023/01/18/functional-classes.html)
+* Functional Classes
 
   01-18-2023
-* [Space War](/uncle-bob/2021/11/28/Spacewar.html)
+* Space War
 
   11-28-2021
-* [Functional Duplications](/uncle-bob/2021/10/28/functional-duplication.html)
+* Functional Duplications
 
   10-28-2021
-* [Roots](/uncle-bob/2021/09/25/roots.html)
+* Roots
 
   09-25-2021
-* [More On Types](/uncle-bob/2021/06/29/MoreOnTypes.html)
+* More On Types
 
   06-29-2021
-* [On Types](/uncle-bob/2021/06/25/OnTypes.html)
+* On Types
 
   06-25-2021
-* [if-else-switch](/uncle-bob/2021/03/06/ifElseSwitch.html)
+* if-else-switch
 
   03-06-2021
-* [Pairing Guidelines](/uncle-bob/2021/01/17/Pairing.html)
+* Pairing Guidelines
 
   01-17-2021
-* [Solid Relevance](/uncle-bob/2020/10/18/Solid-Relevance.html)
+* Solid Relevance
 
   10-18-2020
-* [Loopy](/uncle-bob/2020/09/30/loopy.html)
+* Loopy
 
   09-30-2020
-* [Conference Conduct](/uncle-bob/2020/09/23/ConferenceConduct.html)
+* Conference Conduct
 
   09-23-2020
-* [The Disinvitation](/uncle-bob/2020/09/12/TheDisinvitation.html)
+* The Disinvitation
 
   09-12-2020
-* [REPL Driven Design](/uncle-bob/2020/05/27/ReplDrivenDesign.html)
+* REPL Driven Design
 
   05-27-2020
-* [A Little More Clojure](/uncle-bob/2020/04/09/ALittleMoreClojure.html)
+* A Little More Clojure
 
   04-09-2020
-* [A Little Clojure](/uncle-bob/2020/04/06/ALittleClojure.html)
+* A Little Clojure
 
   04-06-2020
-* [A New Hope](/uncle-bob/2020/04/05/ANewHope.html)
+* A New Hope
 
   04-05-2020
-* [Open Letter to the Linux Foundation](/uncle-bob/2019/11/08/OpenLetterLinuxFoundation.html)
+* Open Letter to the Linux Foundation
 
   11-08-2019
-* [What They Thought of Programmers.](/uncle-bob/2019/11/03/WhatTheyThoughtOfUs.html)
+* What They Thought of Programmers.
 
   11-03-2019
-* [Circulatory](/uncle-bob/2019/10/31/Circulatory.html)
+* Circulatory
 
   10-31-2019
-* [Why Clojure?](/uncle-bob/2019/08/22/WhyClojure.html)
+* Why Clojure?
 
   08-22-2019
-* [Why won't it...](/uncle-bob/2019/07/22/WhyWontIt.html)
+* Why won't it...
 
   07-22-2019
-* [Classes vs. Data Structures](/uncle-bob/2019/06/16/ObjectsAndDataStructures.html)
+* Classes vs. Data Structures
 
   06-16-2019
-* [Types and Tests](/uncle-bob/2019/06/08/TestsAndTypes.html)
+* Types and Tests
 
   06-08-2019
-* [737 Max 8](/uncle-bob/2019/05/18/737-Max-8.html)
+* 737 Max 8
 
   05-18-2019
-* [FP vs. OO List Processing](/uncle-bob/2018/12/17/FPvsOO-List-processing.html)
+* FP vs. OO List Processing
 
   12-17-2018
-* [We, The Unoffended](/uncle-bob/2018/12/16/unoffended.html)
+* We, The Unoffended
 
   12-16-2018
-* [SJWJS](/uncle-bob/2018/12/14/SJWJS.html)
+* SJWJS
 
   12-14-2018
-* [The Tragedy of Craftsmanship.](/uncle-bob/2018/08/28/CraftsmanshipMovement.html)
+* The Tragedy of Craftsmanship.
 
   08-28-2018
-* [Too Clean?](/uncle-bob/2018/08/13/TooClean.html)
+* Too Clean?
 
   08-13-2018
-* [Integers and Estimates](/uncle-bob/2018/06/21/IntegersAndEstimates.html)
+* Integers and Estimates
 
   06-21-2018
-* [Pickled State](/uncle-bob/2018/06/06/PickledState.html)
+* Pickled State
 
   06-06-2018
-* [Craftsman, Craftswoman, Craftsperson](/uncle-bob/2018/05/02/Craftsman-Craftswoman-Craftsperson.html)
+* Craftsman, Craftswoman, Craftsperson
 
   05-02-2018
-* [FP vs. OO](/uncle-bob/2018/04/13/FPvsOO.html)
+* FP vs. OO
 
   04-13-2018
-* [In The Large](/uncle-bob/2018/04/02/InTheLarge.html)
+* In The Large
 
   04-02-2018
-* [*We Programmers*](/uncle-bob/2018/03/29/WeProgrammers.html)
+* *We Programmers*
 
   03-29-2018
-* [Uncle Bob Fly-In.  
-  Have I got a deal for you!](/uncle-bob/2018/02/25/UncleBobFlyIn.html)
+* Uncle Bob Fly-In.  
+  Have I got a deal for you!
 
   02-25-2018
-* [The Citizenship Argument](/uncle-bob/2018/01/18/TheCitizenshipArgument.html)
+* The Citizenship Argument
 
   01-18-2018
-* [Operating Behind the Power Curve](/uncle-bob/2018/01/15/behindThePowerCurve.html)
+* Operating Behind the Power Curve
 
   01-15-2018
-* [Excuses](/uncle-bob/2017/12/18/Excuses.html)
+* Excuses
 
   12-18-2017
-* [Dbtails](/uncle-bob/2017/12/09/Dbtails.html)
+* Dbtails
 
   12-09-2017
-* [Bobby Tables](/uncle-bob/2017/12/03/BobbyTables.html)
+* Bobby Tables
 
   12-03-2017
-* [Living on the Plateau](/uncle-bob/2017/11/18/OnThePlateau.html)
+* Living on the Plateau
 
   11-18-2017
-* [Women In Demand](/uncle-bob/2017/10/04/WomenInDemand.html)
+* Women In Demand
 
   10-04-2017
-* [Tools are not the Answer](/uncle-bob/2017/10/04/CodeIsNotTheAnswer.html)
+* Tools are not the Answer
 
   10-04-2017
-* [Test Contra-variance](/uncle-bob/2017/10/03/TestContravariance.html)
+* Test Contra-variance
 
   10-03-2017
-* [The Unscrupulous Meme](/uncle-bob/2017/09/29/TheUnscrupulousMeme.html)
+* The Unscrupulous Meme
 
   09-29-2017
-* [Sierra Juliet Foxtrot](/uncle-bob/2017/09/26/SierraJulietFoxtrot.html)
+* Sierra Juliet Foxtrot
 
   09-26-2017
-* [Just Following Orders](/uncle-bob/2017/08/28/JustFollowingOders.html)
+* Just Following Orders
 
   08-28-2017
-* [Women in Tech](/uncle-bob/2017/08/14/WomenInTech.html)
+* Women in Tech
 
   08-14-2017
-* [On the Diminished Capacity to Discuss Things Rationally](/uncle-bob/2017/08/10/OnTheInabilityToDiscussThingsRationally.html)
+* On the Diminished Capacity to Discuss Things Rationally
 
   08-10-2017
-* [Thought Police](/uncle-bob/2017/08/09/ThoughtPolice.html)
+* Thought Police
 
   08-09-2017
-* [The Brain Problem](/uncle-bob/2017/07/28/TheBrainProblem.html)
+* The Brain Problem
 
   07-28-2017
-* [Drive me to Toronto, Hal.](/uncle-bob/2017/07/24/DriveMeToTorontoHal.html)
+* Drive me to Toronto, Hal.
 
   07-24-2017
-* [Pragmatic Functional Programming](/uncle-bob/2017/07/11/PragmaticFunctionalProgramming.html)
+* Pragmatic Functional Programming
 
   07-11-2017
-* [First-Class Tests.](/uncle-bob/2017/05/05/TestDefinitions.html)
+* First-Class Tests.
 
   05-05-2017
-* [Is Dr. Calvin in the Room?](/uncle-bob/2017/03/16/DrCalvin.html)
+* Is Dr. Calvin in the Room?
 
   03-16-2017
-* [Symmetry Breaking](/uncle-bob/2017/03/07/SymmetryBreaking.html)
+* Symmetry Breaking
 
   03-07-2017
-* [Testing Like the TSA](/uncle-bob/2017/03/06/TestingLikeTheTSA.html)
+* Testing Like the TSA
 
   03-06-2017
-* [TDD Harms Architecture](/uncle-bob/2017/03/03/TDD-Harms-Architecture.html)
+* TDD Harms Architecture
 
   03-03-2017
-* [Necessary Comments](/uncle-bob/2017/02/23/NecessaryComments.html)
+* Necessary Comments
 
   02-23-2017
-* [Types and Tests](/uncle-bob/2017/01/13/TypesAndTests.html)
+* Types and Tests
 
   01-13-2017
-* [The Dark Path](/uncle-bob/2017/01/11/TheDarkPath.html)
+* The Dark Path
 
   01-11-2017
-* [TDD Lesson - Terrain Generation](/uncle-bob/2017/01/09/DiamondSquare.html)
+* TDD Lesson - Terrain Generation
 
   01-09-2017
-* [TDD Doesn't Work](/uncle-bob/2016/11/10/TDD-Doesnt-work.html)
+* TDD Doesn't Work
 
   11-10-2016
-* [Dijkstra's Algorithm](/uncle-bob/2016/10/26/DijkstrasAlg.html)
+* Dijkstra's Algorithm
 
   10-26-2016
-* [The Lurn](/uncle-bob/2016/09/01/TheLurn.html)
+* The Lurn
 
   09-01-2016
-* [The Churn](/uncle-bob/2016/07/27/TheChurn.html)
+* The Churn
 
   07-27-2016
-* [Mutation Testing](/uncle-bob/2016/06/10/MutationTesting.html)
+* Mutation Testing
 
   06-10-2016
-* [Blue. No! Yellow!](/uncle-bob/2016/05/21/BlueNoYellow.html)
+* Blue. No! Yellow!
 
   05-21-2016
-* [Type Wars](/uncle-bob/2016/05/01/TypeWars.html)
+* Type Wars
 
   05-01-2016
-* [Giving Up on TDD](/uncle-bob/2016/03/19/GivingUpOnTDD.html)
+* Giving Up on TDD
 
   03-19-2016
-* [Manhandled](/uncle-bob/2016/01/15/Manhandled.html)
+* Manhandled
 
   01-15-2016
-* [Stabilization Phases](/uncle-bob/2016/01/14/Stabilization.html)
+* Stabilization Phases
 
   01-14-2016
-* [A Little Architecture](/uncle-bob/2016/01/04/ALittleArchitecture.html)
+* A Little Architecture
 
   01-04-2016
-* [Prelude to a Profession](/uncle-bob/2015/11/27/OathDiscussion.html)
+* Prelude to a Profession
 
   11-27-2015
-* [The Programmer's Oath](/uncle-bob/2015/11/18/TheProgrammersOath.html)
+* The Programmer's Oath
 
   11-18-2015
-* [The Force of Pliers](/uncle-bob/2015/11/01/PlierForce.html)
+* The Force of Pliers
 
   11-01-2015
-* [Future Proof](/uncle-bob/2015/10/30/FutureProof.html)
+* Future Proof
 
   10-30-2015
-* [Agile is not now, nor was it ever, Waterfall.](/uncle-bob/2015/10/16/Agile-And-Waterfall.html)
+* Agile is not now, nor was it ever, Waterfall.
 
   10-16-2015
-* [VW](/uncle-bob/2015/10/14/VW.html)
+* VW
 
   10-14-2015
-* [WATS Line 54](/uncle-bob/2015/10/05/WattsLine54.html)
+* WATS Line 54
 
   10-05-2015
-* [A Little Structure](/uncle-bob/2015/09/23/ALittleStructure.html)
+* A Little Structure
 
   09-23-2015
-* [Make the Magic go away.](/uncle-bob/2015/08/06/LetTheMagicDie.html)
+* Make the Magic go away.
 
   08-06-2015
-* [Pattern Pushers](/uncle-bob/2015/07/05/PatternPushers.html)
+* Pattern Pushers
 
   07-05-2015
-* [The Little Singleton](/uncle-bob/2015/07/01/TheLittleSingleton.html)
+* The Little Singleton
 
   07-01-2015
-* [The First Micro-service Architecture](/uncle-bob/2015/05/28/TheFirstMicroserviceArchitecture.html)
+* The First Micro-service Architecture
 
   05-28-2015
-* [Language Layers](/uncle-bob/2015/04/27/LanguageLayers.html)
+* Language Layers
 
   04-27-2015
-* [Does Organization Matter?](/uncle-bob/2015/04/15/DoesOrganizationMatter.html)
+* Does Organization Matter?
 
   04-15-2015
-* [The MODE-B Imperative](/uncle-bob/2015/02/21/ModeBImperative.html)
+* The MODE-B Imperative
 
   02-21-2015
-* [They Called them Computers.](/uncle-bob/2015/02/19/ComputerHarem.html)
+* They Called them Computers.
 
   02-19-2015
-* ['Interface' Considered Harmful](/uncle-bob/2015/01/08/InterfaceConsideredHarmful.html)
+* 'Interface' Considered Harmful
 
   01-08-2015
-* [The Cycles of TDD](/uncle-bob/2014/12/17/TheCyclesOfTDD.html)
+* The Cycles of TDD
 
   12-17-2014
-* [OO vs FP](/uncle-bob/2014/11/24/FPvsOO.html)
+* OO vs FP
 
   11-24-2014
-* [Thorns around the Gold](/uncle-bob/2014/11/19/GoingForTheGold.html)
+* Thorns around the Gold
 
   11-19-2014
-* [The Obligation of the Programmer.](/uncle-bob/2014/11/15/WeRuleTheWorld.html)
+* The Obligation of the Programmer.
 
   11-15-2014
-* [One Hacker Way!](/uncle-bob/2014/11/12/PutItInProduction.html)
+* One Hacker Way!
 
   11-12-2014
-* [Laughter in the male dominated room.](/uncle-bob/2014/10/26/LaughterInTheMaleDominatedRoom.html)
+* Laughter in the male dominated room.
 
   10-26-2014
-* [GOML-1, Responsive Design](/uncle-bob/2014/10/08/GOML1-ResponsiveDesign.html)
+* GOML-1, Responsive Design
 
   10-08-2014
-* [Clean Micro-service Architecture](/uncle-bob/2014/10/01/CleanMicroserviceArchitecture.html)
+* Clean Micro-service Architecture
 
   10-01-2014
-* [Microservices and Jars](/uncle-bob/2014/09/19/MicroServicesAndJars.html)
+* Microservices and Jars
 
   09-19-2014
-* [The More Things Change...](/uncle-bob/2014/09/18/TheMoreThingsChange.html)
+* The More Things Change...
 
   09-18-2014
-* [Test Time](/uncle-bob/2014/09/03/TestTime.html)
+* Test Time
 
   09-03-2014
-* [A Little About Patterns.](/uncle-bob/2014/06/30/ALittleAboutPatterns.html)
+* A Little About Patterns.
 
   06-30-2014
-* [My Lawn](/uncle-bob/2014/06/20/MyLawn.html)
+* My Lawn
 
   06-20-2014
-* [Is TDD Dead?](/uncle-bob/2014/06/17/IsTddDeadFinalThoughts.html)
+* Is TDD Dead?
 
   06-17-2014
-* [First](/uncle-bob/2014/05/19/First.html)
+* First
 
   05-19-2014
-* [The Little Mocker](/uncle-bob/2014/05/14/TheLittleMocker.html)
+* The Little Mocker
 
   05-14-2014
-* [The Open Closed Principle](/uncle-bob/2014/05/12/TheOpenClosedPrinciple.html)
+* The Open Closed Principle
 
   05-12-2014
-* [Framework Bound[2]](/uncle-bob/2014/05/11/FrameworkBound.html)
+* Framework Bound[2]
 
   05-11-2014
-* [When to Mock](/uncle-bob/2014/05/10/WhenToMock.html)
+* When to Mock
 
   05-10-2014
-* [The Single Responsibility Principle](/uncle-bob/2014/05/08/SingleReponsibilityPrinciple.html)
+* The Single Responsibility Principle
 
   05-08-2014
-* [Professionalism and TDD (Reprise)](/uncle-bob/2014/05/02/ProfessionalismAndTDD.html)
+* Professionalism and TDD (Reprise)
 
   05-02-2014
-* [Test Induced Design Damage?](/uncle-bob/2014/05/01/Design-Damage.html)
+* Test Induced Design Damage?
 
   05-01-2014
-* [When TDD doesn't work.](/uncle-bob/2014/04/30/When-tdd-does-not-work.html)
+* When TDD doesn't work.
 
   04-30-2014
-* [Monogamous TDD](/uncle-bob/2014/04/25/MonogamousTDD.html)
+* Monogamous TDD
 
   04-25-2014
-* [Code Hoarders](/uncle-bob/2014/04/03/Code-Hoarders.html)
+* Code Hoarders
 
   04-03-2014
-* [The *True* Corruption of Agile](/uncle-bob/2014/03/28/The-Corruption-of-Agile.html)
+* The *True* Corruption of Agile
 
   03-28-2014
-* [When Should You Think?](/uncle-bob/2014/03/11/when-to-think.html)
+* When Should You Think?
 
   03-11-2014
-* [A Spectrum of Trust](/uncle-bob/2014/02/27/TheTrustSpectrum.html)
+* A Spectrum of Trust
 
   02-27-2014
-* [Oh Foreman, Where art Thou?](/uncle-bob/2014/02/23/OhForemanWhereArtThou.html)
+* Oh Foreman, Where art Thou?
 
   02-23-2014
-* [Where is the Foreman?](/uncle-bob/2014/02/21/WhereIsTheForeman.html)
+* Where is the Foreman?
 
   02-21-2014
-* [The Domain Discontinuity](/uncle-bob/2014/01/27/TheChickenOrTheRoad.html)
+* The Domain Discontinuity
 
   01-27-2014
-* [Coding in the Clink (9)](/uncle-bob/2014/01/20/Marion_Correctional.html)
+* Coding in the Clink (9)
 
   01-20-2014
-* [Extreme Programming, a Reflection](/uncle-bob/2013/12/10/Thankyou-Kent.html)
+* Extreme Programming, a Reflection
 
   12-10-2013
-* [Novices. A Coda](/uncle-bob/2013/11/25/Novices-Coda.html)
+* Novices. A Coda
 
   11-25-2013
-* [Hordes Of Novices](/uncle-bob/2013/11/19/HoardsOfNovices.html)
+* Hordes Of Novices
 
   11-19-2013
-* [Healthcare.gov](/uncle-bob/2013/11/12/Healthcare-gov.html)
+* Healthcare.gov
 
   11-12-2013
-* [The Careless Ones](/uncle-bob/2013/10/24/The-Careless-Ones.html)
+* The Careless Ones
 
   10-24-2013
-* [Dance you Imps!](/uncle-bob/2013/10/01/Dance-You-Imps.html)
+* Dance you Imps!
 
   10-01-2013
-* [A.T. FAIL!](/uncle-bob/2013/09/26/AT-FAIL.html)
+* A.T. FAIL!
 
   09-26-2013
-* [Test First](/uncle-bob/2013/09/23/Test-first.html)
+* Test First
 
   09-23-2013
-* [Transformation Priority and Sorting](/uncle-bob/2013/05/27/TransformationPriorityAndSorting.html)
+* Transformation Priority and Sorting
 
   05-27-2013
-* [The Transformation Priority Premise](/uncle-bob/2013/05/27/TheTransformationPriorityPremise.html)
+* The Transformation Priority Premise
 
   05-27-2013
-* [Flash - TPP](/uncle-bob/2013/05/27/FlashTpp.html)
+* Flash - TPP
 
   05-27-2013
-* [Fib. The T-P Premise.](/uncle-bob/2013/05/27/FibTPP.html)
+* Fib. The T-P Premise.
 
   05-27-2013
-* [There are Ladies Present](/uncle-bob/2013/03/22/There-are-ladies-present.html)
+* There are Ladies Present
 
   03-22-2013
-* [The Frenzied Panic of Rushing](/uncle-bob/2013/03/11/TheFrenziedPanicOfRushing.html)
+* The Frenzied Panic of Rushing
 
   03-11-2013
-* [An Open and Closed Case](/uncle-bob/2013/03/08/AnOpenAndClosedCase.html)
+* An Open and Closed Case
 
   03-08-2013
-* [The Pragmatics of TDD](/uncle-bob/2013/03/06/ThePragmaticsOfTDD.html)
+* The Pragmatics of TDD
 
   03-06-2013
-* [The Start-Up Trap](/uncle-bob/2013/03/05/TheStartUpTrap.html)
+* The Start-Up Trap
 
   03-05-2013
-* [The Principles of Craftsmanship](/uncle-bob/2013/02/10/ThePrinciplesOfCraftsmanship.html)
+* The Principles of Craftsmanship
 
   02-10-2013
-* [The Humble Craftsman](/uncle-bob/2013/02/01/The-Humble-Craftsman.html)
+* The Humble Craftsman
 
   02-01-2013
-* [The Laborer and the Craftsman](/uncle-bob/2013/01/30/The-Craftsman-And-The-Laborer.html)
+* The Laborer and the Craftsman
 
   01-30-2013
-* [FP Basics E4](/uncle-bob/2013/01/29/FPBE4-Lazy-Evaluation.html)
+* FP Basics E4
 
   01-29-2013
-* [FP Basics E3](/uncle-bob/2013/01/07/FPBE3-Do-the-rules-change.html)
+* FP Basics E3
 
   01-07-2013
-* [FP Basics E2](/uncle-bob/2013/01/02/FPBE2-Whys-it-called-functional.html)
+* FP Basics E2
 
   01-02-2013
-* [Brave New Year](/uncle-bob/2012/12/29/Brave-New-Year.html)
+* Brave New Year
 
   12-29-2012
-* [FP Basics E1](/uncle-bob/2012/12/22/FPBE1-Whats-it-all-about.html)
+* FP Basics E1
 
   12-22-2012
-* [Three Paradigms](/uncle-bob/2012/12/19/Three-Paradigms.html)
+* Three Paradigms
 
   12-19-2012
-* [The New CTO](/uncle-bob/2012/09/06/I-am-Your-New-CTO.html)
+* The New CTO
 
   09-06-2012
-* [Functional Programming for the Object Oriented Programmer](/uncle-bob/2012/08/24/functional-programming-for-the-object-oriented-programmer.html)
+* Functional Programming for the Object Oriented Programmer
 
   08-24-2012
-* [The Clean Architecture](/uncle-bob/2012/08/13/the-clean-architecture.html)
+* The Clean Architecture
 
   08-13-2012
-* [NO DB](/uncle-bob/2012/05/15/NODB.html)
+* NO DB
 
   05-15-2012
-* [Why is Estimating so Hard?](/uncle-bob/2012/04/20/Why-Is-Estimating-So-Hard.html)
+* Why is Estimating so Hard?
 
   04-20-2012
-* [After the Disaster](/uncle-bob/2012/04/18/After-The-Disaster.html)
+* After the Disaster
 
   04-18-2012
-* [Service Oriented Agony](/uncle-bob/2012/02/01/Service-Oriented-Agony.html)
+* Service Oriented Agony
 
   02-01-2012
-* [The Ruby Colored Box](/uncle-bob/2012/01/31/The-Ruby-Colored-Box.html)
+* The Ruby Colored Box
 
   01-31-2012
-* [Fecophiles](/uncle-bob/2012/01/20/Fecophiles.html)
+* Fecophiles
 
   01-20-2012
-* [The Letter](/uncle-bob/2012/01/12/The-Letter.html)
+* The Letter
 
   01-12-2012
-* [Flipping the Bit](/uncle-bob/2012/01/11/Flipping-the-Bit.html)
+* Flipping the Bit
 
   01-11-2012
-* [The Barbarians are at the Gates](/uncle-bob/2011/12/11/The-Barbarians-are-at-the-Gates.html)
+* The Barbarians are at the Gates
 
   12-11-2011
-* [Clean Architecture](/uncle-bob/2011/11/22/Clean-Architecture.html)
+* Clean Architecture
 
   11-22-2011
-* [Double Entry Bookkeeping Dilemma. Should I Invest or Not?](/uncle-bob/2011/11/06/Double-Entry-Bookkeeping-Dilemma-Should-I-Invest-or-Not.html)
+* Double Entry Bookkeeping Dilemma. Should I Invest or Not?
 
   11-06-2011
-* [Simple Hickey](/uncle-bob/2011/10/20/Simple-Hickey.html)
+* Simple Hickey
 
   10-20-2011
-* [Screaming Architecture](/uncle-bob/2011/09/30/Screaming-Architecture.html)
+* Screaming Architecture
 
   09-30-2011
-* [Bringing Balance to the Force](/uncle-bob/2011/01/19/individuals-and-interactions.html)
+* Bringing Balance to the Force
 
   01-19-2011
-* [What Software Craftsmanship is about](/uncle-bob/2011/01/17/software-craftsmanship-is-about.html)
+* What Software Craftsmanship is about
 
   01-17-2011
 
@@ -2407,523 +2398,517 @@ by Robert C. Martin (Uncle Bob)
 
 Clean Coder Blog
 
-
-[![](/assets/clean_code_72_color.png)](/)
-
 # The Clean Code Blog
 
 by Robert C. Martin (Uncle Bob)
 
-
-
-[atom/rss feed](/atom.xml)
-
+atom/rss feed
 
 ---
 
-* [Functional Classes in Clojure](/uncle-bob/2023/01/19/functional-classes-clojure.html)
+* Functional Classes in Clojure
 
   01-19-2023
-* [Functional Classes](/uncle-bob/2023/01/18/functional-classes.html)
+* Functional Classes
 
   01-18-2023
-* [Space War](/uncle-bob/2021/11/28/Spacewar.html)
+* Space War
 
   11-28-2021
-* [Functional Duplications](/uncle-bob/2021/10/28/functional-duplication.html)
+* Functional Duplications
 
   10-28-2021
-* [Roots](/uncle-bob/2021/09/25/roots.html)
+* Roots
 
   09-25-2021
-* [More On Types](/uncle-bob/2021/06/29/MoreOnTypes.html)
+* More On Types
 
   06-29-2021
-* [On Types](/uncle-bob/2021/06/25/OnTypes.html)
+* On Types
 
   06-25-2021
-* [if-else-switch](/uncle-bob/2021/03/06/ifElseSwitch.html)
+* if-else-switch
 
   03-06-2021
-* [Pairing Guidelines](/uncle-bob/2021/01/17/Pairing.html)
+* Pairing Guidelines
 
   01-17-2021
-* [Solid Relevance](/uncle-bob/2020/10/18/Solid-Relevance.html)
+* Solid Relevance
 
   10-18-2020
-* [Loopy](/uncle-bob/2020/09/30/loopy.html)
+* Loopy
 
   09-30-2020
-* [Conference Conduct](/uncle-bob/2020/09/23/ConferenceConduct.html)
+* Conference Conduct
 
   09-23-2020
-* [The Disinvitation](/uncle-bob/2020/09/12/TheDisinvitation.html)
+* The Disinvitation
 
   09-12-2020
-* [REPL Driven Design](/uncle-bob/2020/05/27/ReplDrivenDesign.html)
+* REPL Driven Design
 
   05-27-2020
-* [A Little More Clojure](/uncle-bob/2020/04/09/ALittleMoreClojure.html)
+* A Little More Clojure
 
   04-09-2020
-* [A Little Clojure](/uncle-bob/2020/04/06/ALittleClojure.html)
+* A Little Clojure
 
   04-06-2020
-* [A New Hope](/uncle-bob/2020/04/05/ANewHope.html)
+* A New Hope
 
   04-05-2020
-* [Open Letter to the Linux Foundation](/uncle-bob/2019/11/08/OpenLetterLinuxFoundation.html)
+* Open Letter to the Linux Foundation
 
   11-08-2019
-* [What They Thought of Programmers.](/uncle-bob/2019/11/03/WhatTheyThoughtOfUs.html)
+* What They Thought of Programmers.
 
   11-03-2019
-* [Circulatory](/uncle-bob/2019/10/31/Circulatory.html)
+* Circulatory
 
   10-31-2019
-* [Why Clojure?](/uncle-bob/2019/08/22/WhyClojure.html)
+* Why Clojure?
 
   08-22-2019
-* [Why won't it...](/uncle-bob/2019/07/22/WhyWontIt.html)
+* Why won't it...
 
   07-22-2019
-* [Classes vs. Data Structures](/uncle-bob/2019/06/16/ObjectsAndDataStructures.html)
+* Classes vs. Data Structures
 
   06-16-2019
-* [Types and Tests](/uncle-bob/2019/06/08/TestsAndTypes.html)
+* Types and Tests
 
   06-08-2019
-* [737 Max 8](/uncle-bob/2019/05/18/737-Max-8.html)
+* 737 Max 8
 
   05-18-2019
-* [FP vs. OO List Processing](/uncle-bob/2018/12/17/FPvsOO-List-processing.html)
+* FP vs. OO List Processing
 
   12-17-2018
-* [We, The Unoffended](/uncle-bob/2018/12/16/unoffended.html)
+* We, The Unoffended
 
   12-16-2018
-* [SJWJS](/uncle-bob/2018/12/14/SJWJS.html)
+* SJWJS
 
   12-14-2018
-* [The Tragedy of Craftsmanship.](/uncle-bob/2018/08/28/CraftsmanshipMovement.html)
+* The Tragedy of Craftsmanship.
 
   08-28-2018
-* [Too Clean?](/uncle-bob/2018/08/13/TooClean.html)
+* Too Clean?
 
   08-13-2018
-* [Integers and Estimates](/uncle-bob/2018/06/21/IntegersAndEstimates.html)
+* Integers and Estimates
 
   06-21-2018
-* [Pickled State](/uncle-bob/2018/06/06/PickledState.html)
+* Pickled State
 
   06-06-2018
-* [Craftsman, Craftswoman, Craftsperson](/uncle-bob/2018/05/02/Craftsman-Craftswoman-Craftsperson.html)
+* Craftsman, Craftswoman, Craftsperson
 
   05-02-2018
-* [FP vs. OO](/uncle-bob/2018/04/13/FPvsOO.html)
+* FP vs. OO
 
   04-13-2018
-* [In The Large](/uncle-bob/2018/04/02/InTheLarge.html)
+* In The Large
 
   04-02-2018
-* [*We Programmers*](/uncle-bob/2018/03/29/WeProgrammers.html)
+* *We Programmers*
 
   03-29-2018
-* [Uncle Bob Fly-In.  
-  Have I got a deal for you!](/uncle-bob/2018/02/25/UncleBobFlyIn.html)
+* Uncle Bob Fly-In.  
+  Have I got a deal for you!
 
   02-25-2018
-* [The Citizenship Argument](/uncle-bob/2018/01/18/TheCitizenshipArgument.html)
+* The Citizenship Argument
 
   01-18-2018
-* [Operating Behind the Power Curve](/uncle-bob/2018/01/15/behindThePowerCurve.html)
+* Operating Behind the Power Curve
 
   01-15-2018
-* [Excuses](/uncle-bob/2017/12/18/Excuses.html)
+* Excuses
 
   12-18-2017
-* [Dbtails](/uncle-bob/2017/12/09/Dbtails.html)
+* Dbtails
 
   12-09-2017
-* [Bobby Tables](/uncle-bob/2017/12/03/BobbyTables.html)
+* Bobby Tables
 
   12-03-2017
-* [Living on the Plateau](/uncle-bob/2017/11/18/OnThePlateau.html)
+* Living on the Plateau
 
   11-18-2017
-* [Women In Demand](/uncle-bob/2017/10/04/WomenInDemand.html)
+* Women In Demand
 
   10-04-2017
-* [Tools are not the Answer](/uncle-bob/2017/10/04/CodeIsNotTheAnswer.html)
+* Tools are not the Answer
 
   10-04-2017
-* [Test Contra-variance](/uncle-bob/2017/10/03/TestContravariance.html)
+* Test Contra-variance
 
   10-03-2017
-* [The Unscrupulous Meme](/uncle-bob/2017/09/29/TheUnscrupulousMeme.html)
+* The Unscrupulous Meme
 
   09-29-2017
-* [Sierra Juliet Foxtrot](/uncle-bob/2017/09/26/SierraJulietFoxtrot.html)
+* Sierra Juliet Foxtrot
 
   09-26-2017
-* [Just Following Orders](/uncle-bob/2017/08/28/JustFollowingOders.html)
+* Just Following Orders
 
   08-28-2017
-* [Women in Tech](/uncle-bob/2017/08/14/WomenInTech.html)
+* Women in Tech
 
   08-14-2017
-* [On the Diminished Capacity to Discuss Things Rationally](/uncle-bob/2017/08/10/OnTheInabilityToDiscussThingsRationally.html)
+* On the Diminished Capacity to Discuss Things Rationally
 
   08-10-2017
-* [Thought Police](/uncle-bob/2017/08/09/ThoughtPolice.html)
+* Thought Police
 
   08-09-2017
-* [The Brain Problem](/uncle-bob/2017/07/28/TheBrainProblem.html)
+* The Brain Problem
 
   07-28-2017
-* [Drive me to Toronto, Hal.](/uncle-bob/2017/07/24/DriveMeToTorontoHal.html)
+* Drive me to Toronto, Hal.
 
   07-24-2017
-* [Pragmatic Functional Programming](/uncle-bob/2017/07/11/PragmaticFunctionalProgramming.html)
+* Pragmatic Functional Programming
 
   07-11-2017
-* [First-Class Tests.](/uncle-bob/2017/05/05/TestDefinitions.html)
+* First-Class Tests.
 
   05-05-2017
-* [Is Dr. Calvin in the Room?](/uncle-bob/2017/03/16/DrCalvin.html)
+* Is Dr. Calvin in the Room?
 
   03-16-2017
-* [Symmetry Breaking](/uncle-bob/2017/03/07/SymmetryBreaking.html)
+* Symmetry Breaking
 
   03-07-2017
-* [Testing Like the TSA](/uncle-bob/2017/03/06/TestingLikeTheTSA.html)
+* Testing Like the TSA
 
   03-06-2017
-* [TDD Harms Architecture](/uncle-bob/2017/03/03/TDD-Harms-Architecture.html)
+* TDD Harms Architecture
 
   03-03-2017
-* [Necessary Comments](/uncle-bob/2017/02/23/NecessaryComments.html)
+* Necessary Comments
 
   02-23-2017
-* [Types and Tests](/uncle-bob/2017/01/13/TypesAndTests.html)
+* Types and Tests
 
   01-13-2017
-* [The Dark Path](/uncle-bob/2017/01/11/TheDarkPath.html)
+* The Dark Path
 
   01-11-2017
-* [TDD Lesson - Terrain Generation](/uncle-bob/2017/01/09/DiamondSquare.html)
+* TDD Lesson - Terrain Generation
 
   01-09-2017
-* [TDD Doesn't Work](/uncle-bob/2016/11/10/TDD-Doesnt-work.html)
+* TDD Doesn't Work
 
   11-10-2016
-* [Dijkstra's Algorithm](/uncle-bob/2016/10/26/DijkstrasAlg.html)
+* Dijkstra's Algorithm
 
   10-26-2016
-* [The Lurn](/uncle-bob/2016/09/01/TheLurn.html)
+* The Lurn
 
   09-01-2016
-* [The Churn](/uncle-bob/2016/07/27/TheChurn.html)
+* The Churn
 
   07-27-2016
-* [Mutation Testing](/uncle-bob/2016/06/10/MutationTesting.html)
+* Mutation Testing
 
   06-10-2016
-* [Blue. No! Yellow!](/uncle-bob/2016/05/21/BlueNoYellow.html)
+* Blue. No! Yellow!
 
   05-21-2016
-* [Type Wars](/uncle-bob/2016/05/01/TypeWars.html)
+* Type Wars
 
   05-01-2016
-* [Giving Up on TDD](/uncle-bob/2016/03/19/GivingUpOnTDD.html)
+* Giving Up on TDD
 
   03-19-2016
-* [Manhandled](/uncle-bob/2016/01/15/Manhandled.html)
+* Manhandled
 
   01-15-2016
-* [Stabilization Phases](/uncle-bob/2016/01/14/Stabilization.html)
+* Stabilization Phases
 
   01-14-2016
-* [A Little Architecture](/uncle-bob/2016/01/04/ALittleArchitecture.html)
+* A Little Architecture
 
   01-04-2016
-* [Prelude to a Profession](/uncle-bob/2015/11/27/OathDiscussion.html)
+* Prelude to a Profession
 
   11-27-2015
-* [The Programmer's Oath](/uncle-bob/2015/11/18/TheProgrammersOath.html)
+* The Programmer's Oath
 
   11-18-2015
-* [The Force of Pliers](/uncle-bob/2015/11/01/PlierForce.html)
+* The Force of Pliers
 
   11-01-2015
-* [Future Proof](/uncle-bob/2015/10/30/FutureProof.html)
+* Future Proof
 
   10-30-2015
-* [Agile is not now, nor was it ever, Waterfall.](/uncle-bob/2015/10/16/Agile-And-Waterfall.html)
+* Agile is not now, nor was it ever, Waterfall.
 
   10-16-2015
-* [VW](/uncle-bob/2015/10/14/VW.html)
+* VW
 
   10-14-2015
-* [WATS Line 54](/uncle-bob/2015/10/05/WattsLine54.html)
+* WATS Line 54
 
   10-05-2015
-* [A Little Structure](/uncle-bob/2015/09/23/ALittleStructure.html)
+* A Little Structure
 
   09-23-2015
-* [Make the Magic go away.](/uncle-bob/2015/08/06/LetTheMagicDie.html)
+* Make the Magic go away.
 
   08-06-2015
-* [Pattern Pushers](/uncle-bob/2015/07/05/PatternPushers.html)
+* Pattern Pushers
 
   07-05-2015
-* [The Little Singleton](/uncle-bob/2015/07/01/TheLittleSingleton.html)
+* The Little Singleton
 
   07-01-2015
-* [The First Micro-service Architecture](/uncle-bob/2015/05/28/TheFirstMicroserviceArchitecture.html)
+* The First Micro-service Architecture
 
   05-28-2015
-* [Language Layers](/uncle-bob/2015/04/27/LanguageLayers.html)
+* Language Layers
 
   04-27-2015
-* [Does Organization Matter?](/uncle-bob/2015/04/15/DoesOrganizationMatter.html)
+* Does Organization Matter?
 
   04-15-2015
-* [The MODE-B Imperative](/uncle-bob/2015/02/21/ModeBImperative.html)
+* The MODE-B Imperative
 
   02-21-2015
-* [They Called them Computers.](/uncle-bob/2015/02/19/ComputerHarem.html)
+* They Called them Computers.
 
   02-19-2015
-* ['Interface' Considered Harmful](/uncle-bob/2015/01/08/InterfaceConsideredHarmful.html)
+* 'Interface' Considered Harmful
 
   01-08-2015
-* [The Cycles of TDD](/uncle-bob/2014/12/17/TheCyclesOfTDD.html)
+* The Cycles of TDD
 
   12-17-2014
-* [OO vs FP](/uncle-bob/2014/11/24/FPvsOO.html)
+* OO vs FP
 
   11-24-2014
-* [Thorns around the Gold](/uncle-bob/2014/11/19/GoingForTheGold.html)
+* Thorns around the Gold
 
   11-19-2014
-* [The Obligation of the Programmer.](/uncle-bob/2014/11/15/WeRuleTheWorld.html)
+* The Obligation of the Programmer.
 
   11-15-2014
-* [One Hacker Way!](/uncle-bob/2014/11/12/PutItInProduction.html)
+* One Hacker Way!
 
   11-12-2014
-* [Laughter in the male dominated room.](/uncle-bob/2014/10/26/LaughterInTheMaleDominatedRoom.html)
+* Laughter in the male dominated room.
 
   10-26-2014
-* [GOML-1, Responsive Design](/uncle-bob/2014/10/08/GOML1-ResponsiveDesign.html)
+* GOML-1, Responsive Design
 
   10-08-2014
-* [Clean Micro-service Architecture](/uncle-bob/2014/10/01/CleanMicroserviceArchitecture.html)
+* Clean Micro-service Architecture
 
   10-01-2014
-* [Microservices and Jars](/uncle-bob/2014/09/19/MicroServicesAndJars.html)
+* Microservices and Jars
 
   09-19-2014
-* [The More Things Change...](/uncle-bob/2014/09/18/TheMoreThingsChange.html)
+* The More Things Change...
 
   09-18-2014
-* [Test Time](/uncle-bob/2014/09/03/TestTime.html)
+* Test Time
 
   09-03-2014
-* [A Little About Patterns.](/uncle-bob/2014/06/30/ALittleAboutPatterns.html)
+* A Little About Patterns.
 
   06-30-2014
-* [My Lawn](/uncle-bob/2014/06/20/MyLawn.html)
+* My Lawn
 
   06-20-2014
-* [Is TDD Dead?](/uncle-bob/2014/06/17/IsTddDeadFinalThoughts.html)
+* Is TDD Dead?
 
   06-17-2014
-* [First](/uncle-bob/2014/05/19/First.html)
+* First
 
   05-19-2014
-* [The Little Mocker](/uncle-bob/2014/05/14/TheLittleMocker.html)
+* The Little Mocker
 
   05-14-2014
-* [The Open Closed Principle](/uncle-bob/2014/05/12/TheOpenClosedPrinciple.html)
+* The Open Closed Principle
 
   05-12-2014
-* [Framework Bound[2]](/uncle-bob/2014/05/11/FrameworkBound.html)
+* Framework Bound[2]
 
   05-11-2014
-* [When to Mock](/uncle-bob/2014/05/10/WhenToMock.html)
+* When to Mock
 
   05-10-2014
-* [The Single Responsibility Principle](/uncle-bob/2014/05/08/SingleReponsibilityPrinciple.html)
+* The Single Responsibility Principle
 
   05-08-2014
-* [Professionalism and TDD (Reprise)](/uncle-bob/2014/05/02/ProfessionalismAndTDD.html)
+* Professionalism and TDD (Reprise)
 
   05-02-2014
-* [Test Induced Design Damage?](/uncle-bob/2014/05/01/Design-Damage.html)
+* Test Induced Design Damage?
 
   05-01-2014
-* [When TDD doesn't work.](/uncle-bob/2014/04/30/When-tdd-does-not-work.html)
+* When TDD doesn't work.
 
   04-30-2014
-* [Monogamous TDD](/uncle-bob/2014/04/25/MonogamousTDD.html)
+* Monogamous TDD
 
   04-25-2014
-* [Code Hoarders](/uncle-bob/2014/04/03/Code-Hoarders.html)
+* Code Hoarders
 
   04-03-2014
-* [The *True* Corruption of Agile](/uncle-bob/2014/03/28/The-Corruption-of-Agile.html)
+* The *True* Corruption of Agile
 
   03-28-2014
-* [When Should You Think?](/uncle-bob/2014/03/11/when-to-think.html)
+* When Should You Think?
 
   03-11-2014
-* [A Spectrum of Trust](/uncle-bob/2014/02/27/TheTrustSpectrum.html)
+* A Spectrum of Trust
 
   02-27-2014
-* [Oh Foreman, Where art Thou?](/uncle-bob/2014/02/23/OhForemanWhereArtThou.html)
+* Oh Foreman, Where art Thou?
 
   02-23-2014
-* [Where is the Foreman?](/uncle-bob/2014/02/21/WhereIsTheForeman.html)
+* Where is the Foreman?
 
   02-21-2014
-* [The Domain Discontinuity](/uncle-bob/2014/01/27/TheChickenOrTheRoad.html)
+* The Domain Discontinuity
 
   01-27-2014
-* [Coding in the Clink (9)](/uncle-bob/2014/01/20/Marion_Correctional.html)
+* Coding in the Clink (9)
 
   01-20-2014
-* [Extreme Programming, a Reflection](/uncle-bob/2013/12/10/Thankyou-Kent.html)
+* Extreme Programming, a Reflection
 
   12-10-2013
-* [Novices. A Coda](/uncle-bob/2013/11/25/Novices-Coda.html)
+* Novices. A Coda
 
   11-25-2013
-* [Hordes Of Novices](/uncle-bob/2013/11/19/HoardsOfNovices.html)
+* Hordes Of Novices
 
   11-19-2013
-* [Healthcare.gov](/uncle-bob/2013/11/12/Healthcare-gov.html)
+* Healthcare.gov
 
   11-12-2013
-* [The Careless Ones](/uncle-bob/2013/10/24/The-Careless-Ones.html)
+* The Careless Ones
 
   10-24-2013
-* [Dance you Imps!](/uncle-bob/2013/10/01/Dance-You-Imps.html)
+* Dance you Imps!
 
   10-01-2013
-* [A.T. FAIL!](/uncle-bob/2013/09/26/AT-FAIL.html)
+* A.T. FAIL!
 
   09-26-2013
-* [Test First](/uncle-bob/2013/09/23/Test-first.html)
+* Test First
 
   09-23-2013
-* [Transformation Priority and Sorting](/uncle-bob/2013/05/27/TransformationPriorityAndSorting.html)
+* Transformation Priority and Sorting
 
   05-27-2013
-* [The Transformation Priority Premise](/uncle-bob/2013/05/27/TheTransformationPriorityPremise.html)
+* The Transformation Priority Premise
 
   05-27-2013
-* [Flash - TPP](/uncle-bob/2013/05/27/FlashTpp.html)
+* Flash - TPP
 
   05-27-2013
-* [Fib. The T-P Premise.](/uncle-bob/2013/05/27/FibTPP.html)
+* Fib. The T-P Premise.
 
   05-27-2013
-* [There are Ladies Present](/uncle-bob/2013/03/22/There-are-ladies-present.html)
+* There are Ladies Present
 
   03-22-2013
-* [The Frenzied Panic of Rushing](/uncle-bob/2013/03/11/TheFrenziedPanicOfRushing.html)
+* The Frenzied Panic of Rushing
 
   03-11-2013
-* [An Open and Closed Case](/uncle-bob/2013/03/08/AnOpenAndClosedCase.html)
+* An Open and Closed Case
 
   03-08-2013
-* [The Pragmatics of TDD](/uncle-bob/2013/03/06/ThePragmaticsOfTDD.html)
+* The Pragmatics of TDD
 
   03-06-2013
-* [The Start-Up Trap](/uncle-bob/2013/03/05/TheStartUpTrap.html)
+* The Start-Up Trap
 
   03-05-2013
-* [The Principles of Craftsmanship](/uncle-bob/2013/02/10/ThePrinciplesOfCraftsmanship.html)
+* The Principles of Craftsmanship
 
   02-10-2013
-* [The Humble Craftsman](/uncle-bob/2013/02/01/The-Humble-Craftsman.html)
+* The Humble Craftsman
 
   02-01-2013
-* [The Laborer and the Craftsman](/uncle-bob/2013/01/30/The-Craftsman-And-The-Laborer.html)
+* The Laborer and the Craftsman
 
   01-30-2013
-* [FP Basics E4](/uncle-bob/2013/01/29/FPBE4-Lazy-Evaluation.html)
+* FP Basics E4
 
   01-29-2013
-* [FP Basics E3](/uncle-bob/2013/01/07/FPBE3-Do-the-rules-change.html)
+* FP Basics E3
 
   01-07-2013
-* [FP Basics E2](/uncle-bob/2013/01/02/FPBE2-Whys-it-called-functional.html)
+* FP Basics E2
 
   01-02-2013
-* [Brave New Year](/uncle-bob/2012/12/29/Brave-New-Year.html)
+* Brave New Year
 
   12-29-2012
-* [FP Basics E1](/uncle-bob/2012/12/22/FPBE1-Whats-it-all-about.html)
+* FP Basics E1
 
   12-22-2012
-* [Three Paradigms](/uncle-bob/2012/12/19/Three-Paradigms.html)
+* Three Paradigms
 
   12-19-2012
-* [The New CTO](/uncle-bob/2012/09/06/I-am-Your-New-CTO.html)
+* The New CTO
 
   09-06-2012
-* [Functional Programming for the Object Oriented Programmer](/uncle-bob/2012/08/24/functional-programming-for-the-object-oriented-programmer.html)
+* Functional Programming for the Object Oriented Programmer
 
   08-24-2012
-* [The Clean Architecture](/uncle-bob/2012/08/13/the-clean-architecture.html)
+* The Clean Architecture
 
   08-13-2012
-* [NO DB](/uncle-bob/2012/05/15/NODB.html)
+* NO DB
 
   05-15-2012
-* [Why is Estimating so Hard?](/uncle-bob/2012/04/20/Why-Is-Estimating-So-Hard.html)
+* Why is Estimating so Hard?
 
   04-20-2012
-* [After the Disaster](/uncle-bob/2012/04/18/After-The-Disaster.html)
+* After the Disaster
 
   04-18-2012
-* [Service Oriented Agony](/uncle-bob/2012/02/01/Service-Oriented-Agony.html)
+* Service Oriented Agony
 
   02-01-2012
-* [The Ruby Colored Box](/uncle-bob/2012/01/31/The-Ruby-Colored-Box.html)
+* The Ruby Colored Box
 
   01-31-2012
-* [Fecophiles](/uncle-bob/2012/01/20/Fecophiles.html)
+* Fecophiles
 
   01-20-2012
-* [The Letter](/uncle-bob/2012/01/12/The-Letter.html)
+* The Letter
 
   01-12-2012
-* [Flipping the Bit](/uncle-bob/2012/01/11/Flipping-the-Bit.html)
+* Flipping the Bit
 
   01-11-2012
-* [The Barbarians are at the Gates](/uncle-bob/2011/12/11/The-Barbarians-are-at-the-Gates.html)
+* The Barbarians are at the Gates
 
   12-11-2011
-* [Clean Architecture](/uncle-bob/2011/11/22/Clean-Architecture.html)
+* Clean Architecture
 
   11-22-2011
-* [Double Entry Bookkeeping Dilemma. Should I Invest or Not?](/uncle-bob/2011/11/06/Double-Entry-Bookkeeping-Dilemma-Should-I-Invest-or-Not.html)
+* Double Entry Bookkeeping Dilemma. Should I Invest or Not?
 
   11-06-2011
-* [Simple Hickey](/uncle-bob/2011/10/20/Simple-Hickey.html)
+* Simple Hickey
 
   10-20-2011
-* [Screaming Architecture](/uncle-bob/2011/09/30/Screaming-Architecture.html)
+* Screaming Architecture
 
   09-30-2011
-* [Bringing Balance to the Force](/uncle-bob/2011/01/19/individuals-and-interactions.html)
+* Bringing Balance to the Force
 
   01-19-2011
-* [What Software Craftsmanship is about](/uncle-bob/2011/01/17/software-craftsmanship-is-about.html)
+* What Software Craftsmanship is about
 
   01-17-2011
 
@@ -2931,15 +2916,13 @@ by Robert C. Martin (Uncle Bob)
 
 13 August 2012
 
-![](/uncle-bob/images/2012-08-13-the-clean-architecture/CleanArchitecture.jpg)
-
 Over the last several years we’ve seen a whole range of ideas regarding the architecture of systems. These include:
 
-* [Hexagonal Architecture](http://alistair.cockburn.us/Hexagonal+architecture) (a.k.a. Ports and Adapters) by Alistair Cockburn and adopted by Steve Freeman, and Nat Pryce in their wonderful book [Growing Object Oriented Software](http://www.amazon.com/Growing-Object-Oriented-Software-Guided-Tests/dp/0321503627)
-* [Onion Architecture](http://jeffreypalermo.com/blog/the-onion-architecture-part-1/) by Jeffrey Palermo
-* [Screaming Architecture](http://blog.cleancoders.com/2011-09-30-Screaming-Architecture) from a blog of mine last year
-* [DCI](http://www.amazon.com/Lean-Architecture-Agile-Software-Development/dp/0470684208/) from James Coplien, and Trygve Reenskaug.
-* [BCE](http://www.amazon.com/Object-Oriented-Software-Engineering-Approach/dp/0201544350) by Ivar Jacobson from his book *Object Oriented Software Engineering: A Use-Case Driven Approach*
+* Hexagonal Architecture (a.k.a. Ports and Adapters) by Alistair Cockburn and adopted by Steve Freeman, and Nat Pryce in their wonderful book Growing Object Oriented Software
+* Onion Architecture by Jeffrey Palermo
+* Screaming Architecture from a blog of mine last year
+* DCI from James Coplien, and Trygve Reenskaug.
+* BCE by Ivar Jacobson from his book *Object Oriented Software Engineering: A Use-Case Driven Approach*
 
 Though these architectures all vary somewhat in their details, they are very similar. They all have the same objective, which is the separation of concerns. They all achieve this separation by dividing the software into layers. Each has at least one layer for business rules, and another for interfaces.
 
@@ -2997,7 +2980,7 @@ No, the circles are schematic. You may find that you need more than just these f
 
 At the lower right of the diagram is an example of how we cross the circle boundaries. It shows the Controllers and Presenters communicating with the Use Cases in the next layer. Note the flow of control. It begins in the controller, moves through the use case, and then winds up executing in the presenter. Note also the source code dependencies. Each one of them points inwards towards the use cases.
 
-We usually resolve this apparent contradiction by using the [Dependency Inversion Principle](http://en.wikipedia.org/wiki/Dependency_inversion_principle). In a language like Java, for example, we would arrange interfaces and inheritance relationships such that the source code dependencies oppose the flow of control at just the right points across the boundary.
+We usually resolve this apparent contradiction by using the Dependency Inversion Principle. In a language like Java, for example, we would arrange interfaces and inheritance relationships such that the source code dependencies oppose the flow of control at just the right points across the boundary.
 
 For example, consider that the use case needs to call the presenter. However, this call must not be direct because that would violate *The Dependency Rule*: No name in an outer circle can be mentioned by an inner circle. So we have the use case call an interface (Shown here as Use Case Output Port) in the inner circle, and have the presenter in the outer circle implement it.
 
@@ -3021,523 +3004,517 @@ Conforming to these simple rules is not hard, and will save you a lot of headach
 
 Clean Coder Blog
 
-
-[![](/assets/clean_code_72_color.png)](/)
-
 # The Clean Code Blog
 
 by Robert C. Martin (Uncle Bob)
 
-
-
-[atom/rss feed](/atom.xml)
-
+atom/rss feed
 
 ---
 
-* [Functional Classes in Clojure](/uncle-bob/2023/01/19/functional-classes-clojure.html)
+* Functional Classes in Clojure
 
   01-19-2023
-* [Functional Classes](/uncle-bob/2023/01/18/functional-classes.html)
+* Functional Classes
 
   01-18-2023
-* [Space War](/uncle-bob/2021/11/28/Spacewar.html)
+* Space War
 
   11-28-2021
-* [Functional Duplications](/uncle-bob/2021/10/28/functional-duplication.html)
+* Functional Duplications
 
   10-28-2021
-* [Roots](/uncle-bob/2021/09/25/roots.html)
+* Roots
 
   09-25-2021
-* [More On Types](/uncle-bob/2021/06/29/MoreOnTypes.html)
+* More On Types
 
   06-29-2021
-* [On Types](/uncle-bob/2021/06/25/OnTypes.html)
+* On Types
 
   06-25-2021
-* [if-else-switch](/uncle-bob/2021/03/06/ifElseSwitch.html)
+* if-else-switch
 
   03-06-2021
-* [Pairing Guidelines](/uncle-bob/2021/01/17/Pairing.html)
+* Pairing Guidelines
 
   01-17-2021
-* [Solid Relevance](/uncle-bob/2020/10/18/Solid-Relevance.html)
+* Solid Relevance
 
   10-18-2020
-* [Loopy](/uncle-bob/2020/09/30/loopy.html)
+* Loopy
 
   09-30-2020
-* [Conference Conduct](/uncle-bob/2020/09/23/ConferenceConduct.html)
+* Conference Conduct
 
   09-23-2020
-* [The Disinvitation](/uncle-bob/2020/09/12/TheDisinvitation.html)
+* The Disinvitation
 
   09-12-2020
-* [REPL Driven Design](/uncle-bob/2020/05/27/ReplDrivenDesign.html)
+* REPL Driven Design
 
   05-27-2020
-* [A Little More Clojure](/uncle-bob/2020/04/09/ALittleMoreClojure.html)
+* A Little More Clojure
 
   04-09-2020
-* [A Little Clojure](/uncle-bob/2020/04/06/ALittleClojure.html)
+* A Little Clojure
 
   04-06-2020
-* [A New Hope](/uncle-bob/2020/04/05/ANewHope.html)
+* A New Hope
 
   04-05-2020
-* [Open Letter to the Linux Foundation](/uncle-bob/2019/11/08/OpenLetterLinuxFoundation.html)
+* Open Letter to the Linux Foundation
 
   11-08-2019
-* [What They Thought of Programmers.](/uncle-bob/2019/11/03/WhatTheyThoughtOfUs.html)
+* What They Thought of Programmers.
 
   11-03-2019
-* [Circulatory](/uncle-bob/2019/10/31/Circulatory.html)
+* Circulatory
 
   10-31-2019
-* [Why Clojure?](/uncle-bob/2019/08/22/WhyClojure.html)
+* Why Clojure?
 
   08-22-2019
-* [Why won't it...](/uncle-bob/2019/07/22/WhyWontIt.html)
+* Why won't it...
 
   07-22-2019
-* [Classes vs. Data Structures](/uncle-bob/2019/06/16/ObjectsAndDataStructures.html)
+* Classes vs. Data Structures
 
   06-16-2019
-* [Types and Tests](/uncle-bob/2019/06/08/TestsAndTypes.html)
+* Types and Tests
 
   06-08-2019
-* [737 Max 8](/uncle-bob/2019/05/18/737-Max-8.html)
+* 737 Max 8
 
   05-18-2019
-* [FP vs. OO List Processing](/uncle-bob/2018/12/17/FPvsOO-List-processing.html)
+* FP vs. OO List Processing
 
   12-17-2018
-* [We, The Unoffended](/uncle-bob/2018/12/16/unoffended.html)
+* We, The Unoffended
 
   12-16-2018
-* [SJWJS](/uncle-bob/2018/12/14/SJWJS.html)
+* SJWJS
 
   12-14-2018
-* [The Tragedy of Craftsmanship.](/uncle-bob/2018/08/28/CraftsmanshipMovement.html)
+* The Tragedy of Craftsmanship.
 
   08-28-2018
-* [Too Clean?](/uncle-bob/2018/08/13/TooClean.html)
+* Too Clean?
 
   08-13-2018
-* [Integers and Estimates](/uncle-bob/2018/06/21/IntegersAndEstimates.html)
+* Integers and Estimates
 
   06-21-2018
-* [Pickled State](/uncle-bob/2018/06/06/PickledState.html)
+* Pickled State
 
   06-06-2018
-* [Craftsman, Craftswoman, Craftsperson](/uncle-bob/2018/05/02/Craftsman-Craftswoman-Craftsperson.html)
+* Craftsman, Craftswoman, Craftsperson
 
   05-02-2018
-* [FP vs. OO](/uncle-bob/2018/04/13/FPvsOO.html)
+* FP vs. OO
 
   04-13-2018
-* [In The Large](/uncle-bob/2018/04/02/InTheLarge.html)
+* In The Large
 
   04-02-2018
-* [*We Programmers*](/uncle-bob/2018/03/29/WeProgrammers.html)
+* *We Programmers*
 
   03-29-2018
-* [Uncle Bob Fly-In.  
-  Have I got a deal for you!](/uncle-bob/2018/02/25/UncleBobFlyIn.html)
+* Uncle Bob Fly-In.  
+  Have I got a deal for you!
 
   02-25-2018
-* [The Citizenship Argument](/uncle-bob/2018/01/18/TheCitizenshipArgument.html)
+* The Citizenship Argument
 
   01-18-2018
-* [Operating Behind the Power Curve](/uncle-bob/2018/01/15/behindThePowerCurve.html)
+* Operating Behind the Power Curve
 
   01-15-2018
-* [Excuses](/uncle-bob/2017/12/18/Excuses.html)
+* Excuses
 
   12-18-2017
-* [Dbtails](/uncle-bob/2017/12/09/Dbtails.html)
+* Dbtails
 
   12-09-2017
-* [Bobby Tables](/uncle-bob/2017/12/03/BobbyTables.html)
+* Bobby Tables
 
   12-03-2017
-* [Living on the Plateau](/uncle-bob/2017/11/18/OnThePlateau.html)
+* Living on the Plateau
 
   11-18-2017
-* [Women In Demand](/uncle-bob/2017/10/04/WomenInDemand.html)
+* Women In Demand
 
   10-04-2017
-* [Tools are not the Answer](/uncle-bob/2017/10/04/CodeIsNotTheAnswer.html)
+* Tools are not the Answer
 
   10-04-2017
-* [Test Contra-variance](/uncle-bob/2017/10/03/TestContravariance.html)
+* Test Contra-variance
 
   10-03-2017
-* [The Unscrupulous Meme](/uncle-bob/2017/09/29/TheUnscrupulousMeme.html)
+* The Unscrupulous Meme
 
   09-29-2017
-* [Sierra Juliet Foxtrot](/uncle-bob/2017/09/26/SierraJulietFoxtrot.html)
+* Sierra Juliet Foxtrot
 
   09-26-2017
-* [Just Following Orders](/uncle-bob/2017/08/28/JustFollowingOders.html)
+* Just Following Orders
 
   08-28-2017
-* [Women in Tech](/uncle-bob/2017/08/14/WomenInTech.html)
+* Women in Tech
 
   08-14-2017
-* [On the Diminished Capacity to Discuss Things Rationally](/uncle-bob/2017/08/10/OnTheInabilityToDiscussThingsRationally.html)
+* On the Diminished Capacity to Discuss Things Rationally
 
   08-10-2017
-* [Thought Police](/uncle-bob/2017/08/09/ThoughtPolice.html)
+* Thought Police
 
   08-09-2017
-* [The Brain Problem](/uncle-bob/2017/07/28/TheBrainProblem.html)
+* The Brain Problem
 
   07-28-2017
-* [Drive me to Toronto, Hal.](/uncle-bob/2017/07/24/DriveMeToTorontoHal.html)
+* Drive me to Toronto, Hal.
 
   07-24-2017
-* [Pragmatic Functional Programming](/uncle-bob/2017/07/11/PragmaticFunctionalProgramming.html)
+* Pragmatic Functional Programming
 
   07-11-2017
-* [First-Class Tests.](/uncle-bob/2017/05/05/TestDefinitions.html)
+* First-Class Tests.
 
   05-05-2017
-* [Is Dr. Calvin in the Room?](/uncle-bob/2017/03/16/DrCalvin.html)
+* Is Dr. Calvin in the Room?
 
   03-16-2017
-* [Symmetry Breaking](/uncle-bob/2017/03/07/SymmetryBreaking.html)
+* Symmetry Breaking
 
   03-07-2017
-* [Testing Like the TSA](/uncle-bob/2017/03/06/TestingLikeTheTSA.html)
+* Testing Like the TSA
 
   03-06-2017
-* [TDD Harms Architecture](/uncle-bob/2017/03/03/TDD-Harms-Architecture.html)
+* TDD Harms Architecture
 
   03-03-2017
-* [Necessary Comments](/uncle-bob/2017/02/23/NecessaryComments.html)
+* Necessary Comments
 
   02-23-2017
-* [Types and Tests](/uncle-bob/2017/01/13/TypesAndTests.html)
+* Types and Tests
 
   01-13-2017
-* [The Dark Path](/uncle-bob/2017/01/11/TheDarkPath.html)
+* The Dark Path
 
   01-11-2017
-* [TDD Lesson - Terrain Generation](/uncle-bob/2017/01/09/DiamondSquare.html)
+* TDD Lesson - Terrain Generation
 
   01-09-2017
-* [TDD Doesn't Work](/uncle-bob/2016/11/10/TDD-Doesnt-work.html)
+* TDD Doesn't Work
 
   11-10-2016
-* [Dijkstra's Algorithm](/uncle-bob/2016/10/26/DijkstrasAlg.html)
+* Dijkstra's Algorithm
 
   10-26-2016
-* [The Lurn](/uncle-bob/2016/09/01/TheLurn.html)
+* The Lurn
 
   09-01-2016
-* [The Churn](/uncle-bob/2016/07/27/TheChurn.html)
+* The Churn
 
   07-27-2016
-* [Mutation Testing](/uncle-bob/2016/06/10/MutationTesting.html)
+* Mutation Testing
 
   06-10-2016
-* [Blue. No! Yellow!](/uncle-bob/2016/05/21/BlueNoYellow.html)
+* Blue. No! Yellow!
 
   05-21-2016
-* [Type Wars](/uncle-bob/2016/05/01/TypeWars.html)
+* Type Wars
 
   05-01-2016
-* [Giving Up on TDD](/uncle-bob/2016/03/19/GivingUpOnTDD.html)
+* Giving Up on TDD
 
   03-19-2016
-* [Manhandled](/uncle-bob/2016/01/15/Manhandled.html)
+* Manhandled
 
   01-15-2016
-* [Stabilization Phases](/uncle-bob/2016/01/14/Stabilization.html)
+* Stabilization Phases
 
   01-14-2016
-* [A Little Architecture](/uncle-bob/2016/01/04/ALittleArchitecture.html)
+* A Little Architecture
 
   01-04-2016
-* [Prelude to a Profession](/uncle-bob/2015/11/27/OathDiscussion.html)
+* Prelude to a Profession
 
   11-27-2015
-* [The Programmer's Oath](/uncle-bob/2015/11/18/TheProgrammersOath.html)
+* The Programmer's Oath
 
   11-18-2015
-* [The Force of Pliers](/uncle-bob/2015/11/01/PlierForce.html)
+* The Force of Pliers
 
   11-01-2015
-* [Future Proof](/uncle-bob/2015/10/30/FutureProof.html)
+* Future Proof
 
   10-30-2015
-* [Agile is not now, nor was it ever, Waterfall.](/uncle-bob/2015/10/16/Agile-And-Waterfall.html)
+* Agile is not now, nor was it ever, Waterfall.
 
   10-16-2015
-* [VW](/uncle-bob/2015/10/14/VW.html)
+* VW
 
   10-14-2015
-* [WATS Line 54](/uncle-bob/2015/10/05/WattsLine54.html)
+* WATS Line 54
 
   10-05-2015
-* [A Little Structure](/uncle-bob/2015/09/23/ALittleStructure.html)
+* A Little Structure
 
   09-23-2015
-* [Make the Magic go away.](/uncle-bob/2015/08/06/LetTheMagicDie.html)
+* Make the Magic go away.
 
   08-06-2015
-* [Pattern Pushers](/uncle-bob/2015/07/05/PatternPushers.html)
+* Pattern Pushers
 
   07-05-2015
-* [The Little Singleton](/uncle-bob/2015/07/01/TheLittleSingleton.html)
+* The Little Singleton
 
   07-01-2015
-* [The First Micro-service Architecture](/uncle-bob/2015/05/28/TheFirstMicroserviceArchitecture.html)
+* The First Micro-service Architecture
 
   05-28-2015
-* [Language Layers](/uncle-bob/2015/04/27/LanguageLayers.html)
+* Language Layers
 
   04-27-2015
-* [Does Organization Matter?](/uncle-bob/2015/04/15/DoesOrganizationMatter.html)
+* Does Organization Matter?
 
   04-15-2015
-* [The MODE-B Imperative](/uncle-bob/2015/02/21/ModeBImperative.html)
+* The MODE-B Imperative
 
   02-21-2015
-* [They Called them Computers.](/uncle-bob/2015/02/19/ComputerHarem.html)
+* They Called them Computers.
 
   02-19-2015
-* ['Interface' Considered Harmful](/uncle-bob/2015/01/08/InterfaceConsideredHarmful.html)
+* 'Interface' Considered Harmful
 
   01-08-2015
-* [The Cycles of TDD](/uncle-bob/2014/12/17/TheCyclesOfTDD.html)
+* The Cycles of TDD
 
   12-17-2014
-* [OO vs FP](/uncle-bob/2014/11/24/FPvsOO.html)
+* OO vs FP
 
   11-24-2014
-* [Thorns around the Gold](/uncle-bob/2014/11/19/GoingForTheGold.html)
+* Thorns around the Gold
 
   11-19-2014
-* [The Obligation of the Programmer.](/uncle-bob/2014/11/15/WeRuleTheWorld.html)
+* The Obligation of the Programmer.
 
   11-15-2014
-* [One Hacker Way!](/uncle-bob/2014/11/12/PutItInProduction.html)
+* One Hacker Way!
 
   11-12-2014
-* [Laughter in the male dominated room.](/uncle-bob/2014/10/26/LaughterInTheMaleDominatedRoom.html)
+* Laughter in the male dominated room.
 
   10-26-2014
-* [GOML-1, Responsive Design](/uncle-bob/2014/10/08/GOML1-ResponsiveDesign.html)
+* GOML-1, Responsive Design
 
   10-08-2014
-* [Clean Micro-service Architecture](/uncle-bob/2014/10/01/CleanMicroserviceArchitecture.html)
+* Clean Micro-service Architecture
 
   10-01-2014
-* [Microservices and Jars](/uncle-bob/2014/09/19/MicroServicesAndJars.html)
+* Microservices and Jars
 
   09-19-2014
-* [The More Things Change...](/uncle-bob/2014/09/18/TheMoreThingsChange.html)
+* The More Things Change...
 
   09-18-2014
-* [Test Time](/uncle-bob/2014/09/03/TestTime.html)
+* Test Time
 
   09-03-2014
-* [A Little About Patterns.](/uncle-bob/2014/06/30/ALittleAboutPatterns.html)
+* A Little About Patterns.
 
   06-30-2014
-* [My Lawn](/uncle-bob/2014/06/20/MyLawn.html)
+* My Lawn
 
   06-20-2014
-* [Is TDD Dead?](/uncle-bob/2014/06/17/IsTddDeadFinalThoughts.html)
+* Is TDD Dead?
 
   06-17-2014
-* [First](/uncle-bob/2014/05/19/First.html)
+* First
 
   05-19-2014
-* [The Little Mocker](/uncle-bob/2014/05/14/TheLittleMocker.html)
+* The Little Mocker
 
   05-14-2014
-* [The Open Closed Principle](/uncle-bob/2014/05/12/TheOpenClosedPrinciple.html)
+* The Open Closed Principle
 
   05-12-2014
-* [Framework Bound[2]](/uncle-bob/2014/05/11/FrameworkBound.html)
+* Framework Bound[2]
 
   05-11-2014
-* [When to Mock](/uncle-bob/2014/05/10/WhenToMock.html)
+* When to Mock
 
   05-10-2014
-* [The Single Responsibility Principle](/uncle-bob/2014/05/08/SingleReponsibilityPrinciple.html)
+* The Single Responsibility Principle
 
   05-08-2014
-* [Professionalism and TDD (Reprise)](/uncle-bob/2014/05/02/ProfessionalismAndTDD.html)
+* Professionalism and TDD (Reprise)
 
   05-02-2014
-* [Test Induced Design Damage?](/uncle-bob/2014/05/01/Design-Damage.html)
+* Test Induced Design Damage?
 
   05-01-2014
-* [When TDD doesn't work.](/uncle-bob/2014/04/30/When-tdd-does-not-work.html)
+* When TDD doesn't work.
 
   04-30-2014
-* [Monogamous TDD](/uncle-bob/2014/04/25/MonogamousTDD.html)
+* Monogamous TDD
 
   04-25-2014
-* [Code Hoarders](/uncle-bob/2014/04/03/Code-Hoarders.html)
+* Code Hoarders
 
   04-03-2014
-* [The *True* Corruption of Agile](/uncle-bob/2014/03/28/The-Corruption-of-Agile.html)
+* The *True* Corruption of Agile
 
   03-28-2014
-* [When Should You Think?](/uncle-bob/2014/03/11/when-to-think.html)
+* When Should You Think?
 
   03-11-2014
-* [A Spectrum of Trust](/uncle-bob/2014/02/27/TheTrustSpectrum.html)
+* A Spectrum of Trust
 
   02-27-2014
-* [Oh Foreman, Where art Thou?](/uncle-bob/2014/02/23/OhForemanWhereArtThou.html)
+* Oh Foreman, Where art Thou?
 
   02-23-2014
-* [Where is the Foreman?](/uncle-bob/2014/02/21/WhereIsTheForeman.html)
+* Where is the Foreman?
 
   02-21-2014
-* [The Domain Discontinuity](/uncle-bob/2014/01/27/TheChickenOrTheRoad.html)
+* The Domain Discontinuity
 
   01-27-2014
-* [Coding in the Clink (9)](/uncle-bob/2014/01/20/Marion_Correctional.html)
+* Coding in the Clink (9)
 
   01-20-2014
-* [Extreme Programming, a Reflection](/uncle-bob/2013/12/10/Thankyou-Kent.html)
+* Extreme Programming, a Reflection
 
   12-10-2013
-* [Novices. A Coda](/uncle-bob/2013/11/25/Novices-Coda.html)
+* Novices. A Coda
 
   11-25-2013
-* [Hordes Of Novices](/uncle-bob/2013/11/19/HoardsOfNovices.html)
+* Hordes Of Novices
 
   11-19-2013
-* [Healthcare.gov](/uncle-bob/2013/11/12/Healthcare-gov.html)
+* Healthcare.gov
 
   11-12-2013
-* [The Careless Ones](/uncle-bob/2013/10/24/The-Careless-Ones.html)
+* The Careless Ones
 
   10-24-2013
-* [Dance you Imps!](/uncle-bob/2013/10/01/Dance-You-Imps.html)
+* Dance you Imps!
 
   10-01-2013
-* [A.T. FAIL!](/uncle-bob/2013/09/26/AT-FAIL.html)
+* A.T. FAIL!
 
   09-26-2013
-* [Test First](/uncle-bob/2013/09/23/Test-first.html)
+* Test First
 
   09-23-2013
-* [Transformation Priority and Sorting](/uncle-bob/2013/05/27/TransformationPriorityAndSorting.html)
+* Transformation Priority and Sorting
 
   05-27-2013
-* [The Transformation Priority Premise](/uncle-bob/2013/05/27/TheTransformationPriorityPremise.html)
+* The Transformation Priority Premise
 
   05-27-2013
-* [Flash - TPP](/uncle-bob/2013/05/27/FlashTpp.html)
+* Flash - TPP
 
   05-27-2013
-* [Fib. The T-P Premise.](/uncle-bob/2013/05/27/FibTPP.html)
+* Fib. The T-P Premise.
 
   05-27-2013
-* [There are Ladies Present](/uncle-bob/2013/03/22/There-are-ladies-present.html)
+* There are Ladies Present
 
   03-22-2013
-* [The Frenzied Panic of Rushing](/uncle-bob/2013/03/11/TheFrenziedPanicOfRushing.html)
+* The Frenzied Panic of Rushing
 
   03-11-2013
-* [An Open and Closed Case](/uncle-bob/2013/03/08/AnOpenAndClosedCase.html)
+* An Open and Closed Case
 
   03-08-2013
-* [The Pragmatics of TDD](/uncle-bob/2013/03/06/ThePragmaticsOfTDD.html)
+* The Pragmatics of TDD
 
   03-06-2013
-* [The Start-Up Trap](/uncle-bob/2013/03/05/TheStartUpTrap.html)
+* The Start-Up Trap
 
   03-05-2013
-* [The Principles of Craftsmanship](/uncle-bob/2013/02/10/ThePrinciplesOfCraftsmanship.html)
+* The Principles of Craftsmanship
 
   02-10-2013
-* [The Humble Craftsman](/uncle-bob/2013/02/01/The-Humble-Craftsman.html)
+* The Humble Craftsman
 
   02-01-2013
-* [The Laborer and the Craftsman](/uncle-bob/2013/01/30/The-Craftsman-And-The-Laborer.html)
+* The Laborer and the Craftsman
 
   01-30-2013
-* [FP Basics E4](/uncle-bob/2013/01/29/FPBE4-Lazy-Evaluation.html)
+* FP Basics E4
 
   01-29-2013
-* [FP Basics E3](/uncle-bob/2013/01/07/FPBE3-Do-the-rules-change.html)
+* FP Basics E3
 
   01-07-2013
-* [FP Basics E2](/uncle-bob/2013/01/02/FPBE2-Whys-it-called-functional.html)
+* FP Basics E2
 
   01-02-2013
-* [Brave New Year](/uncle-bob/2012/12/29/Brave-New-Year.html)
+* Brave New Year
 
   12-29-2012
-* [FP Basics E1](/uncle-bob/2012/12/22/FPBE1-Whats-it-all-about.html)
+* FP Basics E1
 
   12-22-2012
-* [Three Paradigms](/uncle-bob/2012/12/19/Three-Paradigms.html)
+* Three Paradigms
 
   12-19-2012
-* [The New CTO](/uncle-bob/2012/09/06/I-am-Your-New-CTO.html)
+* The New CTO
 
   09-06-2012
-* [Functional Programming for the Object Oriented Programmer](/uncle-bob/2012/08/24/functional-programming-for-the-object-oriented-programmer.html)
+* Functional Programming for the Object Oriented Programmer
 
   08-24-2012
-* [The Clean Architecture](/uncle-bob/2012/08/13/the-clean-architecture.html)
+* The Clean Architecture
 
   08-13-2012
-* [NO DB](/uncle-bob/2012/05/15/NODB.html)
+* NO DB
 
   05-15-2012
-* [Why is Estimating so Hard?](/uncle-bob/2012/04/20/Why-Is-Estimating-So-Hard.html)
+* Why is Estimating so Hard?
 
   04-20-2012
-* [After the Disaster](/uncle-bob/2012/04/18/After-The-Disaster.html)
+* After the Disaster
 
   04-18-2012
-* [Service Oriented Agony](/uncle-bob/2012/02/01/Service-Oriented-Agony.html)
+* Service Oriented Agony
 
   02-01-2012
-* [The Ruby Colored Box](/uncle-bob/2012/01/31/The-Ruby-Colored-Box.html)
+* The Ruby Colored Box
 
   01-31-2012
-* [Fecophiles](/uncle-bob/2012/01/20/Fecophiles.html)
+* Fecophiles
 
   01-20-2012
-* [The Letter](/uncle-bob/2012/01/12/The-Letter.html)
+* The Letter
 
   01-12-2012
-* [Flipping the Bit](/uncle-bob/2012/01/11/Flipping-the-Bit.html)
+* Flipping the Bit
 
   01-11-2012
-* [The Barbarians are at the Gates](/uncle-bob/2011/12/11/The-Barbarians-are-at-the-Gates.html)
+* The Barbarians are at the Gates
 
   12-11-2011
-* [Clean Architecture](/uncle-bob/2011/11/22/Clean-Architecture.html)
+* Clean Architecture
 
   11-22-2011
-* [Double Entry Bookkeeping Dilemma. Should I Invest or Not?](/uncle-bob/2011/11/06/Double-Entry-Bookkeeping-Dilemma-Should-I-Invest-or-Not.html)
+* Double Entry Bookkeeping Dilemma. Should I Invest or Not?
 
   11-06-2011
-* [Simple Hickey](/uncle-bob/2011/10/20/Simple-Hickey.html)
+* Simple Hickey
 
   10-20-2011
-* [Screaming Architecture](/uncle-bob/2011/09/30/Screaming-Architecture.html)
+* Screaming Architecture
 
   09-30-2011
-* [Bringing Balance to the Force](/uncle-bob/2011/01/19/individuals-and-interactions.html)
+* Bringing Balance to the Force
 
   01-19-2011
-* [What Software Craftsmanship is about](/uncle-bob/2011/01/17/software-craftsmanship-is-about.html)
+* What Software Craftsmanship is about
 
   01-17-2011
 
@@ -3551,17 +3528,17 @@ I recently tweeted the following:
 >   
 > Yes. You should. Because the rules don’t change just because you’ve chosen to use immutable data structures.
 >
-> — Uncle Bob Martin (@unclebobmartin) [January 17, 2023](https://twitter.com/unclebobmartin/status/1615436628385824769?ref_src=twsrc%5Etfw)
+> — Uncle Bob Martin (@unclebobmartin) January 17, 2023
 
 This led to a bevy of interesting responses about the difference between classes and modules. In answer to those responses I tweeted this:
 
 > A class is a group of cohesive and narrowly defined functions that operate on an encapsulated data structure. The functions may, or may not, be polymorphically deployed.
 >
-> — Uncle Bob Martin (@unclebobmartin) [January 17, 2023](https://twitter.com/unclebobmartin/status/1615438162746134528?ref_src=twsrc%5Etfw)
+> — Uncle Bob Martin (@unclebobmartin) January 17, 2023
 
 Of course that only led to an increased number of interesting responses. And so I thought that it might be wise to blog about my reasoning rather than to continue trying to cram that reasoning into tweets.
 
-If you are in doubt about what FP is, and about what OO is, and about whether the two are compatible, then I recommend [this](http://blog.cleancoder.com/uncle-bob/2018/04/13/FPvsOO.html) old blog of mine.
+If you are in doubt about what FP is, and about what OO is, and about whether the two are compatible, then I recommend this old blog of mine.
 
 What is a class? According to the dictionary a class is:
 
@@ -3569,7 +3546,7 @@ What is a class? According to the dictionary a class is:
 
 Now consider that definition when reading the next paragraph.
 
-In OO languages we organize our programs into classes of objects that share similar traits. We describe those objects in terms of the attributes and behaviors that they have in common. We strive to create hierarchies of classification that those objects can fit within. We consider the higher level classifications to be abstractions that allow the expression of general truths that are independent of irrelevant details. (Indeed, I once defined abstraction as: *The Amplification of the essential, and the elimination of the irrelevant.*[[1]](https://www.amazon.com/Designing-Object-Oriented-Applications-Method/dp/0132038374))
+In OO languages we organize our programs into classes of objects that share similar traits. We describe those objects in terms of the attributes and behaviors that they have in common. We strive to create hierarchies of classification that those objects can fit within. We consider the higher level classifications to be abstractions that allow the expression of general truths that are independent of irrelevant details. (Indeed, I once defined abstraction as: *The Amplification of the essential, and the elimination of the irrelevant.*[1])
 
 In 1966 the power of abstraction by classification led the authors of Simula to create the keyword `class`. In 1980, Bjarne Stroustrup continued that convention and used the `class` keyword in C++. This was actually somewhat strange because C already had the keyword `struct` which had a virtually identical meaning. But the power of the word `class` held sway.
 
@@ -3591,7 +3568,7 @@ The essential charachteristic of these elements, these batches of functions, is 
 
 ###Example
 
-Recently I have been writing an application called [`more-speech`](http://github.com/unclebob/more-speech) which is a client that browses messages on the [`nostr`](https://nostr.com) network. This nework is composed of relays that use a simple websocket protocol to transmit messages to clients. The `more-speech` client is written in Clojure, which is a Functional Programming language.
+Recently I have been writing an application called `more-speech` which is a client that browses messages on the `nostr` network. This nework is composed of relays that use a simple websocket protocol to transmit messages to clients. The `more-speech` client is written in Clojure, which is a Functional Programming language.
 
 Early on I created a module named `protocol` to house the code that implemented the `nostr` protocol. I began this module by managing the websockets over which the messages travelled, and then decoding those messages and manipulating them according to the rules of the protocol.
 
@@ -3615,523 +3592,517 @@ Java, C#, Ruby, and C++ all either enforce, or stronly encourage, the partitioni
 
 Clean Coder Blog
 
-
-[![](/assets/clean_code_72_color.png)](/)
-
 # The Clean Code Blog
 
 by Robert C. Martin (Uncle Bob)
 
-
-
-[atom/rss feed](/atom.xml)
-
+atom/rss feed
 
 ---
 
-* [Functional Classes in Clojure](/uncle-bob/2023/01/19/functional-classes-clojure.html)
+* Functional Classes in Clojure
 
   01-19-2023
-* [Functional Classes](/uncle-bob/2023/01/18/functional-classes.html)
+* Functional Classes
 
   01-18-2023
-* [Space War](/uncle-bob/2021/11/28/Spacewar.html)
+* Space War
 
   11-28-2021
-* [Functional Duplications](/uncle-bob/2021/10/28/functional-duplication.html)
+* Functional Duplications
 
   10-28-2021
-* [Roots](/uncle-bob/2021/09/25/roots.html)
+* Roots
 
   09-25-2021
-* [More On Types](/uncle-bob/2021/06/29/MoreOnTypes.html)
+* More On Types
 
   06-29-2021
-* [On Types](/uncle-bob/2021/06/25/OnTypes.html)
+* On Types
 
   06-25-2021
-* [if-else-switch](/uncle-bob/2021/03/06/ifElseSwitch.html)
+* if-else-switch
 
   03-06-2021
-* [Pairing Guidelines](/uncle-bob/2021/01/17/Pairing.html)
+* Pairing Guidelines
 
   01-17-2021
-* [Solid Relevance](/uncle-bob/2020/10/18/Solid-Relevance.html)
+* Solid Relevance
 
   10-18-2020
-* [Loopy](/uncle-bob/2020/09/30/loopy.html)
+* Loopy
 
   09-30-2020
-* [Conference Conduct](/uncle-bob/2020/09/23/ConferenceConduct.html)
+* Conference Conduct
 
   09-23-2020
-* [The Disinvitation](/uncle-bob/2020/09/12/TheDisinvitation.html)
+* The Disinvitation
 
   09-12-2020
-* [REPL Driven Design](/uncle-bob/2020/05/27/ReplDrivenDesign.html)
+* REPL Driven Design
 
   05-27-2020
-* [A Little More Clojure](/uncle-bob/2020/04/09/ALittleMoreClojure.html)
+* A Little More Clojure
 
   04-09-2020
-* [A Little Clojure](/uncle-bob/2020/04/06/ALittleClojure.html)
+* A Little Clojure
 
   04-06-2020
-* [A New Hope](/uncle-bob/2020/04/05/ANewHope.html)
+* A New Hope
 
   04-05-2020
-* [Open Letter to the Linux Foundation](/uncle-bob/2019/11/08/OpenLetterLinuxFoundation.html)
+* Open Letter to the Linux Foundation
 
   11-08-2019
-* [What They Thought of Programmers.](/uncle-bob/2019/11/03/WhatTheyThoughtOfUs.html)
+* What They Thought of Programmers.
 
   11-03-2019
-* [Circulatory](/uncle-bob/2019/10/31/Circulatory.html)
+* Circulatory
 
   10-31-2019
-* [Why Clojure?](/uncle-bob/2019/08/22/WhyClojure.html)
+* Why Clojure?
 
   08-22-2019
-* [Why won't it...](/uncle-bob/2019/07/22/WhyWontIt.html)
+* Why won't it...
 
   07-22-2019
-* [Classes vs. Data Structures](/uncle-bob/2019/06/16/ObjectsAndDataStructures.html)
+* Classes vs. Data Structures
 
   06-16-2019
-* [Types and Tests](/uncle-bob/2019/06/08/TestsAndTypes.html)
+* Types and Tests
 
   06-08-2019
-* [737 Max 8](/uncle-bob/2019/05/18/737-Max-8.html)
+* 737 Max 8
 
   05-18-2019
-* [FP vs. OO List Processing](/uncle-bob/2018/12/17/FPvsOO-List-processing.html)
+* FP vs. OO List Processing
 
   12-17-2018
-* [We, The Unoffended](/uncle-bob/2018/12/16/unoffended.html)
+* We, The Unoffended
 
   12-16-2018
-* [SJWJS](/uncle-bob/2018/12/14/SJWJS.html)
+* SJWJS
 
   12-14-2018
-* [The Tragedy of Craftsmanship.](/uncle-bob/2018/08/28/CraftsmanshipMovement.html)
+* The Tragedy of Craftsmanship.
 
   08-28-2018
-* [Too Clean?](/uncle-bob/2018/08/13/TooClean.html)
+* Too Clean?
 
   08-13-2018
-* [Integers and Estimates](/uncle-bob/2018/06/21/IntegersAndEstimates.html)
+* Integers and Estimates
 
   06-21-2018
-* [Pickled State](/uncle-bob/2018/06/06/PickledState.html)
+* Pickled State
 
   06-06-2018
-* [Craftsman, Craftswoman, Craftsperson](/uncle-bob/2018/05/02/Craftsman-Craftswoman-Craftsperson.html)
+* Craftsman, Craftswoman, Craftsperson
 
   05-02-2018
-* [FP vs. OO](/uncle-bob/2018/04/13/FPvsOO.html)
+* FP vs. OO
 
   04-13-2018
-* [In The Large](/uncle-bob/2018/04/02/InTheLarge.html)
+* In The Large
 
   04-02-2018
-* [*We Programmers*](/uncle-bob/2018/03/29/WeProgrammers.html)
+* *We Programmers*
 
   03-29-2018
-* [Uncle Bob Fly-In.  
-  Have I got a deal for you!](/uncle-bob/2018/02/25/UncleBobFlyIn.html)
+* Uncle Bob Fly-In.  
+  Have I got a deal for you!
 
   02-25-2018
-* [The Citizenship Argument](/uncle-bob/2018/01/18/TheCitizenshipArgument.html)
+* The Citizenship Argument
 
   01-18-2018
-* [Operating Behind the Power Curve](/uncle-bob/2018/01/15/behindThePowerCurve.html)
+* Operating Behind the Power Curve
 
   01-15-2018
-* [Excuses](/uncle-bob/2017/12/18/Excuses.html)
+* Excuses
 
   12-18-2017
-* [Dbtails](/uncle-bob/2017/12/09/Dbtails.html)
+* Dbtails
 
   12-09-2017
-* [Bobby Tables](/uncle-bob/2017/12/03/BobbyTables.html)
+* Bobby Tables
 
   12-03-2017
-* [Living on the Plateau](/uncle-bob/2017/11/18/OnThePlateau.html)
+* Living on the Plateau
 
   11-18-2017
-* [Women In Demand](/uncle-bob/2017/10/04/WomenInDemand.html)
+* Women In Demand
 
   10-04-2017
-* [Tools are not the Answer](/uncle-bob/2017/10/04/CodeIsNotTheAnswer.html)
+* Tools are not the Answer
 
   10-04-2017
-* [Test Contra-variance](/uncle-bob/2017/10/03/TestContravariance.html)
+* Test Contra-variance
 
   10-03-2017
-* [The Unscrupulous Meme](/uncle-bob/2017/09/29/TheUnscrupulousMeme.html)
+* The Unscrupulous Meme
 
   09-29-2017
-* [Sierra Juliet Foxtrot](/uncle-bob/2017/09/26/SierraJulietFoxtrot.html)
+* Sierra Juliet Foxtrot
 
   09-26-2017
-* [Just Following Orders](/uncle-bob/2017/08/28/JustFollowingOders.html)
+* Just Following Orders
 
   08-28-2017
-* [Women in Tech](/uncle-bob/2017/08/14/WomenInTech.html)
+* Women in Tech
 
   08-14-2017
-* [On the Diminished Capacity to Discuss Things Rationally](/uncle-bob/2017/08/10/OnTheInabilityToDiscussThingsRationally.html)
+* On the Diminished Capacity to Discuss Things Rationally
 
   08-10-2017
-* [Thought Police](/uncle-bob/2017/08/09/ThoughtPolice.html)
+* Thought Police
 
   08-09-2017
-* [The Brain Problem](/uncle-bob/2017/07/28/TheBrainProblem.html)
+* The Brain Problem
 
   07-28-2017
-* [Drive me to Toronto, Hal.](/uncle-bob/2017/07/24/DriveMeToTorontoHal.html)
+* Drive me to Toronto, Hal.
 
   07-24-2017
-* [Pragmatic Functional Programming](/uncle-bob/2017/07/11/PragmaticFunctionalProgramming.html)
+* Pragmatic Functional Programming
 
   07-11-2017
-* [First-Class Tests.](/uncle-bob/2017/05/05/TestDefinitions.html)
+* First-Class Tests.
 
   05-05-2017
-* [Is Dr. Calvin in the Room?](/uncle-bob/2017/03/16/DrCalvin.html)
+* Is Dr. Calvin in the Room?
 
   03-16-2017
-* [Symmetry Breaking](/uncle-bob/2017/03/07/SymmetryBreaking.html)
+* Symmetry Breaking
 
   03-07-2017
-* [Testing Like the TSA](/uncle-bob/2017/03/06/TestingLikeTheTSA.html)
+* Testing Like the TSA
 
   03-06-2017
-* [TDD Harms Architecture](/uncle-bob/2017/03/03/TDD-Harms-Architecture.html)
+* TDD Harms Architecture
 
   03-03-2017
-* [Necessary Comments](/uncle-bob/2017/02/23/NecessaryComments.html)
+* Necessary Comments
 
   02-23-2017
-* [Types and Tests](/uncle-bob/2017/01/13/TypesAndTests.html)
+* Types and Tests
 
   01-13-2017
-* [The Dark Path](/uncle-bob/2017/01/11/TheDarkPath.html)
+* The Dark Path
 
   01-11-2017
-* [TDD Lesson - Terrain Generation](/uncle-bob/2017/01/09/DiamondSquare.html)
+* TDD Lesson - Terrain Generation
 
   01-09-2017
-* [TDD Doesn't Work](/uncle-bob/2016/11/10/TDD-Doesnt-work.html)
+* TDD Doesn't Work
 
   11-10-2016
-* [Dijkstra's Algorithm](/uncle-bob/2016/10/26/DijkstrasAlg.html)
+* Dijkstra's Algorithm
 
   10-26-2016
-* [The Lurn](/uncle-bob/2016/09/01/TheLurn.html)
+* The Lurn
 
   09-01-2016
-* [The Churn](/uncle-bob/2016/07/27/TheChurn.html)
+* The Churn
 
   07-27-2016
-* [Mutation Testing](/uncle-bob/2016/06/10/MutationTesting.html)
+* Mutation Testing
 
   06-10-2016
-* [Blue. No! Yellow!](/uncle-bob/2016/05/21/BlueNoYellow.html)
+* Blue. No! Yellow!
 
   05-21-2016
-* [Type Wars](/uncle-bob/2016/05/01/TypeWars.html)
+* Type Wars
 
   05-01-2016
-* [Giving Up on TDD](/uncle-bob/2016/03/19/GivingUpOnTDD.html)
+* Giving Up on TDD
 
   03-19-2016
-* [Manhandled](/uncle-bob/2016/01/15/Manhandled.html)
+* Manhandled
 
   01-15-2016
-* [Stabilization Phases](/uncle-bob/2016/01/14/Stabilization.html)
+* Stabilization Phases
 
   01-14-2016
-* [A Little Architecture](/uncle-bob/2016/01/04/ALittleArchitecture.html)
+* A Little Architecture
 
   01-04-2016
-* [Prelude to a Profession](/uncle-bob/2015/11/27/OathDiscussion.html)
+* Prelude to a Profession
 
   11-27-2015
-* [The Programmer's Oath](/uncle-bob/2015/11/18/TheProgrammersOath.html)
+* The Programmer's Oath
 
   11-18-2015
-* [The Force of Pliers](/uncle-bob/2015/11/01/PlierForce.html)
+* The Force of Pliers
 
   11-01-2015
-* [Future Proof](/uncle-bob/2015/10/30/FutureProof.html)
+* Future Proof
 
   10-30-2015
-* [Agile is not now, nor was it ever, Waterfall.](/uncle-bob/2015/10/16/Agile-And-Waterfall.html)
+* Agile is not now, nor was it ever, Waterfall.
 
   10-16-2015
-* [VW](/uncle-bob/2015/10/14/VW.html)
+* VW
 
   10-14-2015
-* [WATS Line 54](/uncle-bob/2015/10/05/WattsLine54.html)
+* WATS Line 54
 
   10-05-2015
-* [A Little Structure](/uncle-bob/2015/09/23/ALittleStructure.html)
+* A Little Structure
 
   09-23-2015
-* [Make the Magic go away.](/uncle-bob/2015/08/06/LetTheMagicDie.html)
+* Make the Magic go away.
 
   08-06-2015
-* [Pattern Pushers](/uncle-bob/2015/07/05/PatternPushers.html)
+* Pattern Pushers
 
   07-05-2015
-* [The Little Singleton](/uncle-bob/2015/07/01/TheLittleSingleton.html)
+* The Little Singleton
 
   07-01-2015
-* [The First Micro-service Architecture](/uncle-bob/2015/05/28/TheFirstMicroserviceArchitecture.html)
+* The First Micro-service Architecture
 
   05-28-2015
-* [Language Layers](/uncle-bob/2015/04/27/LanguageLayers.html)
+* Language Layers
 
   04-27-2015
-* [Does Organization Matter?](/uncle-bob/2015/04/15/DoesOrganizationMatter.html)
+* Does Organization Matter?
 
   04-15-2015
-* [The MODE-B Imperative](/uncle-bob/2015/02/21/ModeBImperative.html)
+* The MODE-B Imperative
 
   02-21-2015
-* [They Called them Computers.](/uncle-bob/2015/02/19/ComputerHarem.html)
+* They Called them Computers.
 
   02-19-2015
-* ['Interface' Considered Harmful](/uncle-bob/2015/01/08/InterfaceConsideredHarmful.html)
+* 'Interface' Considered Harmful
 
   01-08-2015
-* [The Cycles of TDD](/uncle-bob/2014/12/17/TheCyclesOfTDD.html)
+* The Cycles of TDD
 
   12-17-2014
-* [OO vs FP](/uncle-bob/2014/11/24/FPvsOO.html)
+* OO vs FP
 
   11-24-2014
-* [Thorns around the Gold](/uncle-bob/2014/11/19/GoingForTheGold.html)
+* Thorns around the Gold
 
   11-19-2014
-* [The Obligation of the Programmer.](/uncle-bob/2014/11/15/WeRuleTheWorld.html)
+* The Obligation of the Programmer.
 
   11-15-2014
-* [One Hacker Way!](/uncle-bob/2014/11/12/PutItInProduction.html)
+* One Hacker Way!
 
   11-12-2014
-* [Laughter in the male dominated room.](/uncle-bob/2014/10/26/LaughterInTheMaleDominatedRoom.html)
+* Laughter in the male dominated room.
 
   10-26-2014
-* [GOML-1, Responsive Design](/uncle-bob/2014/10/08/GOML1-ResponsiveDesign.html)
+* GOML-1, Responsive Design
 
   10-08-2014
-* [Clean Micro-service Architecture](/uncle-bob/2014/10/01/CleanMicroserviceArchitecture.html)
+* Clean Micro-service Architecture
 
   10-01-2014
-* [Microservices and Jars](/uncle-bob/2014/09/19/MicroServicesAndJars.html)
+* Microservices and Jars
 
   09-19-2014
-* [The More Things Change...](/uncle-bob/2014/09/18/TheMoreThingsChange.html)
+* The More Things Change...
 
   09-18-2014
-* [Test Time](/uncle-bob/2014/09/03/TestTime.html)
+* Test Time
 
   09-03-2014
-* [A Little About Patterns.](/uncle-bob/2014/06/30/ALittleAboutPatterns.html)
+* A Little About Patterns.
 
   06-30-2014
-* [My Lawn](/uncle-bob/2014/06/20/MyLawn.html)
+* My Lawn
 
   06-20-2014
-* [Is TDD Dead?](/uncle-bob/2014/06/17/IsTddDeadFinalThoughts.html)
+* Is TDD Dead?
 
   06-17-2014
-* [First](/uncle-bob/2014/05/19/First.html)
+* First
 
   05-19-2014
-* [The Little Mocker](/uncle-bob/2014/05/14/TheLittleMocker.html)
+* The Little Mocker
 
   05-14-2014
-* [The Open Closed Principle](/uncle-bob/2014/05/12/TheOpenClosedPrinciple.html)
+* The Open Closed Principle
 
   05-12-2014
-* [Framework Bound[2]](/uncle-bob/2014/05/11/FrameworkBound.html)
+* Framework Bound[2]
 
   05-11-2014
-* [When to Mock](/uncle-bob/2014/05/10/WhenToMock.html)
+* When to Mock
 
   05-10-2014
-* [The Single Responsibility Principle](/uncle-bob/2014/05/08/SingleReponsibilityPrinciple.html)
+* The Single Responsibility Principle
 
   05-08-2014
-* [Professionalism and TDD (Reprise)](/uncle-bob/2014/05/02/ProfessionalismAndTDD.html)
+* Professionalism and TDD (Reprise)
 
   05-02-2014
-* [Test Induced Design Damage?](/uncle-bob/2014/05/01/Design-Damage.html)
+* Test Induced Design Damage?
 
   05-01-2014
-* [When TDD doesn't work.](/uncle-bob/2014/04/30/When-tdd-does-not-work.html)
+* When TDD doesn't work.
 
   04-30-2014
-* [Monogamous TDD](/uncle-bob/2014/04/25/MonogamousTDD.html)
+* Monogamous TDD
 
   04-25-2014
-* [Code Hoarders](/uncle-bob/2014/04/03/Code-Hoarders.html)
+* Code Hoarders
 
   04-03-2014
-* [The *True* Corruption of Agile](/uncle-bob/2014/03/28/The-Corruption-of-Agile.html)
+* The *True* Corruption of Agile
 
   03-28-2014
-* [When Should You Think?](/uncle-bob/2014/03/11/when-to-think.html)
+* When Should You Think?
 
   03-11-2014
-* [A Spectrum of Trust](/uncle-bob/2014/02/27/TheTrustSpectrum.html)
+* A Spectrum of Trust
 
   02-27-2014
-* [Oh Foreman, Where art Thou?](/uncle-bob/2014/02/23/OhForemanWhereArtThou.html)
+* Oh Foreman, Where art Thou?
 
   02-23-2014
-* [Where is the Foreman?](/uncle-bob/2014/02/21/WhereIsTheForeman.html)
+* Where is the Foreman?
 
   02-21-2014
-* [The Domain Discontinuity](/uncle-bob/2014/01/27/TheChickenOrTheRoad.html)
+* The Domain Discontinuity
 
   01-27-2014
-* [Coding in the Clink (9)](/uncle-bob/2014/01/20/Marion_Correctional.html)
+* Coding in the Clink (9)
 
   01-20-2014
-* [Extreme Programming, a Reflection](/uncle-bob/2013/12/10/Thankyou-Kent.html)
+* Extreme Programming, a Reflection
 
   12-10-2013
-* [Novices. A Coda](/uncle-bob/2013/11/25/Novices-Coda.html)
+* Novices. A Coda
 
   11-25-2013
-* [Hordes Of Novices](/uncle-bob/2013/11/19/HoardsOfNovices.html)
+* Hordes Of Novices
 
   11-19-2013
-* [Healthcare.gov](/uncle-bob/2013/11/12/Healthcare-gov.html)
+* Healthcare.gov
 
   11-12-2013
-* [The Careless Ones](/uncle-bob/2013/10/24/The-Careless-Ones.html)
+* The Careless Ones
 
   10-24-2013
-* [Dance you Imps!](/uncle-bob/2013/10/01/Dance-You-Imps.html)
+* Dance you Imps!
 
   10-01-2013
-* [A.T. FAIL!](/uncle-bob/2013/09/26/AT-FAIL.html)
+* A.T. FAIL!
 
   09-26-2013
-* [Test First](/uncle-bob/2013/09/23/Test-first.html)
+* Test First
 
   09-23-2013
-* [Transformation Priority and Sorting](/uncle-bob/2013/05/27/TransformationPriorityAndSorting.html)
+* Transformation Priority and Sorting
 
   05-27-2013
-* [The Transformation Priority Premise](/uncle-bob/2013/05/27/TheTransformationPriorityPremise.html)
+* The Transformation Priority Premise
 
   05-27-2013
-* [Flash - TPP](/uncle-bob/2013/05/27/FlashTpp.html)
+* Flash - TPP
 
   05-27-2013
-* [Fib. The T-P Premise.](/uncle-bob/2013/05/27/FibTPP.html)
+* Fib. The T-P Premise.
 
   05-27-2013
-* [There are Ladies Present](/uncle-bob/2013/03/22/There-are-ladies-present.html)
+* There are Ladies Present
 
   03-22-2013
-* [The Frenzied Panic of Rushing](/uncle-bob/2013/03/11/TheFrenziedPanicOfRushing.html)
+* The Frenzied Panic of Rushing
 
   03-11-2013
-* [An Open and Closed Case](/uncle-bob/2013/03/08/AnOpenAndClosedCase.html)
+* An Open and Closed Case
 
   03-08-2013
-* [The Pragmatics of TDD](/uncle-bob/2013/03/06/ThePragmaticsOfTDD.html)
+* The Pragmatics of TDD
 
   03-06-2013
-* [The Start-Up Trap](/uncle-bob/2013/03/05/TheStartUpTrap.html)
+* The Start-Up Trap
 
   03-05-2013
-* [The Principles of Craftsmanship](/uncle-bob/2013/02/10/ThePrinciplesOfCraftsmanship.html)
+* The Principles of Craftsmanship
 
   02-10-2013
-* [The Humble Craftsman](/uncle-bob/2013/02/01/The-Humble-Craftsman.html)
+* The Humble Craftsman
 
   02-01-2013
-* [The Laborer and the Craftsman](/uncle-bob/2013/01/30/The-Craftsman-And-The-Laborer.html)
+* The Laborer and the Craftsman
 
   01-30-2013
-* [FP Basics E4](/uncle-bob/2013/01/29/FPBE4-Lazy-Evaluation.html)
+* FP Basics E4
 
   01-29-2013
-* [FP Basics E3](/uncle-bob/2013/01/07/FPBE3-Do-the-rules-change.html)
+* FP Basics E3
 
   01-07-2013
-* [FP Basics E2](/uncle-bob/2013/01/02/FPBE2-Whys-it-called-functional.html)
+* FP Basics E2
 
   01-02-2013
-* [Brave New Year](/uncle-bob/2012/12/29/Brave-New-Year.html)
+* Brave New Year
 
   12-29-2012
-* [FP Basics E1](/uncle-bob/2012/12/22/FPBE1-Whats-it-all-about.html)
+* FP Basics E1
 
   12-22-2012
-* [Three Paradigms](/uncle-bob/2012/12/19/Three-Paradigms.html)
+* Three Paradigms
 
   12-19-2012
-* [The New CTO](/uncle-bob/2012/09/06/I-am-Your-New-CTO.html)
+* The New CTO
 
   09-06-2012
-* [Functional Programming for the Object Oriented Programmer](/uncle-bob/2012/08/24/functional-programming-for-the-object-oriented-programmer.html)
+* Functional Programming for the Object Oriented Programmer
 
   08-24-2012
-* [The Clean Architecture](/uncle-bob/2012/08/13/the-clean-architecture.html)
+* The Clean Architecture
 
   08-13-2012
-* [NO DB](/uncle-bob/2012/05/15/NODB.html)
+* NO DB
 
   05-15-2012
-* [Why is Estimating so Hard?](/uncle-bob/2012/04/20/Why-Is-Estimating-So-Hard.html)
+* Why is Estimating so Hard?
 
   04-20-2012
-* [After the Disaster](/uncle-bob/2012/04/18/After-The-Disaster.html)
+* After the Disaster
 
   04-18-2012
-* [Service Oriented Agony](/uncle-bob/2012/02/01/Service-Oriented-Agony.html)
+* Service Oriented Agony
 
   02-01-2012
-* [The Ruby Colored Box](/uncle-bob/2012/01/31/The-Ruby-Colored-Box.html)
+* The Ruby Colored Box
 
   01-31-2012
-* [Fecophiles](/uncle-bob/2012/01/20/Fecophiles.html)
+* Fecophiles
 
   01-20-2012
-* [The Letter](/uncle-bob/2012/01/12/The-Letter.html)
+* The Letter
 
   01-12-2012
-* [Flipping the Bit](/uncle-bob/2012/01/11/Flipping-the-Bit.html)
+* Flipping the Bit
 
   01-11-2012
-* [The Barbarians are at the Gates](/uncle-bob/2011/12/11/The-Barbarians-are-at-the-Gates.html)
+* The Barbarians are at the Gates
 
   12-11-2011
-* [Clean Architecture](/uncle-bob/2011/11/22/Clean-Architecture.html)
+* Clean Architecture
 
   11-22-2011
-* [Double Entry Bookkeeping Dilemma. Should I Invest or Not?](/uncle-bob/2011/11/06/Double-Entry-Bookkeeping-Dilemma-Should-I-Invest-or-Not.html)
+* Double Entry Bookkeeping Dilemma. Should I Invest or Not?
 
   11-06-2011
-* [Simple Hickey](/uncle-bob/2011/10/20/Simple-Hickey.html)
+* Simple Hickey
 
   10-20-2011
-* [Screaming Architecture](/uncle-bob/2011/09/30/Screaming-Architecture.html)
+* Screaming Architecture
 
   09-30-2011
-* [Bringing Balance to the Force](/uncle-bob/2011/01/19/individuals-and-interactions.html)
+* Bringing Balance to the Force
 
   01-19-2011
-* [What Software Craftsmanship is about](/uncle-bob/2011/01/17/software-craftsmanship-is-about.html)
+* What Software Craftsmanship is about
 
   01-17-2011
 
@@ -4139,7 +4110,7 @@ by Robert C. Martin (Uncle Bob)
 
 19 January 2023
 
-My previous [blog](http://blog.cleancoder.com/uncle-bob/2023/01/18/functional-classes.html) seemed only to continue the confusion regarding classes in Functional Programming. Indeed, many people got quite irate. So perhaps a bit of code will help.
+My previous blog seemed only to continue the confusion regarding classes in Functional Programming. Indeed, many people got quite irate. So perhaps a bit of code will help.
 
 **Trigger Warning**:
 
@@ -4161,8 +4132,6 @@ We do not need the `class` keyword. Nor do we need polymorphic dispatch. Nor do 
 For example – it’s time we talked about clouds (which I have looked at from both sides now; and do, in fact, understand pretty well).
 
 So… Here come your father’s parentheses!
-
-![](https://i.pinimg.com/originals/4f/1e/26/4f1e261d1afa9d58fd1125db5a5a4a12.jpg)
 
 ```
 (ns spacewar.game-logic.clouds
@@ -4226,22 +4195,21 @@ So… Here come your father’s parentheses!
        (update-dilithium-harvest ms)))
 ```
 
-Some years back I wrote a nice little [spacewar game](http://blog.cleancoder.com/uncle-bob/2021/11/28/Spacewar.html) in Clojure. You can play it [here](http://spacewar.fikesfarm.com/spacewar.html). While playing, if you manage to blow up a Klingon, a sparkling cloud of *Dilithium Crystals* will remain behind, quickly dissipating. If you can guide your ship into the midst of that cloud, you will harvest some of that *Dilithium* and replenish your stores.
+Some years back I wrote a nice little spacewar game in Clojure. You can play it here. While playing, if you manage to blow up a Klingon, a sparkling cloud of *Dilithium Crystals* will remain behind, quickly dissipating. If you can guide your ship into the midst of that cloud, you will harvest some of that *Dilithium* and replenish your stores.
 
 The code you see above is the *class* that represents the *Dilithium Cloud*.
 
 The first thing to notice is that I defined the *TYPE* of the `cloud` *class* – *dynamically*.  
-![](https://yt3.ggpht.com/a/AATXAJxJ07NzOxzlMLuiV6SGv808JXSCrALLJMXJ1w=s900-c-k-c0xffffffff-no-rj-mo)
 
 A `cloud` is an object with an `x` and `y` coordinate, and a `concentration`; all of which must be numbers. I also created a little type checking function named `valid-cloud?` that is used by my unit tests (not shown) to make sure the *TYPE* is not violated by any of the *methods*.
 
 Next comes `make-cloud` the *constructor* of the `cloud` *class*.
 
-[via GIPHY](https://giphy.com/gifs/theoffice-the-office-tv-frame-toby-vyTnNTrs3wqQ0UIvwE)
+via GIPHY
 
 There are two overloads of the *constructor*. The first takes no arguments and simply creates a `cloud` at (0,0) with no *Dilithium* in it. The second takes three arguments and loads the *instance variables* of the *class*.
 
-[via GIPHY](https://giphy.com/gifs/monty-python-2yP1jNgjNAkvu)
+via GIPHY
 
 There are two primary *methods* of the `cloud` *class*: `update-clouds-age` and `update-dilithium-harvest`. The `update-clouds-age` *method* finds all the `cloud` *instances* in the `world` *object* and decreases their concentration by the `decay` factor – which is a function of the number of milliseconds (`ms`) since the last time they were updated. The `update-dilithium-harvest` *method* finds all the `cloud` *objects* that are within the `ship` *object*’s harvesting range and transfers *Dilithium* from those `cloud` *objects* to the `ship` *object*.
 
@@ -4251,7 +4219,7 @@ So are these really *methods* of the `cloud` *class*? Sure! Why not? They are a 
 
 For all intents and purposes `cloud` is a °°°°°° °°°°°°° *class*.
 
-[via GIPHY](https://giphy.com/gifs/reaction-laughing-lotr-TcdpZwYDPlWXC)
+via GIPHY
 
 So there.
 
