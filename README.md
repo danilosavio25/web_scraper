@@ -31,7 +31,7 @@ A robust and user-friendly Python web scraper with a visual progress bar and sub
 Run the scraper using the following command format:
 
 ```bash
-python scraper.py <URL> [FLAGS]
+python3 scraper.py <URL> [FLAGS]
 ```
 
 ### Examples
