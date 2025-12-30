@@ -5,12 +5,11 @@ Act as Python expert.
 </role>
 
 <features>
-- It will be used as knowledge base for a chatbot cloning yoda and teaching about programming.
+- It will be used as knowledge base for a chatbot cloning yoda.
 - Create a script to use scraper.py to scrape yoda knowledge base.
-- Use @pacote-conhecimento/yoda-knowledge-base as a reference.
+- Use @pacote-conhecimento/yoda-knowledge-base as a reference to search for personality only.
 - Search relevants urls based on the prompt above. Make it smart and lean.
 - Make search multiple urls.
-- We need to keep in 20 files max.
 - If possible follow the directory structure of the yoda knowledge base file.
 </features>
 

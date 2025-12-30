@@ -1,0 +1,796 @@
+Star Wars Jedi | Wookieepedia | Fandom
+
+
+
+Wookieepedia
+
+To improve your ad experience, [**create an account**](/wiki/Special:Signup "Special:Signup").  
+[**Join Wookieepedia today!**](/wiki/Wookieepedia:Welcome,_newcomers "Wookieepedia:Welcome, newcomers")
+
+READ MORE
+
+[Sign In](https://auth.fandom.com/signin?source=mw&redirect=https%3A%2F%2Fstarwars.fandom.com%2Fwiki%2FStar_Wars_Jedi)
+
+[Register](https://auth.fandom.com/register?source=mw&redirect=https%3A%2F%2Fstarwars.fandom.com%2Fwiki%2FStar_Wars_Jedi)
+
+[Wookieepedia](https://starwars.fandom.com)
+
+
+* Explore
+
+  + [Main Page](https://starwars.fandom.com/wiki/Main_Page)
+  + [Discuss](/f)
+  + [All Pages](https://starwars.fandom.com/wiki/Special:AllPages)
+  + [Community](https://starwars.fandom.com/wiki/Special:Community)
+  + [Interactive Maps](https://starwars.fandom.com/wiki/Special:AllMaps)
+* Trending
+
+  + [New and upcoming](https://starwars.fandom.com/wiki/Category:2025_releases) 
+
+    - [Doctor Aphra – Chaos Agent](https://starwars.fandom.com/wiki/Star_Wars:_Doctor_Aphra_%E2%80%93_Chaos_Agent)
+    - [Sanctuary: A Bad Batch Novel](https://starwars.fandom.com/wiki/Sanctuary:_A_Bad_Batch_Novel)
+    - [Hunt for the Falcon](https://starwars.fandom.com/wiki/Star_Wars:_Han_Solo_-_Hunt_for_the_Falcon)
+    - [Star Wars: Boba Fett — Black, White & Red](https://starwars.fandom.com/wiki/Star_Wars:_Boba_Fett_%E2%80%94_Black,_White_%26_Red)
+    - [LEGO Star Wars: Rebuild the Galaxy: Pieces of the Past](https://starwars.fandom.com/wiki/LEGO_Star_Wars:_Rebuild_the_Galaxy:_Pieces_of_the_Past)
+    - [The Last Order](https://starwars.fandom.com/wiki/The_Last_Order)
+    - [Master of Evil](https://starwars.fandom.com/wiki/Master_of_Evil)
+    - [Star Wars: Visions Volume 3](https://starwars.fandom.com/wiki/Star_Wars:_Visions_Volume_3)
+  + [Sanctuary: A Bad Batch Novel](https://starwars.fandom.com/wiki/Sanctuary:_A_Bad_Batch_Novel) 
+
+    - [Omega](https://starwars.fandom.com/wiki/Omega)
+    - [Hunter](https://starwars.fandom.com/wiki/Hunter)
+    - [Wrecker](https://starwars.fandom.com/wiki/Wrecker)
+    - [Tech](https://starwars.fandom.com/wiki/Tech)
+    - [Sohi](https://starwars.fandom.com/wiki/Sohi)
+    - [Ponder](https://starwars.fandom.com/wiki/Ponder)
+    - [Clone Force 99](https://starwars.fandom.com/wiki/Clone_Force_99)
+    - [Galactic Empire](https://starwars.fandom.com/wiki/Galactic_Empire)
+  + [Jedi Knights](https://starwars.fandom.com/wiki/Star_Wars:_Jedi_Knights) 
+
+    - [Qui-Gon Jinn](https://starwars.fandom.com/wiki/Qui-Gon_Jinn)
+    - [Obi-Wan Kenobi](https://starwars.fandom.com/wiki/Obi-Wan_Kenobi)
+    - [Yoda](https://starwars.fandom.com/wiki/Yoda)
+    - [Mace Windu](https://starwars.fandom.com/wiki/Mace_Windu)
+    - [Dooku](https://starwars.fandom.com/wiki/Dooku)
+    - [Seera Longa](https://starwars.fandom.com/wiki/Seera_Longa)
+    - [Vetna Mooncrest](https://starwars.fandom.com/wiki/Vetna_Mooncrest)
+    - [Atha Prime](https://starwars.fandom.com/wiki/Atha_Prime)
+    - [Corlis Rath](https://starwars.fandom.com/wiki/Corlis_Rath)
+    - [Sinsara](https://starwars.fandom.com/wiki/Sinsara)
+  + [Star Wars: Visions Volume 3](https://starwars.fandom.com/wiki/Star_Wars:_Visions_Volume_3) 
+
+    - [The Ronin](https://starwars.fandom.com/wiki/The_Ronin)
+    - [F](https://starwars.fandom.com/wiki/F)
+    - [Lah Kara](https://starwars.fandom.com/wiki/Lah_Kara)
+    - [Yuko](https://starwars.fandom.com/wiki/Yuko)
+    - [Chita](https://starwars.fandom.com/wiki/Chita)
+    - [Sevn](https://starwars.fandom.com/wiki/Sevn)
+    - [Crane (princess)](https://starwars.fandom.com/wiki/Crane_(princess))
+    - [Nakime](https://starwars.fandom.com/wiki/Nakime)
+    - [Lah Zhima](https://starwars.fandom.com/wiki/Lah_Zhima)
+    - [The Grand Master](https://starwars.fandom.com/wiki/The_Grand_Master)
+  + [Star Wars (2025)](https://starwars.fandom.com/wiki/Star_Wars_(2025)) 
+
+    - [Luke Skywalker](https://starwars.fandom.com/wiki/Luke_Skywalker)
+    - [Han Solo](https://starwars.fandom.com/wiki/Han_Solo)
+    - [Leia Organa](https://starwars.fandom.com/wiki/Leia_Skywalker_Organa_Solo)
+    - [Rynn Zenat](https://starwars.fandom.com/wiki/Rynn_Zenat)
+    - [Beilert Valance](https://starwars.fandom.com/wiki/Beilert_Valance)
+    - [Mon Mothma](https://starwars.fandom.com/wiki/Mon_Mothma)
+    - [Fenril Consortium](https://starwars.fandom.com/wiki/Fenril_Consortium)
+    - [Reyna Oskure](https://starwars.fandom.com/wiki/Reyna_Oskure)
+    - [Kezrin Almovar](https://starwars.fandom.com/wiki/Kezrin_Almovar)
+    - [Nagai](https://starwars.fandom.com/wiki/Nagai)
+  + [Legacy of Vader](https://starwars.fandom.com/wiki/Star_Wars:_Legacy_of_Vader) 
+
+    - [Kylo Ren](https://starwars.fandom.com/wiki/Kylo_Ren)
+    - [Mustafar](https://starwars.fandom.com/wiki/Mustafar)
+    - [Darth Vader](https://starwars.fandom.com/wiki/Anakin_Skywalker)
+    - [Fortress Vader](https://starwars.fandom.com/wiki/Fortress_Vader)
+    - [Vaneé](https://starwars.fandom.com/wiki/Vane%C3%A9)
+    - [Armitage Hux](https://starwars.fandom.com/wiki/Armitage_Hux)
+    - [Tava Ren](https://starwars.fandom.com/wiki/Tava_Ren)
+    - [First Order](https://starwars.fandom.com/wiki/First_Order)
+    - [Knights of Ren](https://starwars.fandom.com/wiki/Knights_of_Ren)
+    - [Grandea](https://starwars.fandom.com/wiki/Grandea)
+* [Star Wars](https://starwars.fandom.com/wiki/Star_Wars)
+
+  + [Skywalker saga](https://starwars.fandom.com/wiki/Star_Wars_saga) 
+
+    - [The Phantom Menace](https://starwars.fandom.com/wiki/Star_Wars:_Episode_I_The_Phantom_Menace)
+    - [Attack of the Clones](https://starwars.fandom.com/wiki/Star_Wars:_Episode_II_Attack_of_the_Clones)
+    - [Revenge of the Sith](https://starwars.fandom.com/wiki/Star_Wars:_Episode_III_Revenge_of_the_Sith)
+    - [A New Hope](https://starwars.fandom.com/wiki/Star_Wars:_Episode_IV_A_New_Hope)
+    - [The Empire Strikes Back](https://starwars.fandom.com/wiki/Star_Wars:_Episode_V_The_Empire_Strikes_Back)
+    - [Return of the Jedi](https://starwars.fandom.com/wiki/Star_Wars:_Episode_VI_Return_of_the_Jedi)
+    - [The Force Awakens](https://starwars.fandom.com/wiki/Star_Wars:_Episode_VII_The_Force_Awakens)
+    - [The Last Jedi](https://starwars.fandom.com/wiki/Star_Wars:_Episode_VIII_The_Last_Jedi)
+    - [The Rise of Skywalker](https://starwars.fandom.com/wiki/Star_Wars:_Episode_IX_The_Rise_of_Skywalker)
+  + [Standalone films](https://starwars.fandom.com/wiki/Category:Stand-alone_films) 
+
+    - [Canon](https://starwars.fandom.com/wiki/Canon) 
+
+      * [The Clone Wars](https://starwars.fandom.com/wiki/Star_Wars:_The_Clone_Wars_(film))
+      * [Rogue One](https://starwars.fandom.com/wiki/Rogue_One:_A_Star_Wars_Story)
+      * [Solo](https://starwars.fandom.com/wiki/Solo:_A_Star_Wars_Story)
+      * [The Mandalorian & Grogu](https://starwars.fandom.com/wiki/The_Mandalorian_%26_Grogu)
+      * [New Republic Era film (Filoni)](https://starwars.fandom.com/wiki/Untitled_Star_Wars_film_(Dave_Filoni))
+      * [New Jedi Order film (Obaid-Chinoy)](https://starwars.fandom.com/wiki/Untitled_Star_Wars_film_(Sharmeen_Obaid-Chinoy))
+      * [Dawn of the Jedi film (Mangold)](https://starwars.fandom.com/wiki/Untitled_Star_Wars_film_(James_Mangold))
+      * [Lando](https://starwars.fandom.com/wiki/Lando_(film))
+    - [Legends](https://starwars.fandom.com/wiki/Star_Wars_Legends) 
+
+      * [Caravan of Courage](https://starwars.fandom.com/wiki/Caravan_of_Courage:_An_Ewok_Adventure)
+      * [The Battle for Endor](https://starwars.fandom.com/wiki/Ewoks:_The_Battle_for_Endor)
+      * [The Star Wars Holiday Special](https://starwars.fandom.com/wiki/The_Star_Wars_Holiday_Special)
+  + [Live-action series](https://starwars.fandom.com/wiki/Category:Live-action_television_series) 
+
+    - [The Mandalorian](https://starwars.fandom.com/wiki/The_Mandalorian)
+    - [Jedi Temple Challenge](https://starwars.fandom.com/wiki/Star_Wars:_Jedi_Temple_Challenge)
+    - [The Book of Boba Fett](https://starwars.fandom.com/wiki/The_Book_of_Boba_Fett)
+    - [Obi-Wan Kenobi](https://starwars.fandom.com/wiki/Obi-Wan_Kenobi_(television_series))
+    - [Andor](https://starwars.fandom.com/wiki/Andor_(television_series))
+    - [Ahsoka](https://starwars.fandom.com/wiki/Ahsoka_(television_series))
+    - [The Acolyte](https://starwars.fandom.com/wiki/The_Acolyte)
+    - [Skeleton Crew](https://starwars.fandom.com/wiki/Star_Wars:_Skeleton_Crew)
+  + [Animated series](https://starwars.fandom.com/wiki/Category:Animated_television_series) 
+
+    - [Canon](https://starwars.fandom.com/wiki/Canon) 
+
+      * [The Clone Wars](https://starwars.fandom.com/wiki/Star_Wars:_The_Clone_Wars)
+      * [Rebels](https://starwars.fandom.com/wiki/Star_Wars_Rebels)
+      * [Resistance](https://starwars.fandom.com/wiki/Star_Wars_Resistance)
+      * [The Bad Batch](https://starwars.fandom.com/wiki/Star_Wars:_The_Bad_Batch)
+      * [Tales](https://starwars.fandom.com/wiki/Tales)
+      * [Young Jedi Adventures](https://starwars.fandom.com/wiki/Star_Wars:_Young_Jedi_Adventures)
+    - [Legends](https://starwars.fandom.com/wiki/Star_Wars_Legends) 
+
+      * [Droids](https://starwars.fandom.com/wiki/Star_Wars:_Droids:_The_Adventures_of_R2-D2_and_C-3PO)
+      * [Ewoks](https://starwars.fandom.com/wiki/Ewoks_(TV_series))
+      * [Clone Wars](https://starwars.fandom.com/wiki/Star_Wars:_Clone_Wars)
+      * [The Clone Wars](https://starwars.fandom.com/wiki/Star_Wars:_The_Clone_Wars)
+    - [Visions](https://starwars.fandom.com/wiki/Star_Wars:_Visions)
+  + [Games](https://starwars.fandom.com/wiki/Category:Real-world_games) 
+
+    - [Board games](https://starwars.fandom.com/wiki/Category:Real-world_board_games)
+    - [Card games](https://starwars.fandom.com/wiki/Category:Real-world_card_games)
+    - [Miniatures games](https://starwars.fandom.com/wiki/Category:Miniatures_games)
+    - [Roleplaying games](https://starwars.fandom.com/wiki/Category:Roleplaying_games)
+    - [Real-world attractions](https://starwars.fandom.com/wiki/Category:Real-world_attractions)
+    - [Video games](https://starwars.fandom.com/wiki/Category:Computer_and_video_games) 
+
+      * [X-Wing/TIE Fighter](https://starwars.fandom.com/wiki/Category:X-Wing_computer_games)
+      * [Dark Forces/Jedi Knight](https://starwars.fandom.com/wiki/Dark_Forces/Jedi_Knight)
+      * [Knights of the Old Republic](https://starwars.fandom.com/wiki/Star_Wars:_Knights_of_the_Old_Republic)
+      * [Battlefront](https://starwars.fandom.com/wiki/Star_Wars_Battlefront_(series))
+      * [The Force Unleashed](https://starwars.fandom.com/wiki/Star_Wars:_The_Force_Unleashed)
+      * [The Old Republic](https://starwars.fandom.com/wiki/Star_Wars:_The_Old_Republic)
+      * [Jedi series](https://starwars.fandom.com/wiki/Star_Wars_Jedi)
+      * [LEGO games](https://starwars.fandom.com/wiki/Category:LEGO_video_games)
+    - [Virtual reality games](https://starwars.fandom.com/wiki/Category:Virtual_reality_games)
+  + [Literature](https://starwars.fandom.com/wiki/Category:Real-world_books) 
+
+    - [Audiobooks](https://starwars.fandom.com/wiki/Category:Audiobooks)
+    - [Comics](https://starwars.fandom.com/wiki/Category:Comics)
+    - [Cookbooks](https://starwars.fandom.com/wiki/Category:Real-world_cookbooks)
+    - [Game books](https://starwars.fandom.com/wiki/Category:Game_books)
+    - [Magazines](https://starwars.fandom.com/wiki/Category:Magazines)
+    - [Music books](https://starwars.fandom.com/wiki/Category:Music_books)
+    - [Reference books](https://starwars.fandom.com/wiki/Category:Reference_books)
+    - [Short stories](https://starwars.fandom.com/wiki/Category:Short_stories)
+    - [Novels](https://starwars.fandom.com/wiki/Category:Star_Wars_novels)
+    - [Young readers](https://starwars.fandom.com/wiki/Category:Young_Readers)
+* [Navigation](https://starwars.fandom.com/wiki/Main_Page)
+
+  + [Articles](https://starwars.fandom.com/wiki/Category:Star_Wars) 
+
+    - [Content A-Z](https://starwars.fandom.com/wiki/Special:AllPages)
+    - [Status articles](https://starwars.fandom.com/wiki/Category:Wookieepedia_status_articles) 
+
+      * [Featured articles](https://starwars.fandom.com/wiki/Wookieepedia:Featured_articles)
+      * [Good articles](https://starwars.fandom.com/wiki/Wookieepedia:Good_articles)
+      * [Comprehensive articles](https://starwars.fandom.com/wiki/Wookieepedia:Comprehensive_articles)
+    - [Browse articles by category](https://starwars.fandom.com/wiki/Category:Browse) 
+
+      * [Culture](https://starwars.fandom.com/wiki/Category:Society_and_culture)
+      * [Droids](https://starwars.fandom.com/wiki/Category:Droids)
+      * [Events](https://starwars.fandom.com/wiki/Category:Events)
+      * [The Force](https://starwars.fandom.com/wiki/Category:The_Force)
+      * [Individuals](https://starwars.fandom.com/wiki/Category:Individuals)
+      * [Locations](https://starwars.fandom.com/wiki/Category:Locations)
+      * [Organizations](https://starwars.fandom.com/wiki/Category:Organizations)
+      * [Species](https://starwars.fandom.com/wiki/Category:Species)
+      * [Technology](https://starwars.fandom.com/wiki/Category:Technology)
+      * [Behind the scenes](https://starwars.fandom.com/wiki/Category:Real-world_articles)
+    - [Audio articles](https://starwars.fandom.com/wiki/Wookieepedia:Audio_articles_archive)
+    - [Random article](https://starwars.fandom.com/wiki/Special:Random)
+  + [Audio files](https://starwars.fandom.com/wiki/Category:Audio_files)
+  + [Images](https://starwars.fandom.com/wiki/Category:Images)
+  + [Lists](https://starwars.fandom.com/wiki/Category:Lists)
+  + [Timelines](https://starwars.fandom.com/wiki/Category:Timelines) 
+
+    - [Media timelines](https://starwars.fandom.com/wiki/Category:Media_timelines)
+* [Community](https://starwars.fandom.com/wiki/Special:Community)
+
+  + [About Wookieepedia](https://starwars.fandom.com/wiki/Wookieepedia:About) 
+
+    - [FAQ](https://starwars.fandom.com/wiki/Wookieepedia:FAQ)
+    - [Become a Wookieepedian!](https://starwars.fandom.com/wiki/Wookieepedia:Welcome,_newcomers)
+    - [Administration](https://starwars.fandom.com/wiki/Wookieepedia:Administrators)
+    - [Policies](https://starwars.fandom.com/wiki/Wookieepedia:Policies) 
+
+      * [Attribution](https://starwars.fandom.com/wiki/Wookieepedia:Attribution)
+      * [Canon](https://starwars.fandom.com/wiki/Wookieepedia:Canon_policy)
+      * [Copyright](https://starwars.fandom.com/wiki/Wookieepedia:Copyrights)
+      * [Layout Guide](https://starwars.fandom.com/wiki/Wookieepedia:Layout_Guide)
+      * [Manual of Style](https://starwars.fandom.com/wiki/Wookieepedia:Manual_of_Style)
+      * [Naming](https://starwars.fandom.com/wiki/Wookieepedia:Naming_policy)
+      * [Neutral point of view](https://starwars.fandom.com/wiki/Wookieepedia:Neutral_point_of_view)
+      * [Notability](https://starwars.fandom.com/wiki/Wookieepedia:Notability_policy)
+      * [Sourcing](https://starwars.fandom.com/wiki/Wookieepedia:Sourcing)
+      * [Spoilers](https://starwars.fandom.com/wiki/Wookieepedia:Spoilers)
+    - [Wookieepedia in other languages](https://starwars.fandom.com/wiki/List_of_Star_Wars_Wikis_in_other_languages)
+  + [Forums](https://starwars.fandom.com/wiki/Forum:Index) 
+
+    - [Consensus track](https://starwars.fandom.com/wiki/Forum:Consensus_track)
+    - [Discussions](https://starwars.fandom.com/wiki/Wookieepedia:Discussions)
+    - [Senate Hall](https://starwars.fandom.com/wiki/Forum:Senate_Hall)
+    - [Trash compactor](https://starwars.fandom.com/wiki/Forum:Trash_compactor)
+    - [Wookieepedian of the Month](https://starwars.fandom.com/wiki/Wookieepedia:Wookieepedian_of_the_Month)
+    - [Requests for user rights](https://starwars.fandom.com/wiki/Wookieepedia:Requests_for_user_rights)
+    - [Review board membership](https://starwars.fandom.com/wiki/Wookieepedia:Review_board_membership_nominations)
+  + [WookieeProjects](https://starwars.fandom.com/wiki/Wookieepedia:WookieeProjects) 
+
+    - [By individual articles](https://starwars.fandom.com/wiki/Wookieepedia:WookieeProjects) 
+
+      * [Project Defender](https://starwars.fandom.com/wiki/Wookieepedia:Project_Defender)
+      * [Project Stardust](https://starwars.fandom.com/wiki/Wookieepedia:Project_Stardust)
+    - [By subject matter](https://starwars.fandom.com/wiki/Wookieepedia:WookieeProjects) 
+
+      * [Astrography](https://starwars.fandom.com/wiki/Wookieepedia:WookieeProject_Astrography)
+      * [Chiss](https://starwars.fandom.com/wiki/Wookieepedia:WookieeProject_Chiss)
+      * [Comics](https://starwars.fandom.com/wiki/Wookieepedia:WookieeProject_Comics)
+      * [Creators](https://starwars.fandom.com/wiki/Wookieepedia:WookieeProject_Creators)
+      * [Fantasy Flight Games](https://starwars.fandom.com/wiki/Wookieepedia:WookieeProject_Fantasy_Flight_Games)
+      * [Galaxy's Edge](https://starwars.fandom.com/wiki/Wookieepedia:WookieeProject_Galaxy%27s_Edge)
+      * [Knights of the Old Republic](https://starwars.fandom.com/wiki/Wookieepedia:WookieeProject_Knights_of_the_Old_Republic)
+      * [LEGO](https://starwars.fandom.com/wiki/Wookieepedia:WookieeProject_LEGO)
+      * [Novels](https://starwars.fandom.com/wiki/Wookieepedia:WookieeProject_Novels)
+      * [Pride](https://starwars.fandom.com/wiki/Wookieepedia:WookieeProject_Pride)
+      * [Resistance](https://starwars.fandom.com/wiki/Wookieepedia:WookieeProject_Resistance)
+      * [The Clone Wars](https://starwars.fandom.com/wiki/Wookieepedia:WookieeProject_The_Clone_Wars)
+      * [The High Republic](https://starwars.fandom.com/wiki/Wookieepedia:WookieeProject_The_High_Republic)
+      * [The Old Republic](https://starwars.fandom.com/wiki/Wookieepedia:WookieeProject_The_Old_Republic)
+      * [Women](https://starwars.fandom.com/wiki/Wookieepedia:WookieeProject_Women)
+  + [Contact](https://starwars.fandom.com/wiki/Wookieepedia:Contact) 
+
+    - [Administrators' noticeboard](https://starwars.fandom.com/wiki/Forum:Administrators%27_noticeboard)
+    - [Discord](https://starwars.fandom.com/wiki/Wookieepedia:Discord)
+  + [Editing](https://starwars.fandom.com/wiki/Wookieepedia:Welcome,_newcomers) 
+
+    - [Tutorials](https://starwars.fandom.com/wiki/Wookieepedia:Welcome,_newcomers)
+    - [Editing sandbox](https://starwars.fandom.com/wiki/Wookieepedia:Jundland_Wastes)
+    - [Things to do](https://starwars.fandom.com/wiki/Wookieepedia:Things_to_do)
+    - [Status article nominations](https://starwars.fandom.com/wiki/Category:Wookieepedia_status_article_nomination_pages) 
+
+      * [Featured article nominations](https://starwars.fandom.com/wiki/Wookieepedia:Featured_article_nominations)
+      * [Good article nominations](https://starwars.fandom.com/wiki/Wookieepedia:Good_article_nominations)
+      * [Comprehensive article nominations](https://starwars.fandom.com/wiki/Wookieepedia:Comprehensive_article_nominations)
+    - [Status article reviews](https://starwars.fandom.com/wiki/Category:Wookieepedia_peer_review) 
+
+      * [Featured article reviews](https://starwars.fandom.com/wiki/Wookieepedia:Featured_article_reviews)
+      * [Good article reviews](https://starwars.fandom.com/wiki/Wookieepedia:Good_article_reviews)
+      * [Comprehensive article reviews](https://starwars.fandom.com/wiki/Wookieepedia:Comprehensive_article_reviews)
+    - [Recent Changes](https://starwars.fandom.com/wiki/Special:RecentChanges)
+  + [Statistics](https://starwars.fandom.com/wiki/Special:Statistics)
+  + [WookieeNights](https://starwars.fandom.com/wiki/Wookieepedia:WookieeNights)
+
+[Sign In](https://auth.fandom.com/signin?source=mw&redirect=https%3A%2F%2Fstarwars.fandom.com%2Fwiki%2FStar_Wars_Jedi)
+
+Don't have an account?
+
+[Register](https://auth.fandom.com/register?source=mw&redirect=https%3A%2F%2Fstarwars.fandom.com%2Fwiki%2FStar_Wars_Jedi) 
+
+
+---
+
+[Sign In](https://auth.fandom.com/signin?source=mw&redirect=https%3A%2F%2Fstarwars.fandom.com%2Fwiki%2FStar_Wars_Jedi)
+
+Menu
+
+Explore
+
+More
+
+
+ 
+History
+
+Advertisement
+
+[Skip to content](#page-header)
+
+[![Wookieepedia](https://static.wikia.nocookie.net/starwars/images/e/e6/Site-logo.png/revision/latest?cb=20250801005026)](https://starwars.fandom.com)
+
+[In a galaxy far, far away....](https://starwars.fandom.com)
+
+222,589
+
+pages
+
+* Explore
+
+  + [Main Page](https://starwars.fandom.com/wiki/Main_Page)
+  + [Discuss](/f)
+  + [All Pages](https://starwars.fandom.com/wiki/Special:AllPages)
+  + [Community](https://starwars.fandom.com/wiki/Special:Community)
+  + [Interactive Maps](https://starwars.fandom.com/wiki/Special:AllMaps)
+* Trending
+
+  + [New and upcoming](https://starwars.fandom.com/wiki/Category:2025_releases) 
+
+    - [Doctor Aphra – Chaos Agent](https://starwars.fandom.com/wiki/Star_Wars:_Doctor_Aphra_%E2%80%93_Chaos_Agent)
+    - [Sanctuary: A Bad Batch Novel](https://starwars.fandom.com/wiki/Sanctuary:_A_Bad_Batch_Novel)
+    - [Hunt for the Falcon](https://starwars.fandom.com/wiki/Star_Wars:_Han_Solo_-_Hunt_for_the_Falcon)
+    - [Star Wars: Boba Fett — Black, White & Red](https://starwars.fandom.com/wiki/Star_Wars:_Boba_Fett_%E2%80%94_Black,_White_%26_Red)
+    - [LEGO Star Wars: Rebuild the Galaxy: Pieces of the Past](https://starwars.fandom.com/wiki/LEGO_Star_Wars:_Rebuild_the_Galaxy:_Pieces_of_the_Past)
+    - [The Last Order](https://starwars.fandom.com/wiki/The_Last_Order)
+    - [Master of Evil](https://starwars.fandom.com/wiki/Master_of_Evil)
+    - [Star Wars: Visions Volume 3](https://starwars.fandom.com/wiki/Star_Wars:_Visions_Volume_3)
+  + [Sanctuary: A Bad Batch Novel](https://starwars.fandom.com/wiki/Sanctuary:_A_Bad_Batch_Novel) 
+
+    - [Omega](https://starwars.fandom.com/wiki/Omega)
+    - [Hunter](https://starwars.fandom.com/wiki/Hunter)
+    - [Wrecker](https://starwars.fandom.com/wiki/Wrecker)
+    - [Tech](https://starwars.fandom.com/wiki/Tech)
+    - [Sohi](https://starwars.fandom.com/wiki/Sohi)
+    - [Ponder](https://starwars.fandom.com/wiki/Ponder)
+    - [Clone Force 99](https://starwars.fandom.com/wiki/Clone_Force_99)
+    - [Galactic Empire](https://starwars.fandom.com/wiki/Galactic_Empire)
+  + [Jedi Knights](https://starwars.fandom.com/wiki/Star_Wars:_Jedi_Knights) 
+
+    - [Qui-Gon Jinn](https://starwars.fandom.com/wiki/Qui-Gon_Jinn)
+    - [Obi-Wan Kenobi](https://starwars.fandom.com/wiki/Obi-Wan_Kenobi)
+    - [Yoda](https://starwars.fandom.com/wiki/Yoda)
+    - [Mace Windu](https://starwars.fandom.com/wiki/Mace_Windu)
+    - [Dooku](https://starwars.fandom.com/wiki/Dooku)
+    - [Seera Longa](https://starwars.fandom.com/wiki/Seera_Longa)
+    - [Vetna Mooncrest](https://starwars.fandom.com/wiki/Vetna_Mooncrest)
+    - [Atha Prime](https://starwars.fandom.com/wiki/Atha_Prime)
+    - [Corlis Rath](https://starwars.fandom.com/wiki/Corlis_Rath)
+    - [Sinsara](https://starwars.fandom.com/wiki/Sinsara)
+  + [Star Wars: Visions Volume 3](https://starwars.fandom.com/wiki/Star_Wars:_Visions_Volume_3) 
+
+    - [The Ronin](https://starwars.fandom.com/wiki/The_Ronin)
+    - [F](https://starwars.fandom.com/wiki/F)
+    - [Lah Kara](https://starwars.fandom.com/wiki/Lah_Kara)
+    - [Yuko](https://starwars.fandom.com/wiki/Yuko)
+    - [Chita](https://starwars.fandom.com/wiki/Chita)
+    - [Sevn](https://starwars.fandom.com/wiki/Sevn)
+    - [Crane (princess)](https://starwars.fandom.com/wiki/Crane_(princess))
+    - [Nakime](https://starwars.fandom.com/wiki/Nakime)
+    - [Lah Zhima](https://starwars.fandom.com/wiki/Lah_Zhima)
+    - [The Grand Master](https://starwars.fandom.com/wiki/The_Grand_Master)
+  + [Star Wars (2025)](https://starwars.fandom.com/wiki/Star_Wars_(2025)) 
+
+    - [Luke Skywalker](https://starwars.fandom.com/wiki/Luke_Skywalker)
+    - [Han Solo](https://starwars.fandom.com/wiki/Han_Solo)
+    - [Leia Organa](https://starwars.fandom.com/wiki/Leia_Skywalker_Organa_Solo)
+    - [Rynn Zenat](https://starwars.fandom.com/wiki/Rynn_Zenat)
+    - [Beilert Valance](https://starwars.fandom.com/wiki/Beilert_Valance)
+    - [Mon Mothma](https://starwars.fandom.com/wiki/Mon_Mothma)
+    - [Fenril Consortium](https://starwars.fandom.com/wiki/Fenril_Consortium)
+    - [Reyna Oskure](https://starwars.fandom.com/wiki/Reyna_Oskure)
+    - [Kezrin Almovar](https://starwars.fandom.com/wiki/Kezrin_Almovar)
+    - [Nagai](https://starwars.fandom.com/wiki/Nagai)
+  + [Legacy of Vader](https://starwars.fandom.com/wiki/Star_Wars:_Legacy_of_Vader) 
+
+    - [Kylo Ren](https://starwars.fandom.com/wiki/Kylo_Ren)
+    - [Mustafar](https://starwars.fandom.com/wiki/Mustafar)
+    - [Darth Vader](https://starwars.fandom.com/wiki/Anakin_Skywalker)
+    - [Fortress Vader](https://starwars.fandom.com/wiki/Fortress_Vader)
+    - [Vaneé](https://starwars.fandom.com/wiki/Vane%C3%A9)
+    - [Armitage Hux](https://starwars.fandom.com/wiki/Armitage_Hux)
+    - [Tava Ren](https://starwars.fandom.com/wiki/Tava_Ren)
+    - [First Order](https://starwars.fandom.com/wiki/First_Order)
+    - [Knights of Ren](https://starwars.fandom.com/wiki/Knights_of_Ren)
+    - [Grandea](https://starwars.fandom.com/wiki/Grandea)
+* [Star Wars](https://starwars.fandom.com/wiki/Star_Wars)
+
+  + [Skywalker saga](https://starwars.fandom.com/wiki/Star_Wars_saga) 
+
+    - [The Phantom Menace](https://starwars.fandom.com/wiki/Star_Wars:_Episode_I_The_Phantom_Menace)
+    - [Attack of the Clones](https://starwars.fandom.com/wiki/Star_Wars:_Episode_II_Attack_of_the_Clones)
+    - [Revenge of the Sith](https://starwars.fandom.com/wiki/Star_Wars:_Episode_III_Revenge_of_the_Sith)
+    - [A New Hope](https://starwars.fandom.com/wiki/Star_Wars:_Episode_IV_A_New_Hope)
+    - [The Empire Strikes Back](https://starwars.fandom.com/wiki/Star_Wars:_Episode_V_The_Empire_Strikes_Back)
+    - [Return of the Jedi](https://starwars.fandom.com/wiki/Star_Wars:_Episode_VI_Return_of_the_Jedi)
+    - [The Force Awakens](https://starwars.fandom.com/wiki/Star_Wars:_Episode_VII_The_Force_Awakens)
+    - [The Last Jedi](https://starwars.fandom.com/wiki/Star_Wars:_Episode_VIII_The_Last_Jedi)
+    - [The Rise of Skywalker](https://starwars.fandom.com/wiki/Star_Wars:_Episode_IX_The_Rise_of_Skywalker)
+  + [Standalone films](https://starwars.fandom.com/wiki/Category:Stand-alone_films) 
+
+    - [Canon](https://starwars.fandom.com/wiki/Canon) 
+
+      * [The Clone Wars](https://starwars.fandom.com/wiki/Star_Wars:_The_Clone_Wars_(film))
+      * [Rogue One](https://starwars.fandom.com/wiki/Rogue_One:_A_Star_Wars_Story)
+      * [Solo](https://starwars.fandom.com/wiki/Solo:_A_Star_Wars_Story)
+      * [The Mandalorian & Grogu](https://starwars.fandom.com/wiki/The_Mandalorian_%26_Grogu)
+      * [New Republic Era film (Filoni)](https://starwars.fandom.com/wiki/Untitled_Star_Wars_film_(Dave_Filoni))
+      * [New Jedi Order film (Obaid-Chinoy)](https://starwars.fandom.com/wiki/Untitled_Star_Wars_film_(Sharmeen_Obaid-Chinoy))
+      * [Dawn of the Jedi film (Mangold)](https://starwars.fandom.com/wiki/Untitled_Star_Wars_film_(James_Mangold))
+      * [Lando](https://starwars.fandom.com/wiki/Lando_(film))
+    - [Legends](https://starwars.fandom.com/wiki/Star_Wars_Legends) 
+
+      * [Caravan of Courage](https://starwars.fandom.com/wiki/Caravan_of_Courage:_An_Ewok_Adventure)
+      * [The Battle for Endor](https://starwars.fandom.com/wiki/Ewoks:_The_Battle_for_Endor)
+      * [The Star Wars Holiday Special](https://starwars.fandom.com/wiki/The_Star_Wars_Holiday_Special)
+  + [Live-action series](https://starwars.fandom.com/wiki/Category:Live-action_television_series) 
+
+    - [The Mandalorian](https://starwars.fandom.com/wiki/The_Mandalorian)
+    - [Jedi Temple Challenge](https://starwars.fandom.com/wiki/Star_Wars:_Jedi_Temple_Challenge)
+    - [The Book of Boba Fett](https://starwars.fandom.com/wiki/The_Book_of_Boba_Fett)
+    - [Obi-Wan Kenobi](https://starwars.fandom.com/wiki/Obi-Wan_Kenobi_(television_series))
+    - [Andor](https://starwars.fandom.com/wiki/Andor_(television_series))
+    - [Ahsoka](https://starwars.fandom.com/wiki/Ahsoka_(television_series))
+    - [The Acolyte](https://starwars.fandom.com/wiki/The_Acolyte)
+    - [Skeleton Crew](https://starwars.fandom.com/wiki/Star_Wars:_Skeleton_Crew)
+  + [Animated series](https://starwars.fandom.com/wiki/Category:Animated_television_series) 
+
+    - [Canon](https://starwars.fandom.com/wiki/Canon) 
+
+      * [The Clone Wars](https://starwars.fandom.com/wiki/Star_Wars:_The_Clone_Wars)
+      * [Rebels](https://starwars.fandom.com/wiki/Star_Wars_Rebels)
+      * [Resistance](https://starwars.fandom.com/wiki/Star_Wars_Resistance)
+      * [The Bad Batch](https://starwars.fandom.com/wiki/Star_Wars:_The_Bad_Batch)
+      * [Tales](https://starwars.fandom.com/wiki/Tales)
+      * [Young Jedi Adventures](https://starwars.fandom.com/wiki/Star_Wars:_Young_Jedi_Adventures)
+    - [Legends](https://starwars.fandom.com/wiki/Star_Wars_Legends) 
+
+      * [Droids](https://starwars.fandom.com/wiki/Star_Wars:_Droids:_The_Adventures_of_R2-D2_and_C-3PO)
+      * [Ewoks](https://starwars.fandom.com/wiki/Ewoks_(TV_series))
+      * [Clone Wars](https://starwars.fandom.com/wiki/Star_Wars:_Clone_Wars)
+      * [The Clone Wars](https://starwars.fandom.com/wiki/Star_Wars:_The_Clone_Wars)
+    - [Visions](https://starwars.fandom.com/wiki/Star_Wars:_Visions)
+  + [Games](https://starwars.fandom.com/wiki/Category:Real-world_games) 
+
+    - [Board games](https://starwars.fandom.com/wiki/Category:Real-world_board_games)
+    - [Card games](https://starwars.fandom.com/wiki/Category:Real-world_card_games)
+    - [Miniatures games](https://starwars.fandom.com/wiki/Category:Miniatures_games)
+    - [Roleplaying games](https://starwars.fandom.com/wiki/Category:Roleplaying_games)
+    - [Real-world attractions](https://starwars.fandom.com/wiki/Category:Real-world_attractions)
+    - [Video games](https://starwars.fandom.com/wiki/Category:Computer_and_video_games) 
+
+      * [X-Wing/TIE Fighter](https://starwars.fandom.com/wiki/Category:X-Wing_computer_games)
+      * [Dark Forces/Jedi Knight](https://starwars.fandom.com/wiki/Dark_Forces/Jedi_Knight)
+      * [Knights of the Old Republic](https://starwars.fandom.com/wiki/Star_Wars:_Knights_of_the_Old_Republic)
+      * [Battlefront](https://starwars.fandom.com/wiki/Star_Wars_Battlefront_(series))
+      * [The Force Unleashed](https://starwars.fandom.com/wiki/Star_Wars:_The_Force_Unleashed)
+      * [The Old Republic](https://starwars.fandom.com/wiki/Star_Wars:_The_Old_Republic)
+      * [Jedi series](https://starwars.fandom.com/wiki/Star_Wars_Jedi)
+      * [LEGO games](https://starwars.fandom.com/wiki/Category:LEGO_video_games)
+    - [Virtual reality games](https://starwars.fandom.com/wiki/Category:Virtual_reality_games)
+  + [Literature](https://starwars.fandom.com/wiki/Category:Real-world_books) 
+
+    - [Audiobooks](https://starwars.fandom.com/wiki/Category:Audiobooks)
+    - [Comics](https://starwars.fandom.com/wiki/Category:Comics)
+    - [Cookbooks](https://starwars.fandom.com/wiki/Category:Real-world_cookbooks)
+    - [Game books](https://starwars.fandom.com/wiki/Category:Game_books)
+    - [Magazines](https://starwars.fandom.com/wiki/Category:Magazines)
+    - [Music books](https://starwars.fandom.com/wiki/Category:Music_books)
+    - [Reference books](https://starwars.fandom.com/wiki/Category:Reference_books)
+    - [Short stories](https://starwars.fandom.com/wiki/Category:Short_stories)
+    - [Novels](https://starwars.fandom.com/wiki/Category:Star_Wars_novels)
+    - [Young readers](https://starwars.fandom.com/wiki/Category:Young_Readers)
+* [Navigation](https://starwars.fandom.com/wiki/Main_Page)
+
+  + [Articles](https://starwars.fandom.com/wiki/Category:Star_Wars) 
+
+    - [Content A-Z](https://starwars.fandom.com/wiki/Special:AllPages)
+    - [Status articles](https://starwars.fandom.com/wiki/Category:Wookieepedia_status_articles) 
+
+      * [Featured articles](https://starwars.fandom.com/wiki/Wookieepedia:Featured_articles)
+      * [Good articles](https://starwars.fandom.com/wiki/Wookieepedia:Good_articles)
+      * [Comprehensive articles](https://starwars.fandom.com/wiki/Wookieepedia:Comprehensive_articles)
+    - [Browse articles by category](https://starwars.fandom.com/wiki/Category:Browse) 
+
+      * [Culture](https://starwars.fandom.com/wiki/Category:Society_and_culture)
+      * [Droids](https://starwars.fandom.com/wiki/Category:Droids)
+      * [Events](https://starwars.fandom.com/wiki/Category:Events)
+      * [The Force](https://starwars.fandom.com/wiki/Category:The_Force)
+      * [Individuals](https://starwars.fandom.com/wiki/Category:Individuals)
+      * [Locations](https://starwars.fandom.com/wiki/Category:Locations)
+      * [Organizations](https://starwars.fandom.com/wiki/Category:Organizations)
+      * [Species](https://starwars.fandom.com/wiki/Category:Species)
+      * [Technology](https://starwars.fandom.com/wiki/Category:Technology)
+      * [Behind the scenes](https://starwars.fandom.com/wiki/Category:Real-world_articles)
+    - [Audio articles](https://starwars.fandom.com/wiki/Wookieepedia:Audio_articles_archive)
+    - [Random article](https://starwars.fandom.com/wiki/Special:Random)
+  + [Audio files](https://starwars.fandom.com/wiki/Category:Audio_files)
+  + [Images](https://starwars.fandom.com/wiki/Category:Images)
+  + [Lists](https://starwars.fandom.com/wiki/Category:Lists)
+  + [Timelines](https://starwars.fandom.com/wiki/Category:Timelines) 
+
+    - [Media timelines](https://starwars.fandom.com/wiki/Category:Media_timelines)
+* [Community](https://starwars.fandom.com/wiki/Special:Community)
+
+  + [About Wookieepedia](https://starwars.fandom.com/wiki/Wookieepedia:About) 
+
+    - [FAQ](https://starwars.fandom.com/wiki/Wookieepedia:FAQ)
+    - [Become a Wookieepedian!](https://starwars.fandom.com/wiki/Wookieepedia:Welcome,_newcomers)
+    - [Administration](https://starwars.fandom.com/wiki/Wookieepedia:Administrators)
+    - [Policies](https://starwars.fandom.com/wiki/Wookieepedia:Policies) 
+
+      * [Attribution](https://starwars.fandom.com/wiki/Wookieepedia:Attribution)
+      * [Canon](https://starwars.fandom.com/wiki/Wookieepedia:Canon_policy)
+      * [Copyright](https://starwars.fandom.com/wiki/Wookieepedia:Copyrights)
+      * [Layout Guide](https://starwars.fandom.com/wiki/Wookieepedia:Layout_Guide)
+      * [Manual of Style](https://starwars.fandom.com/wiki/Wookieepedia:Manual_of_Style)
+      * [Naming](https://starwars.fandom.com/wiki/Wookieepedia:Naming_policy)
+      * [Neutral point of view](https://starwars.fandom.com/wiki/Wookieepedia:Neutral_point_of_view)
+      * [Notability](https://starwars.fandom.com/wiki/Wookieepedia:Notability_policy)
+      * [Sourcing](https://starwars.fandom.com/wiki/Wookieepedia:Sourcing)
+      * [Spoilers](https://starwars.fandom.com/wiki/Wookieepedia:Spoilers)
+    - [Wookieepedia in other languages](https://starwars.fandom.com/wiki/List_of_Star_Wars_Wikis_in_other_languages)
+  + [Forums](https://starwars.fandom.com/wiki/Forum:Index) 
+
+    - [Consensus track](https://starwars.fandom.com/wiki/Forum:Consensus_track)
+    - [Discussions](https://starwars.fandom.com/wiki/Wookieepedia:Discussions)
+    - [Senate Hall](https://starwars.fandom.com/wiki/Forum:Senate_Hall)
+    - [Trash compactor](https://starwars.fandom.com/wiki/Forum:Trash_compactor)
+    - [Wookieepedian of the Month](https://starwars.fandom.com/wiki/Wookieepedia:Wookieepedian_of_the_Month)
+    - [Requests for user rights](https://starwars.fandom.com/wiki/Wookieepedia:Requests_for_user_rights)
+    - [Review board membership](https://starwars.fandom.com/wiki/Wookieepedia:Review_board_membership_nominations)
+  + [WookieeProjects](https://starwars.fandom.com/wiki/Wookieepedia:WookieeProjects) 
+
+    - [By individual articles](https://starwars.fandom.com/wiki/Wookieepedia:WookieeProjects) 
+
+      * [Project Defender](https://starwars.fandom.com/wiki/Wookieepedia:Project_Defender)
+      * [Project Stardust](https://starwars.fandom.com/wiki/Wookieepedia:Project_Stardust)
+    - [By subject matter](https://starwars.fandom.com/wiki/Wookieepedia:WookieeProjects) 
+
+      * [Astrography](https://starwars.fandom.com/wiki/Wookieepedia:WookieeProject_Astrography)
+      * [Chiss](https://starwars.fandom.com/wiki/Wookieepedia:WookieeProject_Chiss)
+      * [Comics](https://starwars.fandom.com/wiki/Wookieepedia:WookieeProject_Comics)
+      * [Creators](https://starwars.fandom.com/wiki/Wookieepedia:WookieeProject_Creators)
+      * [Fantasy Flight Games](https://starwars.fandom.com/wiki/Wookieepedia:WookieeProject_Fantasy_Flight_Games)
+      * [Galaxy's Edge](https://starwars.fandom.com/wiki/Wookieepedia:WookieeProject_Galaxy%27s_Edge)
+      * [Knights of the Old Republic](https://starwars.fandom.com/wiki/Wookieepedia:WookieeProject_Knights_of_the_Old_Republic)
+      * [LEGO](https://starwars.fandom.com/wiki/Wookieepedia:WookieeProject_LEGO)
+      * [Novels](https://starwars.fandom.com/wiki/Wookieepedia:WookieeProject_Novels)
+      * [Pride](https://starwars.fandom.com/wiki/Wookieepedia:WookieeProject_Pride)
+      * [Resistance](https://starwars.fandom.com/wiki/Wookieepedia:WookieeProject_Resistance)
+      * [The Clone Wars](https://starwars.fandom.com/wiki/Wookieepedia:WookieeProject_The_Clone_Wars)
+      * [The High Republic](https://starwars.fandom.com/wiki/Wookieepedia:WookieeProject_The_High_Republic)
+      * [The Old Republic](https://starwars.fandom.com/wiki/Wookieepedia:WookieeProject_The_Old_Republic)
+      * [Women](https://starwars.fandom.com/wiki/Wookieepedia:WookieeProject_Women)
+  + [Contact](https://starwars.fandom.com/wiki/Wookieepedia:Contact) 
+
+    - [Administrators' noticeboard](https://starwars.fandom.com/wiki/Forum:Administrators%27_noticeboard)
+    - [Discord](https://starwars.fandom.com/wiki/Wookieepedia:Discord)
+  + [Editing](https://starwars.fandom.com/wiki/Wookieepedia:Welcome,_newcomers) 
+
+    - [Tutorials](https://starwars.fandom.com/wiki/Wookieepedia:Welcome,_newcomers)
+    - [Editing sandbox](https://starwars.fandom.com/wiki/Wookieepedia:Jundland_Wastes)
+    - [Things to do](https://starwars.fandom.com/wiki/Wookieepedia:Things_to_do)
+    - [Status article nominations](https://starwars.fandom.com/wiki/Category:Wookieepedia_status_article_nomination_pages) 
+
+      * [Featured article nominations](https://starwars.fandom.com/wiki/Wookieepedia:Featured_article_nominations)
+      * [Good article nominations](https://starwars.fandom.com/wiki/Wookieepedia:Good_article_nominations)
+      * [Comprehensive article nominations](https://starwars.fandom.com/wiki/Wookieepedia:Comprehensive_article_nominations)
+    - [Status article reviews](https://starwars.fandom.com/wiki/Category:Wookieepedia_peer_review) 
+
+      * [Featured article reviews](https://starwars.fandom.com/wiki/Wookieepedia:Featured_article_reviews)
+      * [Good article reviews](https://starwars.fandom.com/wiki/Wookieepedia:Good_article_reviews)
+      * [Comprehensive article reviews](https://starwars.fandom.com/wiki/Wookieepedia:Comprehensive_article_reviews)
+    - [Recent Changes](https://starwars.fandom.com/wiki/Special:RecentChanges)
+  + [Statistics](https://starwars.fandom.com/wiki/Special:Statistics)
+  + [WookieeNights](https://starwars.fandom.com/wiki/Wookieepedia:WookieeNights)
+
+in:
+[Real-world media](/wiki/Category:Real-world_media "Category:Real-world media"), [Real-world articles needing images](/wiki/Category:Real-world_articles_needing_images "Category:Real-world articles needing images"), [Articles to be expanded](/wiki/Category:Articles_to_be_expanded "Category:Articles to be expanded"),
+
+and
+3 more
+
+* [Articles with multiple issues](/wiki/Category:Articles_with_multiple_issues "Category:Articles with multiple issues")
+* [Unrecognized section headers on real-world media pages](/wiki/Category:Unrecognized_section_headers_on_real-world_media_pages "Category:Unrecognized section headers on real-world media pages")
+* [Star Wars Jedi](/wiki/Category:Star_Wars_Jedi "Category:Star Wars Jedi")
+
+# *Star Wars Jedi*
+
+[Edit](/wiki/Star_Wars_Jedi?veaction=edit) 
+
+* [Edit source](/wiki/Star_Wars_Jedi?action=edit)
+* [History](/wiki/Star_Wars_Jedi?action=history)
+* [Purge](/wiki/Star_Wars_Jedi?action=purge)
+* [Talk (0)](/wiki/Talk:Star_Wars_Jedi?action=edit&redlink=1)
+
+[![This article details a subject that is considered canon.](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](/wiki/Canon "This article details a subject that is considered canon.")[![The subject of this article takes place in the Reign of the Empire era.](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](/wiki/Imperial_Era "The subject of this article takes place in the Reign of the Empire era.")[![The subject of this article exists in or is relevant to the real world.](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](/wiki/Category:Real-world_media "The subject of this article exists in or is relevant to the real world.")
+
+For other uses, see **[Star Wars: Jedi](/wiki/Star_Wars:_Jedi_(disambiguation) "Star Wars: Jedi (disambiguation)")**.
+
+|  |  |  |
+| --- | --- | --- |
+| |  |  | | --- | --- | | [Got A Bad feeling](https://static.wikia.nocookie.net/starwars/images/1/14/Got_A_Bad_feeling.jpg/revision/latest?cb=20070922141109) | I have a bad feeling about this…    This article has multiple issues and is in need of major additions and/or work.  * This article would benefit from the addition of one or more new images. ({{[Image](/wiki/Template:Image "Template:Image")}}) * It is requested that this article, or a section of this article, be expanded. ({{[Expand](/wiki/Template:Expand "Template:Expand")}})  Please help Wookieepedia by editing this article. Once you have fixed an issue, you may remove it from the list of issues. See this article's talk page for more information. | |
+
+[![Fallen-Order-Box-Art](https://static.wikia.nocookie.net/starwars/images/5/57/Fallen-Order-Box-Art.jpg/revision/latest/scale-to-width-down/500?cb=20190607015712)](https://static.wikia.nocookie.net/starwars/images/5/57/Fallen-Order-Box-Art.jpg/revision/latest?cb=20190607015712 "Fallen-Order-Box-Art")
+
+## *Star Wars Jedi*
+
+## Publication information
+
+### Publisher(s)
+
+* [Electronic Arts](/wiki/Electronic_Arts "Electronic Arts")[[1]](#cite_note-Fallen_Order-1)
+* [Respawn Entertainment](/wiki/Respawn_Entertainment "Respawn Entertainment")[[1]](#cite_note-Fallen_Order-1)
+* [Lucasfilm Games](/wiki/Lucasfilm_Games "Lucasfilm Games")[[2]](#cite_note-Survivor-2)
+* [Random House Worlds](/wiki/Random_House_Worlds "Random House Worlds")[[3]](#cite_note-Battle_Scars-3)
+* [Marvel Comics](/wiki/Marvel_Comics "Marvel Comics")[[4]](#cite_note-DarkTemple-Announcement-4)
+* [Dark Horse Books](/wiki/Dark_Horse_Books "Dark Horse Books")[[5]](#cite_note-FallenOrder-Art-5)
+* [Walt Disney Records](/wiki/Walt_Disney_Records "Walt Disney Records")[[6]](#cite_note-JFOMusic-Amazon-6)
+
+### Primary media
+
+* *[Star Wars Jedi: Fallen Order](/wiki/Star_Wars_Jedi:_Fallen_Order "Star Wars Jedi: Fallen Order")*[[1]](#cite_note-Fallen_Order-1)
+* *[Star Wars Jedi: Survivor](/wiki/Star_Wars_Jedi:_Survivor "Star Wars Jedi: Survivor")*[[2]](#cite_note-Survivor-2)
+* *[Jedi: Battle Scars](/wiki/Jedi:_Battle_Scars "Jedi: Battle Scars")*[[3]](#cite_note-Battle_Scars-3)
+
+### First media published
+
+[September 4](/wiki/September_4 "September 4"), [2019](/wiki/2019 "2019")[[7]](#cite_note-DT-Marvel-7)
+
+### Media types
+
+* [Video games](/wiki/Star_Wars_video_games "Star Wars video games")[[1]](#cite_note-Fallen_Order-1)
+* Novels[[3]](#cite_note-Battle_Scars-3)
+* Comic books[[8]](#cite_note-DT-1-8)
+* Art books[[5]](#cite_note-FallenOrder-Art-5)
+* Soundtracks[[9]](#cite_note-JFO-Soundtrack-9)
+
+## Chronology
+
+### Timeline
+
+[41 BBY](/wiki/41_BBY "41 BBY")[[10]](#cite_note-DT-Flashbacks-10)–[9 BBY](/wiki/9_BBY "9 BBY")[[11]](#cite_note-Survivor_Date-11)
+
+[[Source]](https://starwars.fandom.com/wiki/Template:Multimedia)
+***Star Wars Jedi*** is a multimedia series set in the *[Star Wars](/wiki/Star_Wars "Star Wars")* [galaxy](/wiki/The_galaxy "The galaxy"), with the single-player [video games](/wiki/Star_Wars_video_games "Star Wars video games") developed by [Respawn Entertainment](/wiki/Respawn_Entertainment "Respawn Entertainment") at its center.[[12]](#cite_note-Reveal-12)
+
+## Contents
+
+* [1 Games ‡](#Games_‡)
+* [2 Media](#Media)
+  + [2.1 Installments](#Installments)
+* [3 Music ‡](#Music_‡)
+* [4 Sources](#Sources)
+* [5 Notes and references](#Notes_and_references)
+
+## Games ‡[]
+
+* *[Star Wars Jedi: Fallen Order](/wiki/Star_Wars_Jedi:_Fallen_Order "Star Wars Jedi: Fallen Order")*
+* *[Star Wars Jedi: Survivor](/wiki/Star_Wars_Jedi:_Survivor "Star Wars Jedi: Survivor")*
+* [Untitled *Star Wars Jedi* video game](/wiki/Untitled_Star_Wars_Jedi_video_game "Untitled Star Wars Jedi video game")
+
+## Media[]
+
+### Installments[]
+
+* *[Star Wars: Jedi Fallen Order - Dark Temple](/wiki/Star_Wars:_Jedi_Fallen_Order_-_Dark_Temple "Star Wars: Jedi Fallen Order - Dark Temple")*
+* *[The Art of Star Wars Jedi: Fallen Order](/wiki/The_Art_of_Star_Wars_Jedi:_Fallen_Order "The Art of Star Wars Jedi: Fallen Order")*
+* *[Jedi: Battle Scars](/wiki/Jedi:_Battle_Scars "Jedi: Battle Scars")*
+* *[The Art of Star Wars Jedi: Survivor](/wiki/The_Art_of_Star_Wars_Jedi:_Survivor "The Art of Star Wars Jedi: Survivor")*
+* *Star Wars Jedi: Fallen Order*
+  + [*Star Wars Jedi: Fallen Order*, Vol. 1](/wiki/Star_Wars_Jedi:_Fallen_Order,_Vol._1 "Star Wars Jedi: Fallen Order, Vol. 1")
+  + *Star Wars Jedi: Fallen Order*, Vol. 2
+
+## Music ‡[]
+
+* *[Star Wars Jedi: Fallen Order (Original Video Game Soundtrack)](/wiki/Star_Wars_Jedi:_Fallen_Order_(Original_Video_Game_Soundtrack) "Star Wars Jedi: Fallen Order (Original Video Game Soundtrack)")*
+* *[Star Wars Jedi: Survivor (Original Video Game Soundtrack)](/wiki/Star_Wars_Jedi:_Survivor_(Original_Video_Game_Soundtrack) "Star Wars Jedi: Survivor (Original Video Game Soundtrack)")*
+
+## Sources[]
+
+* [![StarWars.com](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](/wiki/StarWars.com "StarWars.com") [Electronic Arts and Lucasfilm Games Announce New *Star Wars* Titles in Development from Respawn Entertainment](https://www.starwars.com/news/ea-lucasfilm-games) on [StarWars.com](/wiki/StarWars.com "StarWars.com") ([backup link](https://web.archive.org/web/20220125141936/https://www.starwars.com/news/ea-lucasfilm-games))
+* [![StarWars.com](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](/wiki/StarWars.com "StarWars.com") [SWCA 2022: Respawn's Stig Asmussen Talks *Star Wars Jedi: Survivor* and Reflects on Its Predecessor – Exclusive](https://www.starwars.com/news/swca-2022-star-wars-jedi-survivor-interview) on [StarWars.com](/wiki/StarWars.com "StarWars.com") ([backup link](https://web.archive.org/web/20220527210823/https://www.starwars.com/news/swca-2022-star-wars-jedi-survivor-interview))
+* [![StarWars.com](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](/wiki/StarWars.com "StarWars.com") [New *Star Wars Jedi* Books Revealed](https://www.starwars.com/news/new-star-wars-jedi-books-revealed) on [StarWars.com](/wiki/StarWars.com "StarWars.com") ([backup link](https://web.archive.org/web/20220819141115/https://www.starwars.com/news/new-star-wars-jedi-books-revealed))
+* [![StarWars.com](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](/wiki/StarWars.com "StarWars.com") [*Star Wars Jedi: Survivor*: Cameron Monaghan on Cal Kestis' Next Adventure](https://www.starwars.com/news/star-wars-jedi-survivor-cameron-monaghan-interview) on [StarWars.com](/wiki/StarWars.com "StarWars.com") ([backup link](https://web.archive.org/web/20221209160351/https://www.starwars.com/news/star-wars-jedi-survivor-cameron-monaghan-interview))
+* [![StarWars.com](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](/wiki/StarWars.com "StarWars.com") [5 Things We Noticed in the *Star Wars Jedi: Survivor* Story Trailer](https://www.starwars.com/news/star-wars-jedi-survivor-story-trailer) on [StarWars.com](/wiki/StarWars.com "StarWars.com") ([backup link](https://web.archive.org/web/20230320161235/https://www.starwars.com/news/star-wars-jedi-survivor-story-trailer))
+* [![StarWars.com](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](/wiki/StarWars.com "StarWars.com") [10 Great LEGO *Star Wars* Building Sets for Adults](https://www.starwars.com/news/lego-star-wars-for-adults) on [StarWars.com](/wiki/StarWars.com "StarWars.com") ([backup link](https://web.archive.org/web/20230606135202/https://www.starwars.com/news/lego-star-wars-for-adults))
+* [![StarWars.com](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](/wiki/StarWars.com "StarWars.com") [The *Star Wars Jedi: Survivor* Team Drills Down Into Cal Kestis' Story](https://www.starwars.com/news/star-wars-jedi-survivor-look-back-interview) on [StarWars.com](/wiki/StarWars.com "StarWars.com") ([backup link](https://web.archive.org/web/20231221143927/https://www.starwars.com/news/star-wars-jedi-survivor-look-back-interview))
+
+## Notes and references[]
+
+1. ↑ [1.0](#cite_ref-Fallen_Order_1-0) [1.1](#cite_ref-Fallen_Order_1-1) [1.2](#cite_ref-Fallen_Order_1-2) [1.3](#cite_ref-Fallen_Order_1-3) *[Star Wars Jedi: Fallen Order](/wiki/Star_Wars_Jedi:_Fallen_Order "Star Wars Jedi: Fallen Order")*
+2. ↑ [2.0](#cite_ref-Survivor_2-0) [2.1](#cite_ref-Survivor_2-1) *[Star Wars Jedi: Survivor](/wiki/Star_Wars_Jedi:_Survivor "Star Wars Jedi: Survivor")*
+3. ↑ [3.0](#cite_ref-Battle_Scars_3-0) [3.1](#cite_ref-Battle_Scars_3-1) [3.2](#cite_ref-Battle_Scars_3-2) *[Jedi: Battle Scars](/wiki/Jedi:_Battle_Scars "Jedi: Battle Scars")*
+4. [↑](#cite_ref-DarkTemple-Announcement_4-0) [![StarWars.com](https://static.wikia.nocookie.net/starwars/images/2/28/SWCustom-2011.png/revision/latest/scale-to-width-down/25?cb=20180112135640)](/wiki/StarWars.com "StarWars.com") [*Star Wars Jedi: Fallen Order - Dark Temple*, a Prequel Comic to the Game, Is Coming This September](https://www.starwars.com/news/star-wars-jedi-fallen-order-comic) on [StarWars.com](/wiki/StarWars.com "StarWars.com") ([backup link](https://web.archive.org/web/20191119071845/https://www.starwars.com/news/star-wars-jedi-fallen-order-comic))
+5. ↑ [5.0](#cite_ref-FallenOrder-Art_5-0) [5.1](#cite_ref-FallenOrder-Art_5-1) *[The Art of Star Wars Jedi: Fallen Order](/wiki/The_Art_of_Star_Wars_Jedi:_Fallen_Order "The Art of Star Wars Jedi: Fallen Order")*
+6. [↑](#cite_ref-JFOMusic-Amazon_6-0) [![Amazon-Favicon](https://static.wikia.nocookie.net/starwars/images/f/f5/Amazon-Favicon.svg/revision/latest?cb=20240707093907)](https://www.amazon.com) [Star Wars Jedi: Fallen Order (Original Video Game Soundtrack) Stephen Barton and Gordy Haab](https://www.amazon.com/Star-Wars-Jedi-Original-Soundtrack/dp/B08FX2RQ65) on [Amazon.com](https://en.wikipedia.org/wiki/Amazon_(company) "wikipedia:Amazon (company)") ([backup link](https://web.archive.org/web/20201129190000/https://www.amazon.com/Star-Wars-Jedi-Original-Soundtrack/dp/B08FX2RQ65))
+7. [↑](#cite_ref-DT-Marvel_7-0) [![Marvel-TemplateLogo](https://static.wikia.nocookie.net/starwars/images/0/0a/Marvel-TemplateLogo.svg/revision/latest?cb=20240714160718)](https://www.marvel.com) [Star Wars: Jedi Fallen Order - Dark Temple (2019) #1](https://www.marvel.com/comics/issue/76771/star_wars_jedi_fallen_order_-_dark_temple_2019_1) on [Marvel Comics](/wiki/Marvel_Comics "Marvel Comics")' [official website](https://www.marvel.com) ([backup link](https://web.archive.org/web/20190906023852/https://www.marvel.com/comics/issue/76771/star_wars_jedi_fallen_order_-_dark_temple_2019_1))
+8. [↑](#cite_ref-DT-1_8-0) [*Jedi Fallen Order - Dark Temple* 1](/wiki/Jedi_Fallen_Order_-_Dark_Temple_1 "Jedi Fallen Order - Dark Temple 1")
+9. [↑](#cite_ref-JFO-Soundtrack_9-0) [*Star Wars Jedi: Fallen Order* (Original Video Game Soundtrack)](/wiki/Star_Wars_Jedi:_Fallen_Order_(Original_Video_Game_Soundtrack) "Star Wars Jedi: Fallen Order (Original Video Game Soundtrack)")
+10. [↑](#cite_ref-DT-Flashbacks_10-0) *[Star Wars: Timelines](/wiki/Star_Wars:_Timelines "Star Wars: Timelines")* dates the flashbacks in *[Star Wars: Jedi Fallen Order - Dark Temple](/wiki/Star_Wars:_Jedi_Fallen_Order_-_Dark_Temple "Star Wars: Jedi Fallen Order - Dark Temple")* to [41 BBY](/wiki/41_BBY "41 BBY").
+11. [↑](#cite_ref-Survivor_Date_11-0) [![StarWars.com](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](/wiki/StarWars.com "StarWars.com") [Star Wars Jedi: Survivor](https://www.starwars.com/games-apps/star-wars-jedi-survivor) on [StarWars.com](/wiki/StarWars.com "StarWars.com") ([backup link](https://web.archive.org/web/20220527232840/https://www.starwars.com/games-apps/star-wars-jedi-survivor)) dates *[Star Wars Jedi: Survivor](/wiki/Star_Wars_Jedi:_Survivor "Star Wars Jedi: Survivor")* to five [years](/wiki/Standard_year "Standard year") after the events of *[Star Wars Jedi: Fallen Order](/wiki/Star_Wars_Jedi:_Fallen_Order "Star Wars Jedi: Fallen Order")*, which equates to [9 BBY](/wiki/9_BBY "9 BBY") per *[Star Wars: Timelines](/wiki/Star_Wars:_Timelines "Star Wars: Timelines")*.
+12. [↑](#cite_ref-Reveal_12-0) [![StarWars.com](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](/wiki/StarWars.com "StarWars.com") [Electronic Arts and Lucasfilm Games Announce New *Star Wars* Titles in Development from Respawn Entertainment](https://www.starwars.com/news/ea-lucasfilm-games) on [StarWars.com](/wiki/StarWars.com "StarWars.com") ([backup link](https://web.archive.org/web/20220125141936/https://www.starwars.com/news/ea-lucasfilm-games))
+
+| ***Star Wars Jedi*** |
+| --- |
+| |  |  | | --- | --- | | [*Fallen Order*](/wiki/Star_Wars_Jedi:_Fallen_Order "Star Wars Jedi: Fallen Order") · [*Survivor*](/wiki/Star_Wars_Jedi:_Survivor "Star Wars Jedi: Survivor") · [Untitled game](/wiki/Untitled_Star_Wars_Jedi_video_game "Untitled Star Wars Jedi video game") | | | Tie-in media | | | *[Dark Temple](/wiki/Star_Wars:_Jedi_Fallen_Order_-_Dark_Temple "Star Wars: Jedi Fallen Order - Dark Temple")* ([1](/wiki/Jedi_Fallen_Order_-_Dark_Temple_1 "Jedi Fallen Order - Dark Temple 1") · [2](/wiki/Jedi_Fallen_Order_-_Dark_Temple_2 "Jedi Fallen Order - Dark Temple 2") · [3](/wiki/Jedi_Fallen_Order_-_Dark_Temple_3 "Jedi Fallen Order - Dark Temple 3") · [4](/wiki/Jedi_Fallen_Order_-_Dark_Temple_4 "Jedi Fallen Order - Dark Temple 4") · [5](/wiki/Jedi_Fallen_Order_-_Dark_Temple_5 "Jedi Fallen Order - Dark Temple 5") · [TPB](/wiki/Star_Wars:_Jedi_Fallen_Order_-_Dark_Temple_(trade_paperback) "Star Wars: Jedi Fallen Order - Dark Temple (trade paperback)")) · Manga ([1](/wiki/Star_Wars_Jedi:_Fallen_Order,_Vol._1 "Star Wars Jedi: Fallen Order, Vol. 1")) [*Battle Scars*](/wiki/Jedi:_Battle_Scars "Jedi: Battle Scars") ([audiobook](/wiki/Jedi:_Battle_Scars_(audiobook) "Jedi: Battle Scars (audiobook)")) [*Fallen Order* Soundtrack](/wiki/Star_Wars_Jedi:_Fallen_Order_(Original_Video_Game_Soundtrack) "Star Wars Jedi: Fallen Order (Original Video Game Soundtrack)") · [*Survivor* Soundtrack](/wiki/Star_Wars_Jedi:_Survivor_(Original_Video_Game_Soundtrack) "Star Wars Jedi: Survivor (Original Video Game Soundtrack)") [*Sounds from the Galactic Skylanes*](/wiki/Sounds_from_the_Galactic_Skylanes_(Original_Music_from_Star_Wars_Jedi:_Survivor) "Sounds from the Galactic Skylanes (Original Music from Star Wars Jedi: Survivor)") | | | Art books | | | [*Fallen Order*](/wiki/The_Art_of_Star_Wars_Jedi:_Fallen_Order "The Art of Star Wars Jedi: Fallen Order") · [*Survivor*](/wiki/The_Art_of_Star_Wars_Jedi:_Survivor "The Art of Star Wars Jedi: Survivor") | | |
+| [[edit]](/wiki/Special:EditPage/Template:JediGamesNav "Special:EditPage/Template:JediGamesNav") |
+
+In other languages
+
+* [español](https://starwars.fandom.com/es/wiki/Star_Wars_Jedi "w:c:es.starwars:Star Wars Jedi")
+* [ქართული](https://starwars.fandom.com/ka/wiki/%E1%83%95%E1%83%90%E1%83%A0%E1%83%A1%E1%83%99%E1%83%95%E1%83%9A%E1%83%90%E1%83%95%E1%83%A3%E1%83%A0%E1%83%98_%E1%83%9D%E1%83%9B%E1%83%94%E1%83%91%E1%83%98:_%E1%83%AF%E1%83%94%E1%83%93%E1%83%90%E1%83%94%E1%83%91%E1%83%98 "w:c:ka.starwars:ვარსკვლავური ომები: ჯედაები")
+* [Türkçe](https://starwarsturkiye.com/wiki/Star_Wars_Jedi)
+
+Categories  
+
+* [Categories](/wiki/Special:Categories "Special:Categories"):
+* [Real-world media](/wiki/Category:Real-world_media "Category:Real-world media")
+* [Real-world articles needing images](/wiki/Category:Real-world_articles_needing_images "Category:Real-world articles needing images")
+* [Articles to be expanded](/wiki/Category:Articles_to_be_expanded "Category:Articles to be expanded")
+* [Articles with multiple issues](/wiki/Category:Articles_with_multiple_issues "Category:Articles with multiple issues")
+* [Unrecognized section headers on real-world media pages](/wiki/Category:Unrecognized_section_headers_on_real-world_media_pages "Category:Unrecognized section headers on real-world media pages")
+* [Star Wars Jedi](/wiki/Category:Star_Wars_Jedi "Category:Star Wars Jedi")
+* Add category
+
+Cancel
+Save
+
+Community content is available under [CC-BY-SA](https://www.fandom.com/licensing) unless otherwise noted.
+
+More Fandoms
+
+* [Sci-fi](https://www.fandom.com/fancentral/sci-fi)
+* [Star Wars](https://www.fandom.com/universe/star-wars)
+
+Advertisement
+
+## [Fandom logo](https://www.fandom.com/ "Fandom logo")
+
+### Explore properties
+
+* [Fandom](https://www.fandom.com/)
+* [Fanatical](https://www.fanatical.com/)
+* [GameSpot](https://www.gamespot.com/)
+* [Metacritic](https://www.metacritic.com/)
+* [TV Guide](https://www.tvguide.com/)
+* [Honest Entertainment](https://www.youtube.com/user/screenjunkies)
+
+### Follow Us
+
+### Overview
+
+* [What is Fandom?](https://www.fandom.com/what-is-fandom)
+* [About](https://www.fandom.com/about)
+* [Careers](https://www.fandom.com/careers)
+* [Press](https://www.fandom.com/press)
+* [Contact](https://www.fandom.com/about#contact)
+* [Terms of Use](https://www.fandom.com/terms-of-use)
+* [Privacy Policy](https://www.fandom.com/privacy-policy)
+* [Digital Services Act](https://www.fandom.com/digital-services-act)
+* [Global Sitemap](//community.fandom.com/Sitemap)
+* [Local Sitemap](/wiki/Local_Sitemap)
+
+### Community
+
+* [Community Central](//community.fandom.com/wiki/Community_Central)
+* [Support](https://fandom.zendesk.com/)
+* [Help](//community.fandom.com/wiki/Help:Contents)
+
+### Advertise
+
+* [Media Kit](https://about.fandom.com/mediakit)
+* [Contact](https://about.fandom.com/mediakit#contact)
+
+### Fandom Apps
+
+Take your favorite fandoms with you and never miss a beat.
+
+![Fandom App logo](https://static.wikia.nocookie.net/6c42ce6a-b205-41f5-82c6-5011721932e7)
+
+Wookieepedia is a Fandom Movies Community.
+
+View Mobile Site

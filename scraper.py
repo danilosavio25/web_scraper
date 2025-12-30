@@ -12,10 +12,11 @@ from rich.table import Table
 console = Console()
 
 class WebScraper:
-    def __init__(self, base_url, recursive=False, output_dir="scraped_data"):
+    def __init__(self, base_url, recursive=False, output_dir="scraped_data", max_pages=None):
         self.base_url = base_url
         self.recursive = recursive
         self.output_dir = output_dir
+        self.max_pages = max_pages
         self.visited_urls = set()
         self.domain = urlparse(base_url).netloc
 
@@ -91,6 +92,10 @@ class WebScraper:
             main_task = progress.add_task("[green]Total Progress...", total=None)
             
             while urls_to_scrape:
+                if self.max_pages and len(self.visited_urls) >= self.max_pages:
+                    progress.update(main_task, description="[yellow]Page limit reached.[/yellow]")
+                    break
+                
                 current_url = urls_to_scrape.pop(0)
                 new_links = self.scrape_url(current_url, progress, main_task)
                 
