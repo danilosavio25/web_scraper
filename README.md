@@ -49,18 +49,19 @@ python3 scraper.py <URL> [FLAGS]
 
 - **Specify a custom output directory:**
   ```bash
-  python3 scraper.py https://example.com --output my_data
+  python3 scraper.py https://example.com --output my_custom_dir
   ```
+  - Output: `my_custom_dir/example.com/index.md`
 
 ### Arguments
 
 - `url`: The base URL to start scraping from.
 - `--subpages`: (Optional) Flag to enable recursive scraping of subpages within the same domain.
-- `--output`: (Optional) The directory where scraped Markdown files will be saved (default: `scraped_data`).
+- `--output`: (Optional) The directory where scraped Markdown files will be saved (default: `scraped_data`). Files are saved in a sub-directory named after the site's domain.
 
 ## Project Structure
 
-- `scraper.py`: Main logic for fetching, parsing, converting to Markdown, and saving pages into site-specific folders.
+- `scraper.py`: Main logic for fetching, parsing, converting to Markdown, and saving pages into hierarchical folders.
 - `requirements.txt`: List of Python dependencies.
 - `.gitignore`: Files and directories to be ignored by Git.
 - `.venv/`: Virtual environment directory.

@@ -20,7 +20,7 @@ class WebScraper:
         self.domain = urlparse(base_url).netloc
 
         if not os.path.exists(self.output_dir):
-            os.makedirs(self.output_dir)
+            os.makedirs(self.output_dir, exist_ok=True)
 
     def is_valid_url(self, url):
         parsed = urlparse(url)
